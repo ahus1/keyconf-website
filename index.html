@@ -4,11 +4,14 @@ reasons:
   - Keynote speakers and networking opportunities.
   - In-person for a chance to learn from industry experts.
   - Connect with like-minded professionals.
+  - Networking lunch.
 included:
   - icon: user-tie
     text: talks from industry-leading speakers
   - icon: utensils
     text: FREE drinks, refreshments and lunch
+  - icon: wifi
+    text: Live stream and recorded talks
 ---
 <!DOCTYPE html>
 <html lang="en"> 
@@ -80,29 +83,23 @@ included:
 						<div class="unit">Day</div>
 					</div><!--//item-->
 				</div><!--//col-->
-				<!--
 				<div class="col-6 col-md-3">
 					<div class="item">
-						<div class="number">6+</div>
+						<div class="number">1</div>
+						<div class="unit">Keynote</div>
+					</div>
+				</div>
+				<div class="col-6 col-md-3">
+					<div class="item">
+						<div class="number">8</div>
 						<div class="unit">Talks</div>
 					</div>
 				</div>
-				-->
-				<!--
-				<div class="col-6 col-md-3">
-					<div class="item">
-						<div class="number">2+</div>
-						<div class="unit">Workshops</div>
-					</div>
-				</div>
-				-->
 			</div>
 		</div><!--//container-->
 	</div><!--//stats-block-->
 
 	{% include about.html %}
-
-	{% comment %}
 
 	{% include speakers.html %}
 
@@ -112,8 +109,6 @@ included:
 
 	{% include schedule.html %}
 
-	{% endcomment %}
-
 	{% include tickets.html %}
 
 	{% include venue.html %}
@@ -122,14 +117,10 @@ included:
 
 	{% include footer.html %}
 
-	{% comment %}
-
 	<!-- Modal Speaker -->
 	{% include speaker-modal.html %}
 
-	{% endcomment %}
-
-	<!-- Javascript -->          
+	<!-- Javascript -->
 	<script src="/assets/plugins/popper.min.js"></script>
 	<script src="/assets/plugins/bootstrap/js/bootstrap.min.js"></script>  
 	<script src="/assets/plugins/smoothscroll.min.js"></script>

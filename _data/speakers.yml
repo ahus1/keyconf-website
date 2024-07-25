@@ -1,98 +1,61 @@
-- key: asc
-  img: as.jpg
-  name: Alexander Schwartz
+- key: dgo
+  img: dgo.jpg
+  name: Daniel Goldschneider
+  title: Founder & CEO
+  company: The OpenWallet Foundation
+  social:
+    - url: https://www.linkedin.com/in/goldscheider/
+      icon: linkedin-in
+    - url: https://x.com/goldscheider
+      icon: x-twitter
+  bio: |
+    Daniel Goldscheider is founder and Executive Director of the OpenWallet Foundation and serves as Vice Chair of the Supervisory Board of Valamar Riviera d.d., Croatia’s largest tourism company.
+    Before that he started yes.com, an open banking scheme and co-founded Mediaguide with the American Society of Composers, Authors and Publishers as well as Aureus Private Equity (today Invision).
+- key: fpo
+  img: fpo.jpg
+  name: Francis Pouatcha
+  title: Co-Founder & Technical Lead
+  company: adorsys
+  social:
+    - url: https://www.linkedin.com/in/francis-pouatcha-54235a8/
+      icon: linkedin-in
+    - url: https://github.com/francis-pouatcha
+      icon: github
+  bio: |
+    Francis Pouatcha is the Co-Founder and Technical Lead at adorsys, an IT company with operations in Europe, the USA, and Africa. He has over 20 years of experience in developing secure data processing systems, with a deep understanding of Keycloak and a passion for streamlining its configuration and deployment. Francis has been instrumental in developing various Java Enterprise Standards. He led the development of easyCredit, one of the world's most automated loan application processing systems.  Francis is actively involved in tech community efforts like the European PSD2 initiative, the OpenID Foundation FAPI working group, and the Swiss SFTI open banking initiative.
+- key: mpo
+  img: mpo.jpg
+  name: Marek Posolda
   title: Principal Software Engineer
-  company: Red Hat Inc.
+  company: Red Hat
   social:
-    - url: https://www.linkedin.com/in/alexander-schwartz-86b84520
-      icon: linkedin-in
-    - url: https://github.com/ahus1
+    - url: https://github.com/mposolda
       icon: github
-  bio: |
-    Alexander Schwartz is a Principal Software Engineer at Red Hat working full time as a Keycloak maintainer and technical team lead.
-    At work and in his spare time he codes for Open Source projects. In previous jobs he worked as a software architect and IT consultant.
-    At conferences and user groups he talks about JavaScript front ends, Java back ends, Kubernetes, performance and how to create great documentation with AsciiDoc and Antora.
-- key: tda
-  img: td.jpg
-  name: Thomas Darimont
-  title: Principal Consultant
-  company: codecentric AG
-  social:
-    - url: https://www.linkedin.com/in/thomasdarimont
-      icon: linkedin-in
-    - url: https://github.com/thomasdarimont
-      icon: github
-  bio: |
-    Thomas Darimont is a Principal Consultant at codecentric AG in Germany. As a digital identity specialist, he helps customers design, implement, and integrate identity platforms based on open-source technologies.
-    <p>Thomas has been involved with the Keycloak project for over nine years and was the first maintainer outside of Red Hat.</p>
-    <p>In his spare time, he loves fostering the local tech community in Saarland by organizing and speaking at tech meetups and contributing to open-source projects.</p>
-- key: nko
-  img: nko.jpg
-  name: Niko Köbler
-  title: Keycloak Expert
-  company: keycloak-experte.de
-  social:
-    - url: https://www.linkedin.com/in/nkoebler
-      icon: linkedin-in
-    - url: https://github.com/dasniko
-      icon: github
-    - url: https://www.youtube.com/@dasniko
-      icon: youtube
-  bio: |
-    Niko works as a freelancer, is known as "Mr. KEYCLOAK" for over 9 years and works as an IAM expert for customers from various industries throughout Europe.
-    He is running a successful KEYCLOAK channel on YouTube since the beginning of 2021 and supports the community in various forums.
-    <p>He is also a well-known and sought-after speaker at IT conferences, co-lead of JUG Darmstadt and writes articles for various tech journals and online magazines.</p>
-- key: sta
-  img: sta.jpeg
-  name: Sophie Tauchert
-  title: IT Security Engineer
-  company: Relaxdays GmbH
-  social:
-    - url: https://github.com/999eagle
-      icon: github
-  bio: |
-    Sophie Tauchert works as an IT-security engineer at Relaxdays GmbH and has been overseeing the introduction of Keycloak as Single-Sign On solution there since the beginning.
-    During that work she has contributed a few things to Keycloak and developed custom in-house plugins extending Keycloak.
-    She is a frequent contributor to open source projects and maintains multiple packages for Nix/NixOS.
-    In her spare time she hosts and manages instances of privacy respecting software like Matrix, Mastodon and TOR.
-- key: rba
-  img: rba.jpg
-  name: Robert Bauer
-  title: Founder | Product Management
-  company: intension GmbH
-  social:
-    - url: https://www.linkedin.com/in/robert-bauer-a3bb334
+    - url: https://www.linkedin.com/in/marek-posolda-1557b883
       icon: linkedin-in
   bio: |
-    Robert is Co-Founder of Intension and has been working in the field of Identity and Access Management (IAM) for nearly 25 years. Having worked as a Software Developer for several years, he possesses a strong technical background and has also gained substantial experience on the business side as an IAM Architect and Consultant.
-    <p>He has been working with Keycloak for about 10 years now, assisting organizations utilize Keycloak effectively for their projects and business operations. Currently as the Product Manager for digital identity at Intension, Robert’s main focus is to share his and Intension's 25 years of knowledge and experience in IAM with anyone wanting to launch on their digital transformation journey.</p>
-- key: stj
-  img: stj.jpg
-  name: Sven-Torben Janus
-  title: Principal Software Architect
-  company: Conciso GmbH
+    Marek Posolda is a software engineer at Red Hat, currently serving as a team lead in the Keycloak software engineering team. He oversees a sub-team focused on client management, authentication, and protocols such as OpenID Connect, OAuth, and SAML. Marek is also a dedicated member of the Keycloak community, contributing as one of the project's maintainers.
+    <pr>
+    With a robust background in Java, web development, and identity and access management, Marek has been a valuable asset to Red Hat since 2009. Throughout his tenure, he has contributed to various middleware projects, including JBoss Portal, GateIn Portal, and PicketLink. Since 2013, he has been deeply involved with Keycloak, playing a pivotal role almost from the project's inception.
+- key: tno
+  img: tno.jpg
+  name: Takashi Norimatu
+  title: Senior OSS Specialist
+  company: Hitachi, Ltd.
+  bio: |
+    Takashi Norimatsu, Senior OSS Specialist, Hitachi, Ltd. is a maintainer of Keycloak. He has implemented and contributed security features like Financial-grade API (FAPI) security profiles, W3C Web Authentication (WebAuthn) API support. He leads Keycloak's community "OAuth SIG" (Ex FAPI-SIG) as Tech Lead for supporting OAuth/OIDC and its related security features to Keycloak. He has experience constructing high security banking API systems with Keycloak.
   social:
-    - url: https://www.linkedin.com/in/sventorben
+    - url: https://github.com/tnorimat
+      icon: github
+    - url: https://www.linkedin.com/in/takashi-norimatsu-45a59b192/
       icon: linkedin-in
-    - url: https://www.github.com/sventorben
-      icon: github
+- key: kra
+  img: kra.jpg
+  name: Kannan Rasappan
+  title: Founder & CEO
+  company: Banfico
   bio: |
-    Sven-Torben Janus formte seine Expertise während seines Informatikstudiums an der TU Dortmund mit Fokus auf verteilte Systeme und Logistik.
-    Seine mehr als 15-jährige Reise in Softwareentwicklung und IT-Beratung begann bei Fraunhofer, wo er sich in Geschäftsprozessmanagement und serviceorientierten Architekturen vertiefte.
-    Seit 2016 prägt er als Principal Software Architect und Partner die Beratung zu Softwarearchitekturen bei der Conciso GmbH. 
-    Sein Herz schlägt für bedarfsorientierte, agile Softwareentwicklung, Domain-Driven Design und soziotechnische Architekturen. 
-    Dabei bringt er seine langjährige Expertise als IAM-Architekt mit Fokus auf Keycloak ein.
-    Sven-Torben Janus ist nicht nur ein versierter Technologe, sondern auch ein engagierter Förderer einer kollaborativen Tech-Gemeinschaft.
-    In seinem Vortrag erwartet die Teilnehmer eine inspirierende Mischung aus Fachwissen und persönlicher Perspektive.
-- key: grp
-  img: dummy.png
-  name: GR Patil
-  title: Co-Founder | CEO
-  company: Phase Two Inc.
+    Kannan Rasappan is the CEO & Founder of Banfico, supporting financial institutions with their Open Banking compliance & promoting innovation by providing consulting & implementation services. Open Banking expert who has worked at leading financial institutions in the UK - RBS, HSBC, WorldPay, Lloyds Banking Group. An active participant in various working groups on Open Banking and a speaker at various conferences. Serving as Advisor to Berlin Group's NextGenPSD2/OpenFinance standards - EU's most widely used API specification. A strong advocate of Open Standards and an expert in identity & security. Come from a technical background with 20+ years of experience & is a hands-on solution architect. Graduate in Applied Mathematics
   social:
-    - url: https://github.com/xgp
-      icon: github
-  bio: |
-    GR Patil is the co-founder and CEO of Phase Two, a Keycloak hosting and support company, where he is the principal author of most of its Keycloak extensions. 
-    He has been working with Keycloak for 7 years, and has been building software startups for 27 years.
-    Most recently, he was a staff engineer at Twitter and a co-founder at BrightRoll.
+    - url: https://www.linkedin.com/in/krasappan/
+      icon: linkedin-in

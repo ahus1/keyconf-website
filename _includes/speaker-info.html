@@ -8,7 +8,9 @@
                 <div class="meta">{{spk.title}}</div>
                 <div class="meta">{{spk.company}}</div>
             </div><!--//card-text-->
+            {% if spk.bio %}
             <a href="#modal-speaker-{{spk.key}}" data-bs-toggle="modal" data-bs-target="#modal-speaker-{{spk.key}}">Read more &rarr;</a>
+            {% endif %}
         </div><!--//card-->
         <div class="card-footer text-muted">
             <ul class="social-list list-inline mb-0">
