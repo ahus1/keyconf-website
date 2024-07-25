@@ -1,20 +1,6 @@
 <section id="tickets-section" class="tickets-section section theme-bg-light">
     <div class="container">
-        {% if site.showTicketSale %}
-        <h3 class="section-heading text-center mb-3">Tickets</h3>
-        <div class="section-intro single-col-max mx-auto text-center mb-4">Please buy your ticket through our <a href="{{site.pretix}}" target="_blank">Pretix ticket shop</a>:</div>
-        <div class="row pricing mb-5">
-            <pretix-widget event="{{site.pretix}}" single-item-select="button"></pretix-widget>
-            <noscript>
-                <div class="pretix-widget">
-                    <div class="pretix-widget-info-message">
-                        JavaScript is deactivated in your browser. To be able to use our ticket shop without JavaScript, please click <a target="_blank" rel="noopener" href="{{site.pretix}}">here</a>.
-                    </div>
-                </div>
-            </noscript>
-        </div><!--//pricing-->
-        {% endif %}
-        
+
         <div class="offers text-center bg-white p-4 p-lg-5">
             <h4 class="mb-3">What's included?</h4>
             <ul class="offers-list list-unstyled d-inline-block mx-auto text-start">

@@ -1,46 +1,31 @@
-<a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devconf-free-bootstrap-5-conference-template-for-tech-conferences-and-events/" target="_blank"><img src="https://themes.3rdwavemedia.com/wp-content/uploads/2019/07/Bootstrap-Tech-Conference-Template-DevConf-Gumroad-Pormo.png" alt="Bootstrap 5 Conference Template for Tech Conference and Event" /></a>
+# KeyConf Website
 
-## Theme Details & Demo
+The KeyConf24 conference happens on 19 Sep 2024 in Vienna.
+This is the website hosted on https://keyconf.dev
+
+## Building the site locally
+
+Run 
+
+```
+docker-compose up
+```
+
+Then open your browser on http://0.0.0.0:4000/
+
+## Theme Details
 
 **Demo:** https://themes.3rdwavemedia.com/bootstrap-templates/startup/devconf-free-bootstrap-5-conference-template-for-tech-conferences-and-events/
 
 DevConf is a free Bootstrap 5 conference template perfect for building marketing sites for tech conferences and events. 
 
-## Author & License
+### Author & License
 
 This Bootstrap template is made by UX/UI designer [Xiaoying Riley](https://twitter.com/3rdwave_themes) for developers and is 100% FREE as long as you **keep the footer attribution link**. You do not have the rights to resell, sublicense or redistribute (even for free) the template on its own or as a separate attachment from any of your work.
 
 If you'd like to **use the template without the footer attribution link**, you can [buy the **commercial license** via the theme website](https://themes.3rdwavemedia.com/bootstrap-templates/free/devconf-free-bootstrap-5-conference-template-for-tech-conferences-and-events/)
 
-#### Follow Xiaoying
-
-[Twitter](https://twitter.com/3rdwave_themes)
-
-[Facebook](https://www.facebook.com/3rdwavethemes/)
-
-[Dribbble](https://dribbble.com/Xiaoying)
-
-[Medium](https://medium.com/@3rdwave_themes)
-
-[Linkedin](https://uk.linkedin.com/in/xiaoying)
-
-
-## Latest Version
-**Bootstrap 5 v3.0** - 2023-06-22
-
-[Changelog](https://themes.3rdwavemedia.com/bootstrap-templates/startup/devconf-free-bootstrap-5-conference-template-for-tech-conferences-and-events/?target=changelog)
-
-
-## Features
-
--  Fully Responsive
--  HTML5 + CSS3
--  Built on Bootstrap 5
--  **SCSS** source files included
--  1500+ FontAwesome 5 icons
--  Compatible with all modern browsers
-
-## Credits
+### Credits
 - [Bootstrap](https://getbootstrap.com/)
 - [FontAwesome](https://fontawesome.com/)
 - [Google fonts](https://fonts.google.com/)

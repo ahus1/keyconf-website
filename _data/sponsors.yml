@@ -1,15 +1,12 @@
-- name: codecentric AG
-  url: https://www.codecentric.de/
-  logo: codecentric.png
-- name: Conciso GmbH
-  url: https://www.conciso.de
-  logo: conciso-logo-corporate.svg
-- name: intension GmbH
+- name: adorsys GmbH & Co. KG
+  url: https://adorsys.com/
+  logo: adorsys.jpg
+- name: Banfico
+  url: https://www.banfico.com/
+  logo: banfico.svg
+- name: Hitachi
   url: https://www.intension.de
-  logo: intension.png
-- name: Niko Köbler keycloak-experte.de
-  url: https://www.n-k.de
-  logo: nko_signet.png
+  logo: hitachi.svg
 - name: Red Hat Inc.
   url: https://www.redhat.com/
   logo: Logo-Red_Hat-A-Standard-RGB.svg

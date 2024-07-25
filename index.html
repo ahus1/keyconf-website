@@ -1,23 +1,14 @@
 ---
 layout: none
 reasons:
-  - Meet maintainers of Keycloak
-  - Meet other developers extending Keycloak
-  - Discover best-practices for operating Keycloak
-  - Learn from others using Keycloak
-  - Grow your Keycloak related network
-  - Free amazing Keycloak DevDay T-Shirt!
+  - Keynote speakers and networking opportunities.
+  - In-person for a chance to learn from industry experts.
+  - Connect with like-minded professionals.
 included:
   - icon: user-tie
-    text: 6+ talks from industry-leading speakers
-  - icon: people-carry
-    text: Access to 2+ workshops
-  - icon: glass-cheers
-    text: Amazing after-party
+    text: talks from industry-leading speakers
   - icon: utensils
-    text: FREE drinks, refreshments, breakfast and lunch
-  - icon: tshirt
-    text: FREE Keycloak DevDay T-Shirt
+    text: FREE drinks, refreshments and lunch
 ---
 <!DOCTYPE html>
 <html lang="en"> 
@@ -47,10 +38,7 @@ included:
 	<!-- Theme CSS -->  
 	<link id="theme-style" rel="stylesheet" href="/assets/css/theme.css">
 
-	<!-- Pretix CSS -->
-	<link rel="stylesheet" type="text/css" href="{{site.pretix}}/widget/v1.css">
-
-</head> 
+</head>
 
 <body>    
 	{% include header.html %}
@@ -66,9 +54,9 @@ included:
 		<div class="hero-block-mask"></div>
 		<div class="container">
 			<div class="hero-text-block">
-				<h1 class="hero-heading mb-2">Keycloak DevDay 2024</h1>
-				<div class="hero-meta mb-3"><i class="far fa-calendar-alt me-2"></i>22 Feb <i class="fas fa-map-marker-alt mx-2"></i>Frankfurt, Germany <i class="fas fa-clock mx-2"></i>9am - 5pm</div>
-				<div class="hero-intro mb-4">The Community Class Reunion for <br>Keycloak Developers</div>
+				<h1 class="hero-heading mb-2">KeyConf24</h1>
+				<div class="hero-meta mb-3"><i class="far fa-calendar-alt me-2"></i>19 Sep <i class="fas fa-map-marker-alt mx-2"></i>Vienna, Austria <i class="fas fa-clock mx-2"></i>10am - 4pm</div>
+				<div class="hero-intro mb-4">Our annual conference dedicated to the Keycloak users' community to interact, learn, share, and exchange notes on Keycloak IAM technology and use cases.</div>
 				{% if site.showTicketSale %}
 				<div class="hero-cta"><a class="btn btn-primary btn-lg" href="{{site.pretix}}" target="_blank">Get Tickets</a></div>
 				{% endif %}
@@ -82,7 +70,7 @@ included:
 			<div class="row">
 				<div class="col-6 col-md-3">
 					<div class="item">
-						<div class="number">100+</div>
+						<div class="number">70+</div>
 						<div class="unit">Attendees</div>
 					</div><!--//item-->
 				</div><!--//col-->
@@ -92,31 +80,39 @@ included:
 						<div class="unit">Day</div>
 					</div><!--//item-->
 				</div><!--//col-->
+				<!--
 				<div class="col-6 col-md-3">
 					<div class="item">
 						<div class="number">6+</div>
 						<div class="unit">Talks</div>
-					</div><!--//item-->
-				</div><!--//col-->
+					</div>
+				</div>
+				-->
+				<!--
 				<div class="col-6 col-md-3">
 					<div class="item">
 						<div class="number">2+</div>
 						<div class="unit">Workshops</div>
-					</div><!--//item-->
-				</div><!--//col-->
+					</div>
+				</div>
+				-->
 			</div>
 		</div><!--//container-->
 	</div><!--//stats-block-->
 
 	{% include about.html %}
 
+	{% comment %}
+
 	{% include speakers.html %}
-	
+
 	<div class="container">
 		<hr>
 	</div>
 
 	{% include schedule.html %}
+
+	{% endcomment %}
 
 	{% include tickets.html %}
 
@@ -135,7 +131,6 @@ included:
 	<script src="/assets/plugins/smoothscroll.min.js"></script>
 	<script src="/assets/plugins/gumshoe/gumshoe.polyfills.min.js"></script> 
 	<script src="/assets/js/main.js"></script>  
-	<script type="text/javascript" src="https://pretix.eu/widget/v1.en.js" async></script>
 
 </body>
 </html> 

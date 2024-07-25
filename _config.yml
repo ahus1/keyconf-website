@@ -1,9 +1,9 @@
-title: Keycloak DevDay 2024 Germany
-description: Keycloak Developer Community 1-Day-Conference
-url: https://www.keycloak-day.dev
+title: KeyConf24
+description: Keycloak Community 1-Day-Conference
+url: https://keyconf.dev
 baseurl: "" # the subpath of your site, e.g. /blog
-pretix: https://pretix.eu/dasniko/keycloak-day-24
-showTicketSale: false
+eventbrite: https://www.eventbrite.de/e/keyconf24-tickets-887467387847
+showTicketSale: true
 
 # some default values for Front Matter
 defaults:

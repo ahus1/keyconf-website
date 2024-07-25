@@ -1,10 +1,10 @@
 version: "3.8"
 volumes:
   jekyll_data:
-    name: kc_devday_jekyll_data
+    name: keyconf_jekyll_data
 services:
   jekyll:
-    image: jekyll/jekyll:3.8
+    image: jekyll/jekyll:4
     command: jekyll serve --watch
     ports:
       - 4000:4000
