@@ -3,7 +3,9 @@ description: Keycloak Community 1-Day-Conference
 url: https://keyconf.dev
 baseurl: "" # the subpath of your site, e.g. /blog
 eventbrite: https://www.eventbrite.de/e/keyconf24-tickets-887467387847
-showTicketSale: true
+meetup: https://www.meetup.com/keycloak-hour-of-code/events/302619620/
+showTicketSale: false
+showLivestream: true
 
 # some default values for Front Matter
 defaults:

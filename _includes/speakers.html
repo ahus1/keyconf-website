@@ -10,6 +10,9 @@
         {% if site.showTicketSale %}
         <div class="speakers-cta text-center py-3"><a class="btn btn-primary btn-lg" href="{{site.eventbrite}}" target="_blank">Get Tickets</a></div>
         {% endif %}
+        {% if site.showLivestream %}
+        <div class="speakers-cta text-center py-3"><a class="btn btn-primary btn-lg" href="{{site.meetup}}" target="_blank">RSVP Livestream</a></div>
+        {% endif %}
     </div><!--//container-->
     
 </section><!--//speakers-section-->

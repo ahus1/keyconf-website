@@ -19,5 +19,12 @@
         </div><!--//event-countdown-->
         <div class="about-cta text-center mb-5"><a class="btn btn-secondary btn-lg mb-5" href="{{site.eventbrite}}" target="_blank">Get Your Ticket Today</a></div>
         {% endif %}
+        {% if site.showLivestream %}
+        <div class="event-countdown text-center mb-3">
+            <hh4 class="countdown-intro mb-2 text-center mb-3">Event Starts In:</hh4>
+            <div id="countdown-box" class="countdown-box"></div>
+        </div><!--//event-countdown-->
+        <div class="about-cta text-center mb-5"><a class="btn btn-secondary btn-lg mb-5" href="{{site.meetup}}" target="_blank">RSVP for the livestream</a></div>
+        {% endif %}
     </div><!--//container-->
 </section><!--//about-section-->
