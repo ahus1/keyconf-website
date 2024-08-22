@@ -1,5 +1,5 @@
-title: KeyConf24
-description: Keycloak Community 1-Day-Conference
+title: "KeyConf24: Keycloak Community 1-Day-Conference"
+description: Our annual conference dedicated to the Keycloak users' community to interact, learn, share, and exchange notes on Keycloak IAM technology and use cases.
 url: https://keyconf.dev
 baseurl: "" # the subpath of your site, e.g. /blog
 eventbrite: https://www.eventbrite.de/e/keyconf24-tickets-887467387847
