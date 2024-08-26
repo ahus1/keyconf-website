@@ -19,17 +19,30 @@
   bio: |
     Vinod Anandan is a seasoned security professional with over 12 years of expertise in application security. Passionate about Identity and Access Management and the open source community, Vinod contributes to numerous open source projects and foundations. He is a notable contributor to the OWASP Foundation, particularly in advancing the CycloneDX and Dependency-Track projects.
   img: dummy.png
-- key: mba
-  name: Martin Bartoš
-  company: Red Hat
-  img: mba.jpg
-  bio: |
-    Martin Bartoš is a Senior Software Engineer at Red Hat focusing on cloud-native aspects of Keycloak. He is passionate about security and engaging the community to get Keycloak to the next level. He seeks to integrate new technologies and procedures to ensure their future relevance and innovation.
+- key: fpo
+  img: fpo.jpg
+  name: Francis Pouatcha
+  title: Co-Founder & Technical Lead
+  company: adorsys
   social:
-    - url: https://www.linkedin.com/in/mabartos98
+    - url: https://www.linkedin.com/in/francis-pouatcha-54235a8/
       icon: linkedin-in
-    - url: https://github.com/mabartos
+    - url: https://github.com/francis-pouatcha
       icon: github
+  bio: |
+    Francis Pouatcha is the Co-Founder and Technical Lead at adorsys, an IT company with operations in Europe, the USA, and Africa. He has over 20 years of experience in developing secure data processing systems, with a deep understanding of Keycloak and a passion for streamlining its configuration and deployment. Francis has been instrumental in developing various Java Enterprise Standards. He led the development of easyCredit, one of the world's most automated loan application processing systems.  Francis is actively involved in tech community efforts like the European PSD2 initiative, the OpenID Foundation FAPI working group, and the Swiss SFTI open banking initiative.
+- key: tno
+  img: tno.jpg
+  name: Takashi Norimatsu
+  title: Senior OSS Specialist
+  company: Hitachi, Ltd.
+  bio: |
+    Takashi Norimatsu, Senior OSS Specialist, Hitachi, Ltd. is a maintainer of Keycloak. He has implemented and contributed security features like Financial-grade API (FAPI) security profiles, W3C Web Authentication (WebAuthn) API support. He leads Keycloak's community "OAuth SIG" (Ex FAPI-SIG) as Tech Lead for supporting OAuth/OIDC and its related security features to Keycloak. He has experience constructing high security banking API systems with Keycloak.
+  social:
+    - url: https://github.com/tnorimat
+      icon: github
+    - url: https://www.linkedin.com/in/takashi-norimatsu-45a59b192/
+      icon: linkedin-in
 - key: vmu
   name: Václav Muzikář
   company: Red Hat
@@ -45,31 +58,6 @@
     Václav focuses on making Keycloak a seamless cloud-native solution, particularly through the Quarkus distribution and the Operator. His enthusiasm for Keycloak also manifested during his master’s studies, where he researched the Admin Approval System.
     <br>
     Passionate about software development and open-source, Václav is committed to innovating and improving cloud-native identity management.
-- key: gpa
-  name: GR Patil
-  company: Phase Two
-  img: dummy.png
-  bio: |
-    GR Patil is the co-founder and CEO of Phase Two, a Keycloak hosting and support company, where he is the principal author of many popular Keycloak extensions. He has been working with Keycloak for 8 years, and has been building software startups for 28 years. Prior to Phase Two, he was a staff engineer at Twitter and a co-founder at BrightRoll.
-  social:
-    - url: https://github.com/xgp
-      icon: github
-- key: dte
-  name: Dmitry Telegin
-  company: Backbase UK
-  img: dummy.png
-- key: fpo
-  img: fpo.jpg
-  name: Francis Pouatcha
-  title: Co-Founder & Technical Lead
-  company: adorsys
-  social:
-    - url: https://www.linkedin.com/in/francis-pouatcha-54235a8/
-      icon: linkedin-in
-    - url: https://github.com/francis-pouatcha
-      icon: github
-  bio: |
-    Francis Pouatcha is the Co-Founder and Technical Lead at adorsys, an IT company with operations in Europe, the USA, and Africa. He has over 20 years of experience in developing secure data processing systems, with a deep understanding of Keycloak and a passion for streamlining its configuration and deployment. Francis has been instrumental in developing various Java Enterprise Standards. He led the development of easyCredit, one of the world's most automated loan application processing systems.  Francis is actively involved in tech community efforts like the European PSD2 initiative, the OpenID Foundation FAPI working group, and the Swiss SFTI open banking initiative.
 - key: mpo
   img: mpo.jpg
   name: Marek Posolda
@@ -84,19 +72,31 @@
     Marek Posolda is a software engineer at Red Hat, currently serving as a team lead in the Keycloak software engineering team. He oversees a sub-team focused on client management, authentication, and protocols such as OpenID Connect, OAuth, and SAML. Marek is also a dedicated member of the Keycloak community, contributing as one of the project's maintainers.
     <pr>
     With a robust background in Java, web development, and identity and access management, Marek has been a valuable asset to Red Hat since 2009. Throughout his tenure, he has contributed to various middleware projects, including JBoss Portal, GateIn Portal, and PicketLink. Since 2013, he has been deeply involved with Keycloak, playing a pivotal role almost from the project's inception.
-- key: tno
-  img: tno.jpg
-  name: Takashi Norimatsu
-  title: Senior OSS Specialist
-  company: Hitachi, Ltd.
-  bio: |
-    Takashi Norimatsu, Senior OSS Specialist, Hitachi, Ltd. is a maintainer of Keycloak. He has implemented and contributed security features like Financial-grade API (FAPI) security profiles, W3C Web Authentication (WebAuthn) API support. He leads Keycloak's community "OAuth SIG" (Ex FAPI-SIG) as Tech Lead for supporting OAuth/OIDC and its related security features to Keycloak. He has experience constructing high security banking API systems with Keycloak.
-  social:
-    - url: https://github.com/tnorimat
-      icon: github
-    - url: https://www.linkedin.com/in/takashi-norimatsu-45a59b192/
-      icon: linkedin-in
 - key: pjo
   img: dummy.png
   name: Pritish Joshi
   company: Banfico
+- key: mba
+  name: Martin Bartoš
+  company: Red Hat
+  img: mba.jpg
+  bio: |
+    Martin Bartoš is a Senior Software Engineer at Red Hat focusing on cloud-native aspects of Keycloak. He is passionate about security and engaging the community to get Keycloak to the next level. He seeks to integrate new technologies and procedures to ensure their future relevance and innovation.
+  social:
+    - url: https://www.linkedin.com/in/mabartos98
+      icon: linkedin-in
+    - url: https://github.com/mabartos
+      icon: github
+- key: dte
+  name: Dmitry Telegin
+  company: Backbase UK
+  img: dummy.png
+- key: gpa
+  name: GR Patil
+  company: Phase Two
+  img: dummy.png
+  bio: |
+    GR Patil is the co-founder and CEO of Phase Two, a Keycloak hosting and support company, where he is the principal author of many popular Keycloak extensions. He has been working with Keycloak for 8 years, and has been building software startups for 28 years. Prior to Phase Two, he was a staff engineer at Twitter and a co-founder at BrightRoll.
+  social:
+    - url: https://github.com/xgp
+      icon: github
