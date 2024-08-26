@@ -11,6 +11,53 @@
   bio: |
     Daniel Goldscheider is founder and Executive Director of the OpenWallet Foundation and serves as Vice Chair of the Supervisory Board of Valamar Riviera d.d., Croatia’s largest tourism company.
     Before that he started yes.com, an open banking scheme and co-founded Mediaguide with the American Society of Composers, Authors and Publishers as well as Aureus Private Equity (today Invision).
+- key: van
+  name: Vinod Anandan
+  social:
+    - url: https://www.linkedin.com/in/vinodna/
+      icon: linkedin-in
+  bio: |
+    Vinod Anandan is a seasoned security professional with over 12 years of expertise in application security. Passionate about Identity and Access Management and the open source community, Vinod contributes to numerous open source projects and foundations. He is a notable contributor to the OWASP Foundation, particularly in advancing the CycloneDX and Dependency-Track projects.
+  img: dummy.png
+- key: mba
+  name: Martin Bartoš
+  company: Red Hat
+  img: mba.jpg
+  bio: |
+    Martin Bartoš is a Senior Software Engineer at Red Hat focusing on cloud-native aspects of Keycloak. He is passionate about security and engaging the community to get Keycloak to the next level. He seeks to integrate new technologies and procedures to ensure their future relevance and innovation.
+  social:
+    - url: https://www.linkedin.com/in/mabartos98
+      icon: linkedin-in
+    - url: https://github.com/mabartos
+      icon: github
+- key: vmu
+  name: Václav Muzikář
+  company: Red Hat
+  img: vmu.jpg
+  social:
+    - url: https://github.com/vmuzikar
+      icon: github
+    - url: https://www.linkedin.com/in/vaclavmuzikar/
+      icon: linkedin-in
+  bio: |
+    Václav Muzikář is a Principal Software Engineer at Red Hat and a dedicated maintainer of Keycloak. Over his nine years at Red Hat, he has played a key role in evolving Keycloak from being part of the Quality Engineering team to leading the Cloud Native sub-team.
+    <br>
+    Václav focuses on making Keycloak a seamless cloud-native solution, particularly through the Quarkus distribution and the Operator. His enthusiasm for Keycloak also manifested during his master’s studies, where he researched the Admin Approval System.
+    <br>
+    Passionate about software development and open-source, Václav is committed to innovating and improving cloud-native identity management.
+- key: gpa
+  name: GR Patil
+  company: Phase Two
+  img: dummy.png
+  bio: |
+    GR Patil is the co-founder and CEO of Phase Two, a Keycloak hosting and support company, where he is the principal author of many popular Keycloak extensions. He has been working with Keycloak for 8 years, and has been building software startups for 28 years. Prior to Phase Two, he was a staff engineer at Twitter and a co-founder at BrightRoll.
+  social:
+    - url: https://github.com/xgp
+      icon: github
+- key: dte
+  name: Dmitry Telegin
+  company: Backbase UK
+  img: dummy.png
 - key: fpo
   img: fpo.jpg
   name: Francis Pouatcha
@@ -49,13 +96,7 @@
       icon: github
     - url: https://www.linkedin.com/in/takashi-norimatsu-45a59b192/
       icon: linkedin-in
-- key: kra
-  img: kra.jpg
-  name: Kannan Rasappan
-  title: Founder & CEO
+- key: pjo
+  img: dummy.png
+  name: Pritish Joshi
   company: Banfico
-  bio: |
-    Kannan Rasappan is the CEO & Founder of Banfico, supporting financial institutions with their Open Banking compliance & promoting innovation by providing consulting & implementation services. Open Banking expert who has worked at leading financial institutions in the UK - RBS, HSBC, WorldPay, Lloyds Banking Group. An active participant in various working groups on Open Banking and a speaker at various conferences. Serving as Advisor to Berlin Group's NextGenPSD2/OpenFinance standards - EU's most widely used API specification. A strong advocate of Open Standards and an expert in identity & security. Come from a technical background with 20+ years of experience & is a hands-on solution architect. Graduate in Applied Mathematics
-  social:
-    - url: https://www.linkedin.com/in/krasappan/
-      icon: linkedin-in

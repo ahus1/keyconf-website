@@ -14,6 +14,10 @@
 #      type: Slides
 #    - url: https://youtu.be/lQH-yNrF_As?list=PLNn3plN7ZiaqXjiDSB1KDaF3bCDuQmDgw
 #      type: Video
+- title: "The Journey, Achievements, and Significance of the Keycloak SIG Community"
+  speaker: van
+  abstract: |
+    In his talk, Vinod will highlight the history, achievements, and importance of the Keycloak SIG community.
 - title: "Streamlining Keycloak Configuration Management: Exploring keycloak-config-cli"
   speaker: fpo
   abstract: |
@@ -27,6 +31,10 @@
   speaker: tno
   abstract: |
     In Europe, interest in De-centralized Identity (DID) and Self-sovereign identity (SSI) are increasing as the European Commission released "The European Digital Identity Wallet Architecture and Reference Framework" for eIDAS 2.0. The latest Keycloak supported an experimental feature OpenID for Verifiable Credential Issuance (OID4VCI) for this emerging paradigm of identity by keycloak's community like OAuth SIG.  In his talk, Takashi describes the OID4VCI support provided by Keycloak in detail. He also outlines a plan to enhance this experimental OID4VCI support in the future. Additionally, he discusses Keycloak's latest compliance with FAPI 2.0 and OAuth 2.1.
+- title: "Building declaratively configured Keycloak"
+  speaker: vmu
+  abstract: |
+    Configuring Keycloak through REST APIs, UI or 3rd party tools might not be suitable for all use cases. In this talk Václav will show a sneak peek of what the Keycloak team is currently brewing around declarative configuration. What does it take to add native support for configuration-as-code to Keycloak? What are the options and what challenges do we face with them? What worked for us and what did not? How to design a good declarative API? And how to extend it to the cloud-native world of Operator CRs, GitOps, and beyond that?
 - title: "Core Keycloak features developed in past 12 months"
   speaker: mpo
   abstract: |
@@ -40,18 +48,20 @@
     If time permits and there is an interest, we can touch on management on possible ideas for the future roadmap.
     This session is ideal for Keycloak administrators and developers.
 - title: Integrating Keycloak with Openresty as a resource server in Open Banking
-  speaker: kra
+  speaker: pjo
   abstract: |
-    Operate a OpenID FAPI Compliant open banking platform Banfico works with Openresty as the API Gateway / Resource Server. In the talk, Kannan will cover the architecture and the orchestration using Keycloak and OpenResty in their OpenShift platform. Also brief about the Lua scripting to develop plugins related to FAPI Introspection, Open Banking policies, Caching, and API Analytics.
-- title: TBC
+    Operate a OpenID FAPI Compliant open banking platform Banfico works with Openresty as the API Gateway / Resource Server. In the talk, Pritish will cover the architecture and the orchestration using Keycloak and OpenResty in their OpenShift platform. Also brief about the Lua scripting to develop plugins related to FAPI Introspection, Open Banking policies, Caching, and API Analytics.
+- title: Unlocking adaptive authentication with Keycloak
+  speaker: mba
   abstract: |
-    (Will be announced after the Call for Submissions has ended)
-- title: TBC
+    As digital threats continuously evolve, traditional authentication methods often fall short and are insufficient in today's dynamic security landscape. It needs to adapt to different risk levels and ever-changing contexts, such as user location, device, and behavior, to ensure a secure and user-friendly experience.
+    <br>
+    This presentation introduces the importance of adaptive authentication within Keycloak, showcasing how modern techniques combined with machine learning can transform identity and access management.
+    <br>
+    This allows server administrators to detect anomalies and respond to emerging threats more effectively, ensuring that sensitive resources are protected. We provide step-by-step guidance and a demo on configuring and deploying these techniques in your Keycloak environment.
+- title: New and Noteworthy in the OAuth World
+  speaker: dte
+- title: Extending Keycloak for All Your Identity Use Cases
+  speaker: gpa
   abstract: |
-    (Will be announced after the Call for Submissions has ended)
-- title: TBC
-  abstract: |
-    (Will be announced after the Call for Submissions has ended)
-- title: TBC
-  abstract: |
-    (Will be announced after the Call for Submissions has ended)
+    Keycloak is a mature, extensible Identity and Access Management (IAM) system. It is built as a set of Service Provider Interfaces (SPIs) and implementations that allow excellent configuration and programmatic extensibility, including augmenting and replacing almost all parts of the core implementation. This talk presents an overview of Keycloak’s commonly used extension mechanisms, best practices for development and testing of extensions, and several exemplary, real-world examples. Finally, it puts it all together with a deep-dive into one such extension, using what we learned.
