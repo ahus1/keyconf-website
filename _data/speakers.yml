@@ -1,3 +1,13 @@
+- key: npi
+  img: npi.jpg
+  name: Nathalia Pinesi
+  title: Head of Demand Generation
+  company: adorsys
+  social:
+    - url: https://www.linkedin.com/in/nathaliapinesi/
+      icon: linkedin-in
+  bio: |
+    Nathalia Pinesi will be the Master of Ceremony for KeyConf24, bringing her expertise as Head of Demand Generation at adorsys to the forefront. As an integral part of the event’s organizing team, Nathalia is known for her strategic acumen and engaging presence. Her role at adorsys focuses on driving international growth and building key business relationships, skills that will enhance her performance as MC. With her talent for creating compelling and memorable experiences, Nathalia is set to lead KeyConf24 with poise and professionalism, ensuring a dynamic and successful event for all participants.
 - key: dgo
   img: dgo.jpg
   name: Daniel Goldschneider
