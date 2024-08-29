@@ -88,6 +88,11 @@
   img: dummy.png
   name: Pritish Joshi
   company: Banfico
+  social:
+    - url: https://github.com/pritish-nitb
+      icon: github
+    - url: https://www.linkedin.com/in/pritish-joshi-10984259
+      icon: linkedin-in
 - key: mba
   name: Martin Bartoš
   company: Red Hat
@@ -103,6 +108,9 @@
   name: Dmitry Telegin
   company: Backbase UK
   img: dummy.png
+  social:
+    - url: https://github.com/dteleguin
+      icon: github
 - key: gpa
   name: GR Patil
   company: Phase Two
