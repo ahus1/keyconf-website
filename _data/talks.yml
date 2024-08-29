@@ -65,3 +65,8 @@
   speaker: gpa
   abstract: |
     Keycloak is a mature, extensible Identity and Access Management (IAM) system. It is built as a set of Service Provider Interfaces (SPIs) and implementations that allow excellent configuration and programmatic extensibility, including augmenting and replacing almost all parts of the core implementation. This talk presents an overview of Keycloak’s commonly used extension mechanisms, best practices for development and testing of extensions, and several exemplary, real-world examples. Finally, it puts it all together with a deep-dive into one such extension, using what we learned.
+- title: Opening Remarks and Welcome from adorsys
+  speaker: npi
+- title: Closing Remarks
+  speaker: npi
+
