@@ -5,10 +5,16 @@ This is the website hosted on https://keyconf.dev
 
 ## Building the site locally
 
-Run 
+Run when using Docker compose:
 
 ```
 docker-compose up
+```
+
+Run plain docker with:
+
+```
+podman run -it --rm -p 4000:4000 -p 35729:35729 -v .:/srv/jekyll -v jekyll_data:/usr/gem jekyll/jekyll:4 jekyll serve --livereload
 ```
 
 Then open your browser on http://0.0.0.0:4000/

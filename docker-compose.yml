@@ -11,4 +11,4 @@ services:
       - 35729:35729
     volumes:
       - .:/srv/jekyll:cached
-      - jekyll_data:/usr/local/bundle
+      - jekyll_data:/usr/gem
