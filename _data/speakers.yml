@@ -85,7 +85,7 @@
     <pr>
     With a robust background in Java, web development, and identity and access management, Marek has been a valuable asset to Red Hat since 2009. Throughout his tenure, he has contributed to various middleware projects, including JBoss Portal, GateIn Portal, and PicketLink. Since 2013, he has been deeply involved with Keycloak, playing a pivotal role almost from the project's inception.
 - key: pjo
-  img: dummy.png
+  img: pjo.jpg
   name: Pritish Joshi
   company: Banfico
   social:
@@ -93,6 +93,8 @@
       icon: github
     - url: https://www.linkedin.com/in/pritish-joshi-10984259
       icon: linkedin-in
+  bio: |
+    Pritish Joshi is a Technical Architect at Banfico, where he supports financial institutions in achieving Open Banking compliance and drives innovation through consulting and implementation services. As an Open Banking expert, Pritish has worked with leading global financial institutions, including JPMorgan Chase, Citi, and SBI. He actively participates in various Open Banking working groups and has contributed to implementations in the UK, Europe, KSA, Brazil, and beyond. Pritish is a strong advocate of open standards, with deep expertise in identity and security. With over a decade of hands-on experience, he excels as a solution architect.
 - key: mba
   name: Martin Bartoš
   company: Red Hat
@@ -107,10 +109,14 @@
 - key: dte
   name: Dmitry Telegin
   company: Backbase UK
-  img: dummy.png
+  img: dte.jpg
   social:
     - url: https://github.com/dteleguin
       icon: github
+    - url: https://www.linkedin.com/in/d-telegin/
+      icon: linkedin-in
+  bio: |
+    Dmitry Telegin is a certified enterprise architect, currently working at Backbase as their resident Keycloak and IAM expert. He is also an independent Keycloak contributor, consultant and OAuth SIG member. Apart from that, Dmitry is actively working with the IETF OAuth Working Group to ensure Keycloak's standard compliance and timely adoption of the new specifications.
 - key: gpa
   name: GR Patil
   company: Phase Two

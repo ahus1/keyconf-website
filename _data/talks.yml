@@ -61,6 +61,15 @@
     This allows server administrators to detect anomalies and respond to emerging threats more effectively, ensuring that sensitive resources are protected. We provide step-by-step guidance and a demo on configuring and deploying these techniques in your Keycloak environment.
 - title: New and Noteworthy in the OAuth World
   speaker: dte
+  abstract: |
+    The OAuth SIG has been recently focusing mostly on FAPI, Verifiable Credentials and related technologies. However, there is quite a lot happening in the Internet standards world outside of FAPI and VC realms. In this talk, Dmitry will give an overview of selected upcoming Internet standards being currently discussed at IETF:
+    <ul>
+    <li> OAuth 2.0 for First-Party Applications 
+    <li> Transaction Tokens
+    <li> OAuth Identity and Authorization Chaining Across Domains
+    <li> OAuth Client ID Metadata Document
+    </ul>
+    For the above prospective standards, we will talk about benefits of having them implemented in Keycloak, assess Keycloak's readiness for their adoption, and discuss potential implementation challenges."
 - title: Extending Keycloak for All Your Identity Use Cases
   speaker: gpa
   abstract: |
