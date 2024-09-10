@@ -78,4 +78,12 @@
   speaker: npi
 - title: Closing Remarks
   speaker: npi
+- title: Enhancing User Experience with Native Authentication and Passkeys in Keycloak
+  speaker: mbe
+  abstract: |
+    If you are tired of browser-based authentication, which relies on the traditional redirect model or browser pop-ups in native app scenarios, there is now a proposed standard called OAuth 2.0 for First-Party Applications. This standard offers an API-based authentication approach, allowing first-party apps to control the login experience based on information returned by the Identity Provider.
+    <br>
+    As a result, friction can be reduced, and potential user drop-off minimized, while enhancing the overall user experience. The purpose of this presentation is to review the standard and provide an overview of all the benefits.
+  video: fY1sJ8AX1fg?si=gorWGDkoTL98d5DF
+
 

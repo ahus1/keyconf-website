@@ -10,6 +10,12 @@
                     <span class="meta d-none">Day 1</span>
                 </a>
             </li>
+            <li class="nav-item me-2">
+                <a class="nav-link" id="tab-2" data-bs-toggle="tab" href="#tab-2-content" role="tab" aria-controls="tab-2-content" aria-selected="true">
+                    <span class="heading">Pre-recorded</span>
+                    <span class="meta d-none">Pre-recorded</span>
+                </a>
+            </li>
         </ul>
         
         <!-- Tab panes -->
@@ -168,6 +174,14 @@
                 </div><!--//item-->
                 
             </div><!--//tab-1-content-->
+            <div class="tab-pane" id="tab-2-content" role="tabpanel" aria-labelledby="tab-1">
+                <div class="item item-talk">
+                    <div class="meta">
+                    </div><!--//meta-->
+                    <div class="content">
+                        {% include talk.html index=12 %}
+                    </div><!--//content-->
+                </div><!--//item-->
         </div><!--//schedule-tab-content-->
         {% if site.showTicketSale %}
         <div class="schedule-cta text-center mx-auto"><a href="{{site.eventbrite}}" class="btn btn-secondary btn-lg" target="_blank">Buy Tickets</a></div>

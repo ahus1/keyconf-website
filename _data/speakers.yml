@@ -88,6 +88,7 @@
   img: pjo.jpg
   name: Pritish Joshi
   company: Banfico
+  title: Technical Architect
   social:
     - url: https://github.com/pritish-nitb
       icon: github
@@ -98,6 +99,7 @@
 - key: mba
   name: Martin Bartoš
   company: Red Hat
+  title: Senior Software Engineer
   img: mba.jpg
   bio: |
     Martin Bartoš is a Senior Software Engineer at Red Hat focusing on cloud-native aspects of Keycloak. He is passionate about security and engaging the community to get Keycloak to the next level. He seeks to integrate new technologies and procedures to ensure their future relevance and innovation.
@@ -126,3 +128,15 @@
   social:
     - url: https://github.com/xgp
       icon: github
+- key: mbe
+  name: Martin Besozzi
+  title: Founder | IAM Architect
+  company: TwoGenIdentity
+  img: mbe.jpg
+  bio: |
+    Martin Besozzi is a Founder and experienced Identity and Access Management (IAM) Architect with over 18 years of industry expertise. He specializes in designing and implementing robust IAM solutions using a variety of commercial and open-source IAM frameworks, aiming to achieve both security and business objectives based on best practices and industry standards.  His roles have included enterprise architect, team lead, and software development within the IAM space. Martin has published articles and IAM book reviews, and conducted workshops on modern IAM topics, sharing his knowledge and insights with the community.
+  social:
+    - url: https://github.com/embesozzi
+      icon: github
+    - url: https://www.linkedin.com/in/embesozzi/
+      icon: linkedin-in
