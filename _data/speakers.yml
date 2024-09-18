@@ -59,6 +59,7 @@
   name: Václav Muzikář
   company: Red Hat
   img: vmu.jpg
+  title: Principal Software Engineer
   social:
     - url: https://github.com/vmuzikar
       icon: github
@@ -122,6 +123,7 @@
 - key: gpa
   name: GR Patil
   company: Phase Two
+  title: Co-founder & CEO
   img: dummy.png
   bio: |
     GR Patil is the co-founder and CEO of Phase Two, a Keycloak hosting and support company, where he is the principal author of many popular Keycloak extensions. He has been working with Keycloak for 8 years, and has been building software startups for 28 years. Prior to Phase Two, he was a staff engineer at Twitter and a co-founder at BrightRoll.
