@@ -26,10 +26,18 @@
         </div><!--//event-countdown-->
         <div class="about-cta text-center mb-5"><a class="btn btn-secondary btn-lg mb-5 me-5" href="{{site.meetup}}" target="_blank">RSVP for the livestream</a> <a class="btn btn-secondary btn-lg mb-5" href="{{site.eventbrite}}" target="_blank">Join the waiting list for on-site</a></div>
         <div class="ratio ratio-16x9 mb-3">
-            <iframe src="https://www.youtube.com/embed/AEZASpIj0HY?si=MOjgiIZ82F5bOzjt&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/AEZASpIj0HY?si=MOjgiIZ82F5bOzjt&autoplay=1"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
-        <iframe width=700 height=200 src="https://www.youtube.com/live_chat?v=AEZASpIj0HY&embed_domain=keyconf.dev"></iframe>
-        <a href="https://www.youtube.com/live/AEZASpIj0HY" target="_blank" class="mb-3"><i class="fa fa-video"></i>&nbsp;Video full page</a>
+        <div class="mb-3">
+            <a href="https://www.youtube.com/live/AEZASpIj0HY" target="_blank"><i class="fa fa-video"></i>&nbsp;Video and chat on a full page</a>
+        </div>
+        <div class="ratio mb-3" style="--bs-aspect-ratio:20%">
+            <iframe
+                    src="https://www.youtube.com/live_chat?v=AEZASpIj0HY&embed_domain=keyconf.dev"></iframe>
+        </div>
         {% endif %}
     </div><!--//container-->
 </section><!--//about-section-->
