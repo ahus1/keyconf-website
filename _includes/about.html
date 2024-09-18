@@ -25,18 +25,20 @@
             <div id="countdown-box" class="countdown-box"></div>
         </div><!--//event-countdown-->
         <div class="about-cta text-center mb-5"><a class="btn btn-secondary btn-lg mb-5 me-5" href="{{site.meetup}}" target="_blank">RSVP for the livestream</a> <a class="btn btn-secondary btn-lg mb-5" href="{{site.eventbrite}}" target="_blank">Join the waiting list for on-site</a></div>
-        <div class="ratio ratio-16x9 mb-3">
-            <iframe src="https://www.youtube.com/embed/AEZASpIj0HY?si=MOjgiIZ82F5bOzjt&autoplay=1"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="ratio ratio-21x9 mb-3">
+            <div style="margin-left: auto; right: 0; height: 100%; width: 24%">
+                <iframe style="height: 100%; width: 100%"
+                        src="https://www.youtube.com/live_chat?v=AEZASpIj0HY&embed_domain=keyconf.dev"></iframe>
+            </div>
+            <div style="height: 100%; width: 76%">
+                <iframe style="height: 100%; width: 100%" src="https://www.youtube.com/embed/AEZASpIj0HY?si=MOjgiIZ82F5bOzjt&autoplay=1"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
         </div>
         <div class="mb-3">
             <a href="https://www.youtube.com/live/AEZASpIj0HY" target="_blank"><i class="fa fa-video"></i>&nbsp;Video and chat on a full page</a>
-        </div>
-        <div class="ratio mb-3" style="--bs-aspect-ratio:20%">
-            <iframe
-                    src="https://www.youtube.com/live_chat?v=AEZASpIj0HY&embed_domain=keyconf.dev"></iframe>
         </div>
         {% endif %}
     </div><!--//container-->
