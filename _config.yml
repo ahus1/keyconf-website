@@ -5,7 +5,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 eventbrite: https://www.eventbrite.de/e/keyconf24-tickets-887467387847
 meetup: https://www.meetup.com/keycloak-hour-of-code/events/302619620/
 showTicketSale: false
-showLivestream: true
+rsvpLivestream: true
+showLivestream: false
 
 # some default values for Front Matter
 defaults:
