@@ -6,7 +6,8 @@ eventbrite: https://www.eventbrite.de/e/keyconf24-tickets-887467387847
 meetup: https://www.meetup.com/keycloak-hour-of-code/events/302619620/
 showTicketSale: false
 rsvpLivestream: false
-showLivestream: true
+showLivestream: false
+showRecording: true
 
 # some default values for Front Matter
 defaults:
