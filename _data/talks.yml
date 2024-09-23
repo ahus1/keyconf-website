@@ -10,14 +10,17 @@
     <li>What could this partnership look like?
     </ul>
   links:
-#    - url: https://speakerdeck.com/ahus1/whats-next-in-keycloak-the-open-source-iam-kc24
-#      type: Slides
-#    - url: https://youtu.be/lQH-yNrF_As?list=PLNn3plN7ZiaqXjiDSB1KDaF3bCDuQmDgw
-#      type: Video
+    - url: /assets/files/Dabiel_Goldscheider-2024_OpenWallet_Presentation.pdf
+      description: Slides
+      type: file-pdf
 - title: "The Journey, Achievements, and Significance of the Keycloak SIG Community"
   speaker: van
   abstract: |
     In his talk, Vinod will highlight the history, achievements, and importance of the Keycloak SIG community.
+  links:
+    - url: /assets/files/Vinod_Anandan-The_Journey_Achievements_and_Significance_of_the_Keycloak_SIG_Community.pdf
+      description: Slides
+      type: file-pdf
 - title: "Streamlining Keycloak Configuration Management: Exploring keycloak-config-cli"
   speaker: fpo
   abstract: |
@@ -27,6 +30,10 @@
     <li> Techniques for applying configuration changes seamlessly, without requiring Keycloak restarts.
     <li> Real-world use cases and examples showcasing the efficiency and flexibility of keycloak-config-cli. This session is ideal for Keycloak administrators, developers, and DevOps engineers who want to simplify their configuration workflows, improve reliability, and enhance collaboration on Keycloak projects.
     </ul>
+  links:
+    - url: /assets/files/Francis_Pouatcha-Keycloak_Config_CLI.pdf
+      description: Slides
+      type: file-pdf
 - title: "Keycloak's Updates on Emerging Paradigm of Identity and Compliance with Security Specifications"
   speaker: tno
   abstract: |
@@ -35,6 +42,10 @@
   speaker: vmu
   abstract: |
     Configuring Keycloak through REST APIs, UI or 3rd party tools might not be suitable for all use cases. In this talk Václav will show a sneak peek of what the Keycloak team is currently brewing around declarative configuration. What does it take to add native support for configuration-as-code to Keycloak? What are the options and what challenges do we face with them? What worked for us and what did not? How to design a good declarative API? And how to extend it to the cloud-native world of Operator CRs, GitOps, and beyond that?
+  links:
+    - url: /assets/files/Vaclav_Muzikar-KeyConf_24_Building_declaratively_configured_Keycloak.pdf
+      description: Slides
+      type: file-pdf
 - title: "Core Keycloak features developed in past 12 months"
   speaker: mpo
   abstract: |
@@ -47,10 +58,18 @@
     </dl>
     If time permits and there is an interest, we can touch on management on possible ideas for the future roadmap.
     This session is ideal for Keycloak administrators and developers.
+  links:
+    - url: /assets/files/Marek_Posolda-Core_Keycloak_features_developed_in_past_12_months.pdf
+      description: Slides
+      type: file-pdf
 - title: Integrating Keycloak with Openresty as a resource server in Open Banking
   speaker: pjo
   abstract: |
     Operate a OpenID FAPI Compliant open banking platform Banfico works with Openresty as the API Gateway / Resource Server. In the talk, Pritish will cover the architecture and the orchestration using Keycloak and OpenResty in their OpenShift platform. Also brief about the Lua scripting to develop plugins related to FAPI Introspection, Open Banking policies, Caching, and API Analytics.
+  links:
+    - url: /assets/files/Pritish_Joshi-Openbanking_with_Keycloak_and_Openresty.pdf
+      description: Slides
+      type: file-pdf
 - title: Unlocking adaptive authentication with Keycloak
   speaker: mba
   abstract: |
@@ -59,6 +78,10 @@
     This presentation introduces the importance of adaptive authentication within Keycloak, showcasing how modern techniques combined with machine learning can transform identity and access management.
     <br>
     This allows server administrators to detect anomalies and respond to emerging threats more effectively, ensuring that sensitive resources are protected. We provide step-by-step guidance and a demo on configuring and deploying these techniques in your Keycloak environment.
+  links:
+    - url: /assets/files/Martin_Bartos-KeyConf_Adaptive_Authentication-final.pdf
+      description: Slides
+      type: file-pdf
 - title: New and Noteworthy in the OAuth World
   speaker: dte
   abstract: |
@@ -74,6 +97,10 @@
   speaker: gpa
   abstract: |
     Keycloak is a mature, extensible Identity and Access Management (IAM) system. It is built as a set of Service Provider Interfaces (SPIs) and implementations that allow excellent configuration and programmatic extensibility, including augmenting and replacing almost all parts of the core implementation. This talk presents an overview of Keycloak’s commonly used extension mechanisms, best practices for development and testing of extensions, and several exemplary, real-world examples. Finally, it puts it all together with a deep-dive into one such extension, using what we learned.
+  links:
+    - url: /assets/files/GR_Patil-Keycloak_Extensions.pdf
+      description: Slides
+      type: file-pdf
 - title: Opening Remarks and Welcome from adorsys
   speaker: npi
 - title: Closing Remarks
