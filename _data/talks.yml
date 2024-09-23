@@ -9,10 +9,6 @@
     <li>Why should public and private sector work together?
     <li>What could this partnership look like?
     </ul>
-  links:
-    - url: /assets/files/Dabiel_Goldscheider-2024_OpenWallet_Presentation.pdf
-      description: Slides
-      type: file-pdf
 - title: "The Journey, Achievements, and Significance of the Keycloak SIG Community"
   speaker: van
   abstract: |
