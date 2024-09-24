@@ -38,6 +38,10 @@
   speaker: tno
   abstract: |
     In Europe, interest in De-centralized Identity (DID) and Self-sovereign identity (SSI) are increasing as the European Commission released "The European Digital Identity Wallet Architecture and Reference Framework" for eIDAS 2.0. The latest Keycloak supported an experimental feature OpenID for Verifiable Credential Issuance (OID4VCI) for this emerging paradigm of identity by keycloak's community like OAuth SIG.  In his talk, Takashi describes the OID4VCI support provided by Keycloak in detail. He also outlines a plan to enhance this experimental OID4VCI support in the future. Additionally, he discusses Keycloak's latest compliance with FAPI 2.0 and OAuth 2.1.
+  links:
+    - url: /assets/files/Takashi_Norimatsu-KeyConf24_Vienna.pdf
+      description: Slides
+      type: file-pdf
 - title: "Building declaratively configured Keycloak"
   speaker: vmu
   abstract: |
