@@ -13,6 +13,7 @@
     - url: /assets/files/Dabiel_Goldscheider-2024_OpenWallet_Presentation.pdf
       description: Slides
       type: file-pdf
+  video: P2gk3wMbHC4?si=JLyPIK-WB8bP82eL
 - title: "The Journey, Achievements, and Significance of the Keycloak SIG Community"
   speaker: van
   abstract: |
@@ -21,6 +22,7 @@
     - url: /assets/files/Vinod_Anandan-The_Journey_Achievements_and_Significance_of_the_Keycloak_SIG_Community.pdf
       description: Slides
       type: file-pdf
+  video: i0O-Y5ySUZs?si=_P7pRSZo8lKIddGR
 - title: "Streamlining Keycloak Configuration Management: Exploring keycloak-config-cli"
   speaker: fpo
   abstract: |
@@ -34,6 +36,7 @@
     - url: /assets/files/Francis_Pouatcha-Keycloak_Config_CLI.pdf
       description: Slides
       type: file-pdf
+  video: DE8Y4yVNmjA?si=QYEucKoTb7LOESrq
 - title: "Keycloak's Updates on Emerging Paradigm of Identity and Compliance with Security Specifications"
   speaker: tno
   abstract: |
@@ -42,6 +45,7 @@
     - url: /assets/files/Takashi_Norimatsu-KeyConf24_Vienna.pdf
       description: Slides
       type: file-pdf
+  video: aJ8Eo8Uysnk?si=vLs8O8ZXrCtuYSJX
 - title: "Building declaratively configured Keycloak"
   speaker: vmu
   abstract: |
@@ -50,6 +54,7 @@
     - url: /assets/files/Vaclav_Muzikar-KeyConf_24_Building_declaratively_configured_Keycloak.pdf
       description: Slides
       type: file-pdf
+  video: RsMx5XOySq0?si=N0H8tOip-m-Qj0mw
 - title: "Core Keycloak features developed in past 12 months"
   speaker: mpo
   abstract: |
@@ -66,6 +71,7 @@
     - url: /assets/files/Marek_Posolda-Core_Keycloak_features_developed_in_past_12_months.pdf
       description: Slides
       type: file-pdf
+  video: qlone__CIOo?si=51Bg7PQus8OPV7OK
 - title: Integrating Keycloak with Openresty as a resource server in Open Banking
   speaker: pjo
   abstract: |
@@ -74,6 +80,7 @@
     - url: /assets/files/Pritish_Joshi-Openbanking_with_Keycloak_and_Openresty.pdf
       description: Slides
       type: file-pdf
+  video: Ida6hvICUsw?si=F7hh3a2Iw9h-zTER
 - title: Unlocking adaptive authentication with Keycloak
   speaker: mba
   abstract: |
@@ -86,6 +93,7 @@
     - url: /assets/files/Martin_Bartos-KeyConf_Adaptive_Authentication-final.pdf
       description: Slides
       type: file-pdf
+  video: 0zWlc08CPuo?si=Od-opD4AG0V1lQto
 - title: New and Noteworthy in the OAuth World
   speaker: dte
   abstract: |
@@ -97,6 +105,7 @@
     <li> OAuth Client ID Metadata Document
     </ul>
     For the above prospective standards, we will talk about benefits of having them implemented in Keycloak, assess Keycloak's readiness for their adoption, and discuss potential implementation challenges."
+  video: b1KCW-btqXA?si=JYRK_jkjnQAXvK7f
 - title: Extending Keycloak for All Your Identity Use Cases
   speaker: gpa
   abstract: |
@@ -105,6 +114,7 @@
     - url: /assets/files/GR_Patil-Keycloak_Extensions.pdf
       description: Slides
       type: file-pdf
+  video: t8u-QO02Qn8?si=QOAPnjAoL4i6AQ2G
 - title: Opening Remarks and Welcome from adorsys
   speaker: npi
 - title: Closing Remarks

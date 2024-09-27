@@ -56,5 +56,17 @@
             <a href="https://youtu.be/AEZASpIj0HY" target="_blank"><i class="fa fa-video"></i>&nbsp;Video and chat on a full page</a>
         </div>
         {% endif %}
+        {% if site.showRecap %}
+        <div style="margin: auto; max-width: 540px;" class="">
+        <div class="ratio ratio-16x9 mb-3 col-md-6" id="recap" class="align-content-center">
+            <iframe style="height: 100%; width: 100%" src="https://www.youtube.com/embed/kQ-wPQqdneI?si=9ljC0FQr3Ma6RJUe"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <!--
+            <iframe style="height: 100%; width: 100%" src="https://youtu.be/AEZASpIj0HY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+        </div>
+        </div>
+        {% endif %}
     </div><!--//container-->
 </section><!--//about-section-->

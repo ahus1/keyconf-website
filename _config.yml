@@ -7,7 +7,8 @@ meetup: https://www.meetup.com/keycloak-hour-of-code/events/302619620/
 showTicketSale: false
 rsvpLivestream: false
 showLivestream: false
-showRecording: true
+showRecording: false
+showRecap: true
 
 # some default values for Front Matter
 defaults:
