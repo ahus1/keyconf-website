@@ -106,6 +106,10 @@
     </ul>
     For the above prospective standards, we will talk about benefits of having them implemented in Keycloak, assess Keycloak's readiness for their adoption, and discuss potential implementation challenges."
   video: b1KCW-btqXA?si=JYRK_jkjnQAXvK7f
+  links:
+    - url: /assets/files/Dimitri_Telegin-New_and_Noteworthy_in_the_OAuth_World.pdf
+      description: Slides
+      type: file-pdf
 - title: Extending Keycloak for All Your Identity Use Cases
   speaker: gpa
   abstract: |
