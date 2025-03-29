@@ -1,0 +1,145 @@
+- key: npi
+  img: npi.jpg
+  name: Nathalia Pinesi
+  title: Head of Demand Generation
+  company: adorsys
+  social:
+    - url: https://www.linkedin.com/in/nathaliapinesi/
+      icon: linkedin-in
+  bio: |
+    Nathalia Pinesi, a key member of the KeyConf24 organizing team, will serve as the Master of Ceremony. In her role as Head of Demand Generation at adorsys, she aligns initiatives with sales and marketing teams to create new opportunities and drive growth for the company. With her strategic expertise and dynamic presence, Nathalia will lead the event, ensuring an engaging and successful experience for all attendees.
+- key: dgo
+  img: dgo.jpg
+  name: Daniel Goldschneider
+  title: Founder & CEO
+  company: The OpenWallet Foundation
+  social:
+    - url: https://www.linkedin.com/in/goldscheider/
+      icon: linkedin-in
+    - url: https://x.com/goldscheider
+      icon: x-twitter
+  bio: |
+    Daniel Goldscheider is founder and Executive Director of the OpenWallet Foundation and serves as Vice Chair of the Supervisory Board of Valamar Riviera d.d., Croatia’s largest tourism company.
+    Before that he started yes.com, an open banking scheme and co-founded Mediaguide with the American Society of Composers, Authors and Publishers as well as Aureus Private Equity (today Invision).
+- key: van
+  name: Vinod Anandan
+  company: JPMorgan Chase & Co.
+  title: Application Security & DevSecOps
+  social:
+    - url: https://www.linkedin.com/in/vinodna/
+      icon: linkedin-in
+  bio: |
+    Vinod Anandan is a seasoned security professional with over 12 years of expertise in application security. Passionate about Identity and Access Management and the open source community, Vinod contributes to numerous open source projects and foundations. He is a notable contributor to the OWASP Foundation, particularly in advancing the CycloneDX and Dependency-Track projects.
+  img: van.jpg
+- key: fpo
+  img: fpo.jpg
+  name: Francis Pouatcha
+  title: Co-Founder & Technical Lead
+  company: adorsys
+  social:
+    - url: https://www.linkedin.com/in/francis-pouatcha-54235a8/
+      icon: linkedin-in
+    - url: https://github.com/francis-pouatcha
+      icon: github
+  bio: |
+    Francis Pouatcha is the Co-Founder and Technical Lead at adorsys, an IT company with operations in Europe, the USA, and Africa. He has over 20 years of experience in developing secure data processing systems, with a deep understanding of Keycloak and a passion for streamlining its configuration and deployment. Francis has been instrumental in developing various Java Enterprise Standards. He led the development of easyCredit, one of the world's most automated loan application processing systems.  Francis is actively involved in tech community efforts like the European PSD2 initiative, the OpenID Foundation FAPI working group, and the Swiss SFTI open banking initiative.
+- key: tno
+  img: tno.jpg
+  name: Takashi Norimatsu
+  title: Senior OSS Specialist
+  company: Hitachi, Ltd.
+  bio: |
+    Takashi Norimatsu, Senior OSS Specialist, Hitachi, Ltd. is a maintainer of Keycloak. He has implemented and contributed security features like Financial-grade API (FAPI) security profiles, W3C Web Authentication (WebAuthn) API support. He leads Keycloak's community "OAuth SIG" (Ex FAPI-SIG) as Tech Lead for supporting OAuth/OIDC and its related security features to Keycloak. He has experience constructing high security banking API systems with Keycloak.
+  social:
+    - url: https://github.com/tnorimat
+      icon: github
+    - url: https://www.linkedin.com/in/takashi-norimatsu-45a59b192/
+      icon: linkedin-in
+- key: vmu
+  name: Václav Muzikář
+  company: Red Hat
+  img: vmu.jpg
+  title: Principal Software Engineer
+  social:
+    - url: https://github.com/vmuzikar
+      icon: github
+    - url: https://www.linkedin.com/in/vaclavmuzikar/
+      icon: linkedin-in
+  bio: |
+    Václav Muzikář is a Principal Software Engineer at Red Hat and a dedicated maintainer of Keycloak. Over his nine years at Red Hat, he has played a key role in evolving Keycloak from being part of the Quality Engineering team to leading the Cloud Native sub-team.
+    <br>
+    Václav focuses on making Keycloak a seamless cloud-native solution, particularly through the Quarkus distribution and the Operator. His enthusiasm for Keycloak also manifested during his master’s studies, where he researched the Admin Approval System.
+    <br>
+    Passionate about software development and open-source, Václav is committed to innovating and improving cloud-native identity management.
+- key: mpo
+  img: mpo.jpg
+  name: Marek Posolda
+  title: Principal Software Engineer
+  company: Red Hat
+  social:
+    - url: https://github.com/mposolda
+      icon: github
+    - url: https://www.linkedin.com/in/marek-posolda-1557b883
+      icon: linkedin-in
+  bio: |
+    Marek Posolda is a software engineer at Red Hat, currently serving as a team lead in the Keycloak software engineering team. He oversees a sub-team focused on client management, authentication, and protocols such as OpenID Connect, OAuth, and SAML. Marek is also a dedicated member of the Keycloak community, contributing as one of the project's maintainers.
+    <pr>
+    With a robust background in Java, web development, and identity and access management, Marek has been a valuable asset to Red Hat since 2009. Throughout his tenure, he has contributed to various middleware projects, including JBoss Portal, GateIn Portal, and PicketLink. Since 2013, he has been deeply involved with Keycloak, playing a pivotal role almost from the project's inception.
+- key: pjo
+  img: pjo.jpg
+  name: Pritish Joshi
+  company: Banfico
+  title: Technical Architect
+  social:
+    - url: https://github.com/pritish-nitb
+      icon: github
+    - url: https://www.linkedin.com/in/pritish-joshi-10984259
+      icon: linkedin-in
+  bio: |
+    Pritish Joshi is a Technical Architect at Banfico, where he supports financial institutions in achieving Open Banking compliance and drives innovation through consulting and implementation services. As an Open Banking expert, Pritish has worked with leading global financial institutions, including JPMorgan Chase, Citi, and SBI. He actively participates in various Open Banking working groups and has contributed to implementations in the UK, Europe, KSA, Brazil, and beyond. Pritish is a strong advocate of open standards, with deep expertise in identity and security. With over a decade of hands-on experience, he excels as a solution architect.
+- key: mba
+  name: Martin Bartoš
+  company: Red Hat
+  title: Senior Software Engineer
+  img: mba.jpg
+  bio: |
+    Martin Bartoš is a Senior Software Engineer at Red Hat focusing on cloud-native aspects of Keycloak. He is passionate about security and engaging the community to get Keycloak to the next level. He seeks to integrate new technologies and procedures to ensure their future relevance and innovation.
+  social:
+    - url: https://www.linkedin.com/in/mabartos98
+      icon: linkedin-in
+    - url: https://github.com/mabartos
+      icon: github
+- key: dte
+  name: Dmitry Telegin
+  title: Principal Backend Engineer
+  company: Backbase UK
+  img: dte.jpg
+  social:
+    - url: https://github.com/dteleguin
+      icon: github
+    - url: https://www.linkedin.com/in/d-telegin/
+      icon: linkedin-in
+  bio: |
+    Dmitry Telegin is a certified enterprise architect, currently working at Backbase as their resident Keycloak and IAM expert. He is also an independent Keycloak contributor, consultant and OAuth SIG member. Apart from that, Dmitry is actively working with the IETF OAuth Working Group to ensure Keycloak's standard compliance and timely adoption of the new specifications.
+- key: gpa
+  name: GR Patil
+  company: Phase Two
+  title: Co-founder & CEO
+  img: dummy.png
+  bio: |
+    GR Patil is the co-founder and CEO of Phase Two, a Keycloak hosting and support company, where he is the principal author of many popular Keycloak extensions. He has been working with Keycloak for 8 years, and has been building software startups for 28 years. Prior to Phase Two, he was a staff engineer at Twitter and a co-founder at BrightRoll.
+  social:
+    - url: https://github.com/xgp
+      icon: github
+- key: mbe
+  name: Martin Besozzi
+  title: Founder | IAM Architect
+  company: TwoGenIdentity
+  img: mbe.jpg
+  bio: |
+    Martin Besozzi is a Founder and experienced Identity and Access Management (IAM) Architect with over 18 years of industry expertise. He specializes in designing and implementing robust IAM solutions using a variety of commercial and open-source IAM frameworks, aiming to achieve both security and business objectives based on best practices and industry standards.  His roles have included enterprise architect, team lead, and software development within the IAM space. Martin has published articles and IAM book reviews, and conducted workshops on modern IAM topics, sharing his knowledge and insights with the community.
+  social:
+    - url: https://github.com/embesozzi
+      icon: github
+    - url: https://www.linkedin.com/in/embesozzi/
+      icon: linkedin-in

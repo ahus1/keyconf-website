@@ -1,0 +1,36 @@
+title: "KeyConf24: Keycloak Community 1-Day-Conference"
+description: Our annual conference dedicated to the Keycloak users' community to interact, learn, share, and exchange notes on Keycloak IAM technology and use cases.
+url: https://keyconf.dev
+baseurl: "/2024" # the subpath of your site, e.g. /blog
+eventbrite: https://www.eventbrite.de/e/keyconf24-tickets-887467387847
+meetup: https://www.meetup.com/keycloak-hour-of-code/events/302619620/
+showTicketSale: false
+rsvpLivestream: false
+showLivestream: false
+showRecording: false
+showRecap: true
+
+# some default values for Front Matter
+defaults:
+  -
+    scope:
+      path: "" # emtpy means all files
+      type: posts
+    values:
+      layout: post
+
+markdown: kramdown
+
+# Use the following plug-ins
+plugins:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+
+# Exclude these files from your production _site
+exclude:
+  - README.md
+  - .git
+  - .sass-cache
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - docker-compose.yml

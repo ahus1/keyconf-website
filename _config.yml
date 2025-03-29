@@ -31,7 +31,6 @@ exclude:
   - .git
   - .sass-cache
   - .jekyll-cache
-  - buildspec.yml
   - Gemfile
   - Gemfile.lock
   - docker-compose.yml

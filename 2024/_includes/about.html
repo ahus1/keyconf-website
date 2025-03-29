@@ -1,0 +1,72 @@
+<section id="about-section" class="about-section section theme-bg-light">
+    <div class="container">
+        <h3 class="section-heading text-center mb-3">About KeyConf</h3>
+        <div class="section-intro single-col-max mx-auto mb-4">
+            The event is organised with support from the "Keycloak - OAuth2 Special Interest Group," which contributed to building OpenID FAPI standards into <a href="https://www.keycloak.org">Keycloak</a>. There is more standards-related work in progress, and it is a great opportunity to interact with the contributors and be part of such amazing contributions.
+        </div>
+        <div class="benefits-list text-center mb-3">
+            <h4 class="text-center mb-4">Why Join Us</h4>
+            <ul class="list-unstyled text-start d-inline-block">
+                {% for reason in page.reasons %}
+                <li><i class="fas fa-check-circle me-2"></i>{{reason}}</li>
+                {% endfor %}
+            </ul>
+        </div><!--//benefits-list-->
+        {% if site.showTicketSale %}
+        <div class="event-countdown text-center mb-3">
+            <hh4 class="countdown-intro mb-2 text-center mb-3">Event Starts In:</hh4>
+            <div id="countdown-box" class="countdown-box"></div>
+        </div><!--//event-countdown-->
+        <div class="about-cta text-center mb-5"><a class="btn btn-secondary btn-lg mb-5" href="{{site.eventbrite}}" target="_blank">Get Your Ticket Today</a></div>
+        {% endif %}
+        {% if site.rsvpLivestream %}
+        <div class="event-countdown text-center mb-3">
+            <hh4 class="countdown-intro mb-2 text-center mb-3">Event Starts In:</hh4>
+            <div id="countdown-box" class="countdown-box"></div>
+        </div><!--//event-countdown-->
+        <div class="about-cta text-center mb-5"><a class="btn btn-secondary btn-lg mb-5 me-5" href="{{site.meetup}}" target="_blank">RSVP for the livestream</a> <a class="btn btn-secondary btn-lg mb-5" href="{{site.eventbrite}}" target="_blank">Join the waiting list for on-site</a></div>
+        {% endif %}
+        {% if site.showLivestream %}
+        <div class="ratio ratio-21x9 mb-3" id="livestream">
+            <div style="margin-left: auto; right: 0; height: 100%; width: 24%">
+                <iframe style="height: 100%; width: 100%"
+                        src="https://www.youtube.com/live_chat?v=AEZASpIj0HY&embed_domain=keyconf.dev"></iframe>
+            </div>
+            <div style="height: 100%; width: 76%">
+                <iframe style="height: 100%; width: 100%" src="https://www.youtube.com/embed/AEZASpIj0HY?si=MOjgiIZ82F5bOzjt&autoplay=1"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="mb-3">
+            <a href="https://www.youtube.com/live/AEZASpIj0HY" target="_blank"><i class="fa fa-video"></i>&nbsp;Video and chat on a full page</a>
+        </div>
+        {% endif %}
+        {% if site.showRecording %}
+        <div class="ratio ratio-16x9 mb-3" id="recording">
+            <iframe style="height: 100%; width: 100%" src="https://www.youtube.com/embed/AEZASpIj0HY?si=MOjgiIZ82F5bOzjt&autoplay=1"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <!--
+            <iframe style="height: 100%; width: 100%" src="https://youtu.be/AEZASpIj0HY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+        </div>
+        <div class="mb-3">
+            <a href="https://youtu.be/AEZASpIj0HY" target="_blank"><i class="fa fa-video"></i>&nbsp;Video and chat on a full page</a>
+        </div>
+        {% endif %}
+        {% if site.showRecap %}
+        <div style="margin: auto; max-width: 540px;" class="">
+        <div class="ratio ratio-16x9 mb-3 col-md-6" id="recap" class="align-content-center">
+            <iframe style="height: 100%; width: 100%" src="https://www.youtube.com/embed/kQ-wPQqdneI?si=9ljC0FQr3Ma6RJUe"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <!--
+            <iframe style="height: 100%; width: 100%" src="https://youtu.be/AEZASpIj0HY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+        </div>
+        </div>
+        {% endif %}
+    </div><!--//container-->
+</section><!--//about-section-->

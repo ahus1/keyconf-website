@@ -27,7 +27,7 @@
     <a href="https://youtu.be/{{talk.video}}" target="_blank" class="list-group-item-action"><i class="fa fa-video"></i>&nbsp;Video</a>
     {% endif %}
     {% for link in talk.links %}
-    <a href="{{link.url}}" target="_blank" class="list-group-item-action"><i class="fa fa-{{link.type}}"></i>&nbsp;{{link.description}}</a>
+    <a href="{{ site.baseurl }}/{{link.url}}" target="_blank" class="list-group-item-action"><i class="fa fa-{{link.type}}"></i>&nbsp;{{link.description}}</a>
     {% endfor %}
 </div>
 {% endif %}

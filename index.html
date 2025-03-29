@@ -23,7 +23,7 @@ included:
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="{{site.description}}">
-	<link rel="shortcut icon" href="/favicon.ico">
+	<link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico">
 
 	<!-- OpenGraph -->
 	<meta property="og:url" content="{{site.url}}">
@@ -39,13 +39,13 @@ included:
 	<meta name="twitter:image" content="{{site.url}}/assets/images/wallpaper.jpg">
 
 	<!-- Google Fonts -->
-	<link href="/assets/fonts/fonts.css" rel="stylesheet">
+	<link href="{{ site.baseurl }}/assets/fonts/fonts.css" rel="stylesheet">
 
 	<!-- FontAwesome JS-->
-	<script defer src="/assets/fontawesome/js/all.min.js"></script>
+	<script defer src="{{ site.baseurl }}/assets/fontawesome/js/all.min.js"></script>
 
 	<!-- Theme CSS -->
-	<link id="theme-style" rel="stylesheet" href="/assets/css/theme.css">
+	<link id="theme-style" rel="stylesheet" href="{{ site.baseurl }}/assets/css/theme.css">
 
 </head>
 
@@ -130,11 +130,11 @@ included:
 	{% include speaker-modal.html %}
 
 	<!-- Javascript -->
-	<script src="/assets/plugins/popper.min.js"></script>
-	<script src="/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-	<script src="/assets/plugins/smoothscroll.min.js"></script>
-	<script src="/assets/plugins/gumshoe/gumshoe.polyfills.min.js"></script>
-	<script src="/assets/js/main.js"></script>
+	<script src="{{ site.baseurl }}/assets/plugins/popper.min.js"></script>
+	<script src="{{ site.baseurl }}/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+	<script src="{{ site.baseurl }}/assets/plugins/smoothscroll.min.js"></script>
+	<script src="{{ site.baseurl }}/assets/plugins/gumshoe/gumshoe.polyfills.min.js"></script>
+	<script src="{{ site.baseurl }}/assets/js/main.js"></script>
 
 </body>
 </html>
