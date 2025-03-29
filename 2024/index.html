@@ -1,0 +1,141 @@
+---
+layout: none
+reasons:
+  - Keynote speakers and networking opportunities.
+  - In-person for a chance to learn from industry experts.
+  - Connect with like-minded professionals.
+  - Networking lunch.
+included:
+  - icon: user-tie
+    text: Talks from industry-leading speakers
+  - icon: utensils
+    text: FREE drinks, refreshments and lunch
+  - icon: wifi
+    text: Live stream and recorded talks
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>{{site.title}}</title>
+
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="{{site.description}}">
+	<link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico">
+
+	<!-- OpenGraph -->
+	<meta property="og:url" content="{{site.url}}">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="{{site.title}}">
+	<meta property="og:description" content="{{site.description}}">
+	<meta property="og:image" content="{{site.url}}/assets/images/wallpaper.jpg">
+
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="{{site.title}}">
+	<meta name="twitter:description" content="{{site.description}}">
+	<meta name="twitter:image" content="{{site.url}}/assets/images/wallpaper.jpg">
+
+	<!-- Google Fonts -->
+	<link href="{{ site.baseurl }}/assets/fonts/fonts.css" rel="stylesheet">
+
+	<!-- FontAwesome JS-->
+	<script defer src="{{ site.baseurl }}/assets/fontawesome/js/all.min.js"></script>
+
+	<!-- Theme CSS -->
+	<link id="theme-style" rel="stylesheet" href="{{ site.baseurl }}/assets/css/theme.css">
+
+</head>
+
+<body>
+	{% include header.html %}
+
+	<div id="hero-block" class="hero-block">
+		<div id="hero-carousel" class="hero-carousel carousel slide carousel-fade" data-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item-1 carousel-item active"></div>
+				<div class="carousel-item-2 carousel-item"></div>
+				<div class="carousel-item-3 carousel-item"></div>
+			</div>
+		</div>
+		<div class="hero-block-mask"></div>
+		<div class="container">
+			<div class="hero-text-block">
+				<h1 class="hero-heading mb-2">KeyConf24</h1>
+				<div class="hero-meta mb-3"><i class="far fa-calendar-alt me-2"></i>19 Sep 2024<i class="fas fa-map-marker-alt mx-2"></i>Vienna, Austria <i class="fas fa-clock mx-2"></i>9am - 4pm</div>
+				<div class="hero-intro mb-4">Our annual conference dedicated to the Keycloak users' community to interact, learn, share, and exchange notes on Keycloak IAM technology and use cases.</div>
+				{% if site.showTicketSale %}
+				<div class="hero-cta"><a class="btn btn-primary btn-lg" href="{{site.eventbrite}}" target="_blank">Get Tickets</a></div>
+				{% endif %}
+				{% if site.rsvpLivestream %}
+				<div class="hero-cta"><a class="btn btn-primary btn-lg" href="{{site.meetup}}" target="_blank">RSVP Livestream</a></div>
+				{% endif %}
+			</div><!--//hero-text-block-->
+		</div><!--//container-->
+
+	</div><!--//hero-block-->
+
+	<div class="stats-block theme-bg-primary text-white py-4 text-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-6 col-md-3">
+					<div class="item">
+						<div class="number">100+</div>
+						<div class="unit">Attendees</div>
+					</div><!--//item-->
+				</div><!--//col-->
+				<div class="col-6 col-md-3">
+					<div class="item">
+						<div class="number">1</div>
+						<div class="unit">Day</div>
+					</div><!--//item-->
+				</div><!--//col-->
+				<div class="col-6 col-md-3">
+					<div class="item">
+						<div class="number">1</div>
+						<div class="unit">Keynote</div>
+					</div>
+				</div>
+				<div class="col-6 col-md-3">
+					<div class="item">
+						<div class="number">9</div>
+						<div class="unit">Talks</div>
+					</div>
+				</div>
+			</div>
+		</div><!--//container-->
+	</div><!--//stats-block-->
+
+	{% include about.html %}
+
+	{% include speakers.html %}
+
+	<div class="container">
+		<hr>
+	</div>
+
+	{% include schedule.html %}
+
+	{% include tickets.html %}
+
+	{% include venue.html %}
+
+	{% include sponsors.html %}
+
+	{% include footer.html %}
+
+	<!-- Modal Speaker -->
+	{% include speaker-modal.html %}
+
+	<!-- Javascript -->
+	<script src="{{ site.baseurl }}/assets/plugins/popper.min.js"></script>
+	<script src="{{ site.baseurl }}/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+	<script src="{{ site.baseurl }}/assets/plugins/smoothscroll.min.js"></script>
+	<script src="{{ site.baseurl }}/assets/plugins/gumshoe/gumshoe.polyfills.min.js"></script>
+	<script src="{{ site.baseurl }}/assets/js/main.js"></script>
+
+</body>
+</html>
+

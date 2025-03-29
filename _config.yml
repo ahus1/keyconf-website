@@ -32,5 +32,6 @@ exclude:
   - .sass-cache
   - .jekyll-cache
   - Gemfile
+  - '2024'
   - Gemfile.lock
   - docker-compose.yml
