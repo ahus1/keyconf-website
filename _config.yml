@@ -1,4 +1,4 @@
-title: "KeyConf24: Keycloak Community 1-Day-Conference"
+title: "KeyConf25: Keycloak Community 1-Day-Conference"
 description: Our annual conference dedicated to the Keycloak users' community to interact, learn, share, and exchange notes on Keycloak IAM technology and use cases.
 url: https://keyconf.dev
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -8,7 +8,7 @@ showTicketSale: false
 rsvpLivestream: false
 showLivestream: false
 showRecording: false
-showRecap: true
+showRecap: false
 
 # some default values for Front Matter
 defaults:
@@ -31,6 +31,7 @@ exclude:
   - .git
   - .sass-cache
   - .jekyll-cache
+  - .idea
   - Gemfile
   - '2024'
   - Gemfile.lock

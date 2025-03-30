@@ -14,7 +14,7 @@ docker-compose up
 Run plain docker with:
 
 ```
-podman run -it --rm -p 4000:4000 -p 35729:35729 -v .:/srv/jekyll -v jekyll_data:/usr/gem jekyll/jekyll:4 jekyll serve --livereload
+podman run -it --rm -p 4000:4000 -p 35729:35729 -v .:/srv/jekyll -v jekyll_data:/usr/gem jekyll/jekyll:4 bundle exec jekyll serve --livereload
 ```
 
 Then open your browser on http://0.0.0.0:4000/
