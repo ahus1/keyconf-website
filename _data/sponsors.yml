@@ -1,6 +1,9 @@
 - name: adorsys GmbH & Co. KG
   url: https://adorsys.com/
   logo: adorsys.png
+- name: Hitachi
+  url: https://www.hitachi.com/
+  logo: hitachi.svg
 - name: Banfico
   url: https://www.banfico.com/
   logo: banfico.svg
