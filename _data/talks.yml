@@ -1,0 +1,15 @@
+- title: "Keycloak meets AI: the possibility of integrating Keycloak with AI"
+  speaker: tno
+  abstract: |
+    In this talk, Takashi investigates the possibility of integrating Keycloak with AI agents.
+    <p>
+    In the field of AI agents, Model Context Protocol (MCP) becomes a hot topic, which makes it easy for an AI agent/tool to connect internal/external services.
+    <p>
+    When an AI agent/tool implementing an MCP client accesses a remote external service implementing an MCP server, end user authentication and authorization is sometimes required. According to the MCP specification, OAuth 2.1 needs to be used for that, which implies that there is the possibility of using Keycloak for end user authentication and authorization because Keycloak supported OAuth 2.1.
+    <p>
+    Firstly, Takashi talks about MCP briefly and describes end user authentication and authorization of MCP in more detail. After that, the speaker shows the possible system configuration that includes Keycloak as a part of the MCP server.
+#  links:
+#    - url: /assets/files/Takashi_Norimatsu-KeyConf24_Vienna.pdf
+#      description: Slides
+#      type: file-pdf
+#  video: aJ8Eo8Uysnk?si=vLs8O8ZXrCtuYSJX

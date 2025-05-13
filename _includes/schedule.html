@@ -64,11 +64,30 @@
                     </div><!--//content-->
                 </div><!--//item-->
                 <div class="item item-talk">
+                    <div class="row mb-3 content">
                     <div class="meta">
-                        <h4 class="time mb-3">11:30 - 12:30</h4>
+                        <h4 class="time mb-3">11:30 - 12:00</h4>
+                    </div><!--//meta-->
+                    <div class="col-12">
+                        {% include talk.html index=0 %}
+                    </div>
+                    {% comment %}
+                    <div class="col-12 col-lg-6">
+                        {% include talk.html index=0 %}
+                    </div>
+                    --%}
+                    <div class="col-12 col-lg-6">
+                        {% include talk.html index=9 %}
+                    </div>
+                    {% endcomment %}
+                    </div>
+                </div><!--//item-->
+                <div class="item item-talk">
+                    <div class="meta">
+                        <h4 class="time mb-3">12:00 - 12:30</h4>
                     </div><!--//meta-->
                     <div class="content">
-                        <h3 class="title mb-3">4 sessions in two tracks</h3>
+                        <h3 class="title mb-3">2 sessions in two tracks</h3>
                     </div><!--//content-->
                 </div><!--//item-->
                 <div class="item item-talk">
