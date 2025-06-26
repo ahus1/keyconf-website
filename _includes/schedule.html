@@ -33,15 +33,7 @@
                 </div><!--//item-->
                 <div class="item item-talk">
                     <div class="meta">
-                        <h4 class="time mb-3">10:00 - 10:30</h4>
-                    </div><!--//meta-->
-                    <div class="content">
-                        <h3 class="title mb-3">Keynote</h3>
-                    </div><!--//content-->
-                </div><!--//item-->
-                <div class="item item-talk">
-                    <div class="meta">
-                        <h4 class="time mb-3">10:30 - 10:45</h4>
+                        <h4 class="time mb-3">10:00 - 10:15</h4>
                     </div><!--//meta-->
                     <div class="content">
                         <h3 class="title mb-3">Keycloak OAuth Special Interest Group community message</h3>
@@ -49,10 +41,18 @@
                 </div><!--//item-->
                 <div class="item item-talk">
                     <div class="meta">
+                        <h4 class="time mb-3">10:15 - 10:45</h4>
+                    </div><!--//meta-->
+                    <div class="content">
+                        {% include talk.html index=1 %}
+                    </div><!--//content-->
+                </div><!--//item-->
+                <div class="item item-talk">
+                    <div class="meta">
                         <h4 class="time mb-3">10:45 - 11:15</h4>
                     </div><!--//meta-->
                     <div class="content">
-                        <h3 class="title mb-3">1 session</h3>
+                        {% include talk.html index=2 %}
                     </div><!--//content-->
                 </div><!--//item-->
                 <div class="item item-talk">
@@ -69,26 +69,25 @@
                         <h4 class="time mb-3">11:30 - 12:00</h4>
                     </div><!--//meta-->
                     <div class="col-12">
-                        {% include talk.html index=0 %}
+                        {% include talk.html index=5 room=1 %}
                     </div>
-                    {% comment %}
-                    <div class="col-12 col-lg-6">
-                        {% include talk.html index=0 %}
+                    <div class="col-12">
+                        {% include talk.html index=11 room=2 %}
                     </div>
-                    --%}
-                    <div class="col-12 col-lg-6">
-                        {% include talk.html index=9 %}
-                    </div>
-                    {% endcomment %}
                     </div>
                 </div><!--//item-->
                 <div class="item item-talk">
-                    <div class="meta">
-                        <h4 class="time mb-3">12:00 - 12:30</h4>
-                    </div><!--//meta-->
-                    <div class="content">
-                        <h3 class="title mb-3">2 sessions in two tracks</h3>
-                    </div><!--//content-->
+                    <div class="row mb-3 content">
+                        <div class="meta">
+                            <h4 class="time mb-3">12:00 - 12:30</h4>
+                        </div><!--//meta-->
+                        <div class="col-12">
+                            {% include talk.html index=7 room=1 %}
+                        </div>
+                        <div class="col-12">
+                            {% include talk.html index=8 room=2 %}
+                        </div>
+                    </div>
                 </div><!--//item-->
                 <div class="item item-talk">
                     <div class="meta">
@@ -101,15 +100,51 @@
                 </div><!--//item-->
                 <div class="item item-other">
                     <div class="meta">
-                        <h4 class="time mb-3">14:00 - 15:45</h4>
+                        <h4 class="time mb-3">14:00 - 14:30</h4>
                     </div><!--//meta-->
                     <div class="content">
-                        <h3 class="title mb-3">6 sessions in two tracks</h3>
+                        {% include talk.html index=4 room=1 %}
+                        {% include talk.html index=6 room=2 %}
                     </div><!--//content-->
                 </div><!--//item-->
                 <div class="item item-other">
                     <div class="meta">
-                        <h4 class="time mb-3">15:45 - 16:00</h4>
+                        <h4 class="time mb-3">14:30 - 15:00</h4>
+                    </div><!--//meta-->
+                    <div class="content">
+                        {% include talk.html index=0 room=1 %}
+                        {% include talk.html index=0 room=2 %}
+                    </div><!--//content-->
+                </div><!--//item-->
+                <div class="item item-other">
+                    <div class="meta">
+                        <h4 class="time mb-3">15:00 - 15:15</h4>
+                    </div><!--//meta-->
+                    <div class="content">
+                        <h3 class="title mb-3">Coffee Break</h3>
+                    </div><!--//content-->
+                </div><!--//item-->
+                <div class="item item-other">
+                    <div class="meta">
+                        <h4 class="time mb-3">15:15 - 15:45</h4>
+                    </div><!--//meta-->
+                    <div class="content">
+                        {% include talk.html index=10 room=1 %}
+                        {% include talk.html index=0 room=2 %}
+                    </div><!--//content-->
+                </div><!--//item-->
+                <div class="item item-other">
+                    <div class="meta">
+                        <h4 class="time mb-3">15:45 - 16:30</h4>
+                    </div><!--//meta-->
+                    <div class="content">
+                        {% include talk.html index=3 room=1%}
+                        {% include talk.html index=0 room=2 %}
+                    </div><!--//content-->
+                </div><!--//item-->
+                <div class="item item-other">
+                    <div class="meta">
+                        <h4 class="time mb-3">16:30 - 16:45</h4>
                     </div><!--//meta-->
                     <div class="content">
                         <h3 class="title mb-3">Closing Remarks</h3>
@@ -117,7 +152,7 @@
                 </div><!--//item-->
                 <div class="item item-other">
                     <div class="meta">
-                        <h4 class="time mb-3">16:00 - 17:30</h4>
+                        <h4 class="time mb-3">17:00 - 18:00</h4>
                     </div><!--//meta-->
                     <div class="content">
                         <h3 class="title mb-3">Get Together</h3>

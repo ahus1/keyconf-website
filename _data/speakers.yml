@@ -10,3 +10,148 @@
       icon: github
     - url: https://www.linkedin.com/in/takashi-norimatsu-45a59b192/
       icon: linkedin-in
+- key: dte
+  name: Dmitry Telegin
+  title: Principal Backend Engineer
+  company: Backbase UK
+  img: dte.jpg
+  bio: |
+    Dmitry Telegin is a certified enterprise architect, currently working at Backbase as their resident Keycloak and IAM expert. He is also an independent Keycloak contributor, consultant and OAuth SIG member. Apart from that, Dmitry is actively working with the IETF OAuth Working Group to ensure Keycloak's standard compliance and timely adoption of the new specifications.
+  social:
+    - url: https://github.com/dteleguin
+      icon: github
+    - url: https://www.linkedin.com/in/d-telegin/
+      icon: linkedin-in
+- key: mme
+  name: Marcel Meyer
+  title: Technology Lead and Senior Solution Architect
+  company: adorsys
+  img: dummy.png
+  bio: |
+    Marcel Meyer is a Technology Lead and Senior Solution Architect at adorsys, with over a decade of experience in software development. He specializes in building scalable, robust architectures to meet complex business needs and is also a dedicated trainer, mentoring the next generation of developers.
+    Passionate about technology and leadership, he continuously explores emerging trends to drive forward-thinking solutions.
+  social:
+    - url: https://www.linkedin.com/in/marcel-meyer-37ba44262/
+      icon: linkedin-in
+- key: asc
+  name: Alexander Schwartz
+  title: Principal Software Engineer
+  company: Red Hat
+  img: asc.jpg
+  bio: |
+    Alexander Schwartz is a Principal Software Engineer at Red Hat working full time as a Keycloak maintainer and technical team lead. At work and in his spare time he codes for Open Source projects. In previous jobs he worked as a software architect and IT consultant. At conferences and user groups he talks about JavaScript front ends, Java back ends, Kubernetes
+  social:
+    - url: https://github.com/ahus1
+      icon: github
+    - url: https://www.linkedin.com/in/ahus1/
+      icon: linkedin-in
+- key: ssc
+  name: Sebastian Schuster
+  title: SRE Team Lead
+  company: Bosch Digital
+  img: ssc.jpg
+#  bio: |
+#    Alexander Schwartz is a Principal Software Engineer at Red Hat working full time as a Keycloak maintainer and technical team lead. At work and in his spare time he codes for Open Source projects. In previous jobs he worked as a software architect and IT consultant. At conferences and user groups he talks about JavaScript front ends, Java back ends, Kubernetes
+  social:
+    - url: https://www.linkedin.com/in/sebastian-schuster-a8292a6/
+      icon: github
+    - url: https://www.linkedin.com/in/ahus1/
+      icon: linkedin-in
+- key: tda
+  name: Thomas Darimont
+  title: Digital Identity Consultant and Managing Director
+  company: Identity Tailor
+  img: tda.jpg
+  bio: |
+    Thomas Darimont serves as a Digital Identity Consultant and Managing Director at Identity Tailor GmbH in Saarbrücken, Germany. Thomas is also part of the Conformance Testing team at the OpenID Foundation and an official Maintainer of the Keycloak OSS project. In his spare time, he enjoys organizing community meetups and working on open-source projects in the Keycloak ecosystem and beyond. He also contributes to internet standards in various Working Groups. Thomas has been a consistent contributor for over ten years and has been an official maintainer in the Keycloak project since 2021.
+  social:
+    - url: https://www.linkedin.com/in/sebastian-schuster-a8292a6/
+      icon: github
+    - url: https://www.linkedin.com/in/ahus1/
+      icon: linkedin-in
+- key: mba
+  name: Martin Bartoš
+  company: Red Hat
+  title: Senior Software Engineer
+  img: mba.jpg
+  bio: |
+    Martin Bartoš is a Senior Software Engineer at Red Hat focusing on cloud-native aspects of Keycloak. He is passionate about security and engaging the community to get Keycloak to the next level. He seeks to integrate new technologies and procedures to ensure their future relevance and innovation.
+  social:
+    - url: https://www.linkedin.com/in/mabartos98
+      icon: linkedin-in
+    - url: https://github.com/mabartos
+      icon: github
+- key: jga
+  name: Joseph Garrone
+  company: Insee
+  title: Lead Developer
+  img: jga.jpg
+  bio: |
+    Joseph Garrone is a Lead developer of Onyxia, an open-source software for running self-hosted data science environments on Kubernetes. He also created Keycloakify, a widely adopted framework for customizing Keycloak UIs, and maintains several open-source libraries used by thousands of developers. His work focuses on making complex infrastructure approachable and designing tools that developers genuinely enjoy using.
+  social:
+    - url: https://www.linkedin.com/in/joseph-garrone-0b583490/
+      icon: linkedin-in
+    - url: https://github.com/garronej
+      icon: github
+- key: mki
+  name: Maik Kingma
+  company: the/experts
+  title: Senior Software Craftsman
+  img: mki.jpg
+  bio: |
+    Maik Kingma is a devoted Software Craftsman, specializing primarily in Java development and Identity & Access Management (IAM) with Keycloak. He is currently living in the Netherlands, working as a principal consultant for the/experts. In addition to his consulting work, Maik is also an engaging speaker and technical coach at numerous conferences and meetups like Javaland, J-Spring, Devoxx, Keycloak Dev-Day and others.
+  social:
+    - url: https://www.linkedin.com/in/maik-kingma
+      icon: linkedin-in
+    - url: https://github.com/MaikKingma
+      icon: github
+    - url: https://bsky.app/profile/maikkingma.bsky.social
+      icon: bluesky
+- key: mma
+  name: Max Maaß
+  company: iteratec
+  title: Senior Software Craftsman
+  img: mma.jpg
+  bio: |
+    Max Maaß works at the security team at iteratec. He spends his time with architecture reviews, threat modeling and pentesting for software development projects, and has contributed to the OWASP secureCodeBox. Previously, he conducted research into security and privacy issues at the Secure Mobile Networking Lab at TU Darmstadt.
+  social:
+    - url: https://infosec.exchange/@hacksilon
+      icon: mastodon
+    - url: https://github.com/malexmave
+      icon: github
+- key: twa
+  name: Tim Walter
+  company: iteratec
+  title: IT Security Architect
+  img: twa.jpg
+  bio: |
+    Tim Walter worked as a full-stack developer and software architect before becoming a security architect at iteratec. He supports teams in developing secure software by performing threat modeling and conducting security reviews of architecture concepts. He also integrates and automates security scans.
+  social:
+    - url: https://infosec.exchange/@twwd
+      icon: mastodon
+    - url: https://github.com/twwd
+      icon: github
+- key: kge
+  name: Konstantinos Georgilakis
+  company: GRNET - Greek Research & Technology Network
+  title:
+  img: kge.jpg
+  bio: |
+    Konstantinos Georgilakis holds a degree in Computer Engineering from NTUA. He has worked as a Software Java Developer since April 2013 on Greek and EC-funded projects. His experience focuses on Java/Spring. He works in GRNET since June 2018. As a member of the GRNET Authentication and Authorisation Infrastructure team, he has made significant contributions to Keycloak, facilitating seamless access to research resources for diverse stakeholders within the European Open Science Cloud (EOSC).
+  social:
+    - url: https://www.linkedin.com/in/konstantinos-georgilakis-8a4356124/
+      icon: linkedin-in
+    - url: https://github.com/cgeorgilakis
+      icon: github
+- key: pjo
+  img: pjo.jpg
+  name: Pritish Joshi
+  company: Banfico
+  title: Technical Architect
+  social:
+    - url: https://github.com/pritish-nitb
+      icon: github
+    - url: https://www.linkedin.com/in/pritish-joshi-10984259
+      icon: linkedin-in
+  bio: |
+    Pritish Joshi is a Technical Architect at Banfico, where he supports financial institutions in achieving Open Banking compliance and drives innovation through consulting and implementation services. As an Open Banking expert, Pritish has worked with leading global financial institutions, including JPMorgan Chase, Citi, and SBI. He actively participates in various Open Banking working groups and has contributed to implementations in the UK, Europe, KSA, Brazil, and beyond. Pritish is a strong advocate of open standards, with deep expertise in identity and security. With over a decade of hands-on experience, he excels as a solution architect.

@@ -1,12 +1,20 @@
 {% assign talk = site.data.talks[include.index] %}
-{% assign speaker = site.data.speakers | where: "key", talk.speaker | first %}
 <h3 class="title mb-3">{{ talk.title }}</h3>
+{%- if include.room -%}
+<div class="location mb-3"><i class="fas fa-map-marker-alt me-2"></i>Conference Room {{ include.room }} </div>
+{%- endif -%}
 {% if talk.speaker %}
 <div class="profile mb-3">
     <div class="name">
-        <a class="theme-link" href="#modal-speaker-{{ talk.speaker }}" data-bs-toggle="modal" data-bs-target="#modal-speaker-{{ talk.speaker }}">
-            {{ speaker.name }}
+        {%- for spk in talk.speaker -%}
+        {%- assign speaker = site.data.speakers | where: "key", spk | first -%}
+        {%- if forloop.index > 1 -%}
+        ,
+        {% endif -%}
+        <a class="theme-link" href="#modal-speaker-{{ spk }}" data-bs-toggle="modal" data-bs-target="#modal-speaker-{{ spk }}">
+            {{- speaker.name -}}
         </a>
+        {%- endfor -%}
     </div>
 </div><!--//profile-->
 {% endif %}
