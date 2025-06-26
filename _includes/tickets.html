@@ -8,6 +8,9 @@
                 <li><span class="icon-holder me-2"><i class="fas fa-{{incl.icon}}"></i></span>{{incl.text}}</li>
                 {% endfor %}
             </ul><!--offers-list-->
+            {% if site.showTicketSale %}
+            <div class="schedule-cta text-center mx-auto"><a href="{{site.eventbrite}}" class="btn btn-secondary btn-lg" target="_blank">Buy Tickets</a></div>
+            {% endif %}
         </div><!--//offers-->
 
     </div><!--//container-->
