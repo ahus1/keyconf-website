@@ -12,7 +12,7 @@
         ,
         {% endif -%}
         <a class="theme-link" href="#modal-speaker-{{ spk }}" data-bs-toggle="modal" data-bs-target="#modal-speaker-{{ spk }}">
-            {{- speaker.name -}}
+            {{- speaker.name -}}, {{ speaker.company -}}
         </a>
         {%- endfor -%}
     </div>
