@@ -36,10 +36,10 @@
 - key: asc
   name: Alexander Schwartz
   title: Principal Software Engineer
-  company: Red Hat
+  company: IBM
   img: asc.jpg
   bio: |
-    Alexander Schwartz is a Principal Software Engineer at Red Hat working full time as a Keycloak maintainer and technical team lead. At work and in his spare time he codes for Open Source projects. In previous jobs he worked as a software architect and IT consultant. At conferences and user groups he talks about JavaScript front ends, Java back ends, Kubernetes
+    Alexander Schwartz is a Principal Software Engineer at IBM working full time as a Keycloak maintainer and technical team lead. At work and in his spare time he codes for Open Source projects. In previous jobs he worked as a software architect and IT consultant. At conferences and user groups he talks about JavaScript front ends, Java back ends, Kubernetes
   social:
     - url: https://github.com/ahus1
       icon: github
@@ -65,17 +65,17 @@
   bio: |
     Thomas Darimont serves as a Digital Identity Consultant and Managing Director at Identity Tailor GmbH in Saarbrücken, Germany. Thomas is also part of the Conformance Testing team at the OpenID Foundation and an official Maintainer of the Keycloak OSS project. In his spare time, he enjoys organizing community meetups and working on open-source projects in the Keycloak ecosystem and beyond. He also contributes to internet standards in various Working Groups. Thomas has been a consistent contributor for over ten years and has been an official maintainer in the Keycloak project since 2021.
   social:
-    - url: https://www.linkedin.com/in/sebastian-schuster-a8292a6/
+    - url: https://github.com/thomasdarimont
       icon: github
-    - url: https://www.linkedin.com/in/ahus1/
+    - url: https://www.linkedin.com/in/thomasdarimont/
       icon: linkedin-in
 - key: mba
   name: Martin Bartoš
-  company: Red Hat
+  company: IBM
   title: Senior Software Engineer
   img: mba.jpg
   bio: |
-    Martin Bartoš is a Senior Software Engineer at Red Hat focusing on cloud-native aspects of Keycloak. He is passionate about security and engaging the community to get Keycloak to the next level. He seeks to integrate new technologies and procedures to ensure their future relevance and innovation.
+    Martin Bartoš is a Senior Software Engineer at IBM focusing on cloud-native aspects of Keycloak. He is passionate about security and engaging the community to get Keycloak to the next level. He seeks to integrate new technologies and procedures to ensure their future relevance and innovation.
   social:
     - url: https://www.linkedin.com/in/mabartos98
       icon: linkedin-in
@@ -158,19 +158,19 @@
 - key: sva
   img: sva.jpg
   name: Simon Vacek
-  company: Red Hat
+  company: IBM
   title: Associate Software Quality Engineer
   social:
     - url: https://github.com/vaceksimon
       icon: github
   bio: |
-    Simon Vacek is an Associate Software Quality Engineer at Red Hat, where he works on the Keycloak project. He first joined the team as an intern two years ago and became a full-time employee at the beginning of this year.
+    Simon Vacek is an Associate Software Quality Engineer at IBM, where he works on the Keycloak project. He first joined the team as an intern two years ago and became a full-time employee at the beginning of this year.
     Simon is an active contributor to the new Test Framework Work Group, focusing on developing new testing capabilities and migrating tests from the legacy Arquillian suite. His involvement with Keycloak began during his undergraduate studies, where he implemented a proof of concept for the Federated Credential Management API as part of his Bachelor's thesis.
     Currently, Simon is halfway through his Master's degree, continuing to deepen his expertise in software engineering and identity management technologies.
 - key: sto
   img: sto.jpg
   name: Sven-Torben Janus
-  company: Red Hat
+  company: Conciso
   title: Principal Software Architect and Partner
   social:
     - url: https://github.com/sventorben/
