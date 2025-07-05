@@ -102,3 +102,23 @@
     A key use case for this development is the EOSC Beyond project, where Keycloak-powered identity and access management services will participate in the European Open Science Cloud identity federation, leveraging the OpenID Federation specification. This will greatly simplify integration and enhance scalability across the EOSC ecosystem by enabling secure, interoperable access to resources. To bring it all to life, we'll offer a practical demonstration showcasing OpenID Federation in the project context.
 - title: "(to be announced soon)"
   speaker: pjo
+- title: "Enjoy Writing Tests with the new Keycloak Test Framework"
+  speaker: sva
+  abstract: |
+    Dreading adding new features because of the Arquillian testsuite?
+    In this session, we'll introduce you to the brand new Keycloak Test Framework, designed to make testing a breeze for contributors and extension developers.<p>
+    Why change from Arquillian? What are the new framework's key features? How does it all work, and where do I start?
+    All of these questions and more will be answered in this session. By the end, you'll have a clear understanding of how to leverage the Keycloak Test Framework to write more effective tests, save time, and improve the overall quality and maintainability.
+- title: "Token Exchange - Keycloak's Secret Weapon for Platforms"
+  speaker: sto
+  abstract: |
+    As platform developers, we're constantly challenged to build systems that are secure, scalable, and ready for anything. But how do you maintain robust security without sacrificing flexibility? Enter OAuth 2.0 Token Exchange in Keycloak - a powerful tool that's transforming the way we manage identity and access across complex architectures.
+    In this session, we'll explore how to use Keycloak's token exchange capabilities to tackle the toughest problems in platform development: securing microservice communications, handling dynamic authorization across distributed systems, and enabling seamless Single Sign-On across multiple domains. We'll dive deep into real-world use cases, share expert tips on configuring Keycloak for advanced token exchange scenarios, and reveal how you can leverage these capabilities to build platforms that are not just secure, but also agile and responsive to change.
+    Whether you're building cloud-native apps, orchestrating microservices, or securing APIs, this talk will provide the practical knowledge you need to harness the full power of OAuth 2.0 Token Exchange with Keycloak. Don't miss your chance to redefine your platform's identity strategy and keep your systems ahead of the curve!
+- title: "Graph-Driven Audits for Keycloak: A Deep Dive with Cartography"
+  speaker: jch
+  abstract: |
+    Managing identities and access control is critical but how well do you really know your Keycloak setup? In this talk, we'll explore how to audit and visualize Keycloak using Cartography, a graph-based security tool developed by the CNCF community.
+    You'll learn how to extract identity and access data from Keycloak, model it as a graph, and uncover hidden risks, misconfigurations, and opportunities to strengthen your security posture.
+    Through practical examples and live demos, we'll deep dive into how graph analysis can reveal relationships and patterns that traditional audits often miss. Whether you're managing a small Keycloak instance or a complex multi-realm environment, this session will give you new tools and insights to secure your identity infrastructure more effectively.
+

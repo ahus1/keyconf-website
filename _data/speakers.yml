@@ -26,7 +26,7 @@
   name: Marcel Meyer
   title: Technology Lead and Senior Solution Architect
   company: adorsys
-  img: dummy.png
+  img: mme.jpg
   bio: |
     Marcel Meyer is a Technology Lead and Senior Solution Architect at adorsys, with over a decade of experience in software development. He specializes in building scalable, robust architectures to meet complex business needs and is also a dedicated trainer, mentoring the next generation of developers.
     Passionate about technology and leadership, he continuously explores emerging trends to drive forward-thinking solutions.
@@ -50,12 +50,12 @@
   title: SRE Team Lead
   company: Bosch Digital
   img: ssc.jpg
-#  bio: |
-#    Alexander Schwartz is a Principal Software Engineer at Red Hat working full time as a Keycloak maintainer and technical team lead. At work and in his spare time he codes for Open Source projects. In previous jobs he worked as a software architect and IT consultant. At conferences and user groups he talks about JavaScript front ends, Java back ends, Kubernetes
+  bio: |
+    Sebastian Schuster works at Bosch Digital where he leads an SRE team operating Keycloak as an internal SaaS offering. He also supports and consults other Bosch business unit integrating their application landscape with Keycloak. Since 2023, he is a Keycloak maintainer and coordinates contributions provided by his Bosch colleagues. His main interest is in non-functional properties of software to make Keycloak run efficiently and reliably.
   social:
-    - url: https://www.linkedin.com/in/sebastian-schuster-a8292a6/
+    - url: https://github.com/sschu
       icon: github
-    - url: https://www.linkedin.com/in/ahus1/
+    - url: https://www.linkedin.com/in/sebastian-schuster-a8292a6/
       icon: linkedin-in
 - key: tda
   name: Thomas Darimont
@@ -155,3 +155,40 @@
       icon: linkedin-in
   bio: |
     Pritish Joshi is a Technical Architect at Banfico, where he supports financial institutions in achieving Open Banking compliance and drives innovation through consulting and implementation services. As an Open Banking expert, Pritish has worked with leading global financial institutions, including JPMorgan Chase, Citi, and SBI. He actively participates in various Open Banking working groups and has contributed to implementations in the UK, Europe, KSA, Brazil, and beyond. Pritish is a strong advocate of open standards, with deep expertise in identity and security. With over a decade of hands-on experience, he excels as a solution architect.
+- key: sva
+  img: sva.jpg
+  name: Simon Vacek
+  company: Red Hat
+  title: Associate Software Quality Engineer
+  social:
+    - url: https://github.com/vaceksimon
+      icon: github
+  bio: |
+    Simon Vacek is an Associate Software Quality Engineer at Red Hat, where he works on the Keycloak project. He first joined the team as an intern two years ago and became a full-time employee at the beginning of this year.
+    Simon is an active contributor to the new Test Framework Work Group, focusing on developing new testing capabilities and migrating tests from the legacy Arquillian suite. His involvement with Keycloak began during his undergraduate studies, where he implemented a proof of concept for the Federated Credential Management API as part of his Bachelor's thesis.
+    Currently, Simon is halfway through his Master's degree, continuing to deepen his expertise in software engineering and identity management technologies.
+- key: sto
+  img: sto.jpg
+  name: Sven-Torben Janus
+  company: Red Hat
+  title: Principal Software Architect and Partner
+  social:
+    - url: https://github.com/sventorben/
+      icon: github
+    - url: https://www.linkedin.com/in/sventorben/
+      icon: linkedin-in
+  bio: |
+    Sven-Torben Janus is a Principal Software Architect and Partner at Conciso GmbH with over 20 years of experience in software development and IT consulting. He began his career at the Fraunhofer Institute, specializing in business process management and distributed systems. He holds a degree in Computer Science from TU Dortmund.
+    At Conciso, Sven-Torben focuses on agile, domain-driven software architectures, with expertise in socio-technical systems and Identity and Access Management (IAM) using Keycloak. He is a strong advocate for collaborative tech practices and shares strategic, hands-on insights through talks and community engagement.
+- key: jch
+  img: jch.jpg
+  name: Jérémy Chapeau
+  # company: ??
+  title: Cybersecurity Expert
+  social:
+    - url: https://github.com/jychp
+      icon: github
+    - url: https://www.linkedin.com/in/jchapeau/
+      icon: linkedin-in
+  bio: |
+    Jérémy Chapeau is a cybersecurity engineer with a strong focus on offensive security, incident response, and infrastructure resilience. Most recently, he led security and reliability at Resilience, where he managed global infrastructure projects, certifications, and led the implementation of end-user SSO with Keycloak. Previously, he headed Red Team operations at the French Ministry of Armies and built SOC capabilities in both public and private sectors. Jeremy is also an active contributor to open source, maintaining the CNCF-incubated project Cartography.
