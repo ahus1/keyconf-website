@@ -67,7 +67,7 @@
 - title: "The Event Sorcerer with the Keycloak: The Battle against Dynamic Configuration"
   speaker: mki
   abstract: |
-    In the evolving realm of Identity and Access Management (IAM), only the most skilled (event) sorcerers can harness the true power of ""the Keycloak"".
+    In the evolving realm of Identity and Access Management (IAM), only the most skilled (event) sorcerers can harness the true power of "the Keycloak".
     <p>
     Discover how to extend static configurations with sets of dynamic event driven configuration, making your IAM projects resilient against change and highly adaptable. Learn the secrets of coding, versioning, and replaying configurations, ensuring your Keycloak setup is robust, future-proof and, most of all, dynamic.
     <p>
@@ -121,4 +121,9 @@
     Managing identities and access control is critical but how well do you really know your Keycloak setup? In this talk, we'll explore how to audit and visualize Keycloak using Cartography, a graph-based security tool developed by the CNCF community.
     You'll learn how to extract identity and access data from Keycloak, model it as a graph, and uncover hidden risks, misconfigurations, and opportunities to strengthen your security posture.
     Through practical examples and live demos, we'll deep dive into how graph analysis can reveal relationships and patterns that traditional audits often miss. Whether you're managing a small Keycloak instance or a complex multi-realm environment, this session will give you new tools and insights to secure your identity infrastructure more effectively.
+- title: "Keyless, identity-based signing of Software Artifacts w/ sigstore and Keycloak"
+  speaker: skr
+  abstract: |
+    There is almost no debate that digital signing is an important best practice for securing the software supply chain, e.g container images, git commits and any software artifact that is involved in the SDLC. But managing keys is cumbersome, associating keys with actual human or workload identities is cumbersome, rotating and revoking keys is just annoying. Sigstore - an open-source project under the Open Source Security Foundation (OpenSSF) provides a robust solution to these problems. And it works nicely with keycloak as an OIDC provider.
+    In this talk, we explore the history of digital signing, the challenges and demo a viable solution based on Open Source technology.
 

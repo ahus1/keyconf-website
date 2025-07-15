@@ -192,3 +192,11 @@
       icon: linkedin-in
   bio: |
     Jérémy Chapeau is a cybersecurity engineer with a strong focus on offensive security, incident response, and infrastructure resilience. Most recently, he led security and reliability at Resilience, where he managed global infrastructure projects, certifications, and led the implementation of end-user SSO with Keycloak. Previously, he headed Red Team operations at the French Ministry of Armies and built SOC capabilities in both public and private sectors. Jeremy is also an active contributor to open source, maintaining the CNCF-incubated project Cartography.
+- key: skr
+  img: skr.jpg
+  name: Stephan Kraft
+  company: Red Hat
+  title: Community Advocate - OpenShift & Application Services
+  bio: |
+    Stephan Kraft, has joined Red Hat 2019 as a Business Development Professional in Austria. He started his professional career as a Software Developer and later moved into Technical Sales, Solution Sales and Management. He was working for several companies in and around IT, particularly IBM and SWIFT. After a personal time-out, he has spent 3 years at universities as a program director of a Master and MBA program around Digital Transformation. This has lead him smoothly to Red Hat where he enjoys engaging with customers and partners around technical and cultural transformations.
+
