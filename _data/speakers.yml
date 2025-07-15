@@ -197,6 +197,17 @@
   name: Stephan Kraft
   company: Red Hat
   title: Community Advocate - OpenShift & Application Services
+  social:
+    - url: https://www.linkedin.com/in/stephan-kraft-6839758
+      icon: linkedin-in
   bio: |
     Stephan Kraft, has joined Red Hat 2019 as a Business Development Professional in Austria. He started his professional career as a Software Developer and later moved into Technical Sales, Solution Sales and Management. He was working for several companies in and around IT, particularly IBM and SWIFT. After a personal time-out, he has spent 3 years at universities as a program director of a Master and MBA program around Digital Transformation. This has lead him smoothly to Red Hat where he enjoys engaging with customers and partners around technical and cultural transformations.
-
+- key: vda
+  img: vda.jpg
+  name: Vishwang Dave
+  company: adorsys
+  social:
+    - url: https://www.linkedin.com/in/vishwang-dave-0801/
+      icon: linkedin-in
+  bio: |
+    Dave is a results-driven Data Scientist with extensive hands-on experience in Natural Language Processing (NLP) and Semantic technologies. He has a proven track record of developing high-quality NLP-based AI projects with innovative approaches, leveraging GenAI and Semantic web techniques. His passions include using data-driven insights to solve complex problems, and cooking a different cuisine every week.

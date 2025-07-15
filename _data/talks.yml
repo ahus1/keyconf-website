@@ -13,7 +13,9 @@
 #      type: file-pdf
 #  video: aJ8Eo8Uysnk?si=vLs8O8ZXrCtuYSJX
 - title: "AI Meets Identity: Managing Keycloak with Natural Language via MCP"
-  speaker: mme
+  speaker:
+   - mme
+   - vda
   abstract: |
     Imagine talking to your IAM system—and it actually understands you. In this talk, I’ll introduce the Keycloak MCP Server & Client, a modular control plane that allows you to manage realms, users, groups, clients, roles, and security policies in Keycloak using a semantic interface—including natural language input.We’ll walk through how the system works with a custom MCP Client as well as Claude (Anthropic) as an AI client, subscribing to Keycloak’s event system, querying security rules, and performing complex tasks like:
     “Create user XXXX—if this doesn’t violate our security policies.”                       
