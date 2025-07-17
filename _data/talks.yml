@@ -102,7 +102,16 @@
     As a foundational step, we aim to enable Keycloak to seamlessly support both explicit and automatic client registration under OpenID Federation, acting as both an OP and an RP within the identity federation using OpenID Connect and OAuth 2.0. We'll show how to enable and configure OpenID Federation on a per-realm basis through the admin console using mandatory and optional realm settings. Our presentation will delve into the REST API and code implementation, with a particular focus on the explicit registration process. We'll also engage in a discussion about outstanding issues, open technical challenges, and future considerations, including the implementation of other OpenID Federation components.
     <p>
     A key use case for this development is the EOSC Beyond project, where Keycloak-powered identity and access management services will participate in the European Open Science Cloud identity federation, leveraging the OpenID Federation specification. This will greatly simplify integration and enhance scalability across the EOSC ecosystem by enabling secure, interoperable access to resources. To bring it all to life, we'll offer a practical demonstration showcasing OpenID Federation in the project context.
-- title: "(to be announced soon)"
+- title: "Keycloak in Centralized Open Banking: Building Trust, Consent, and Security"
+  abstract: |
+    In this session, Pritish will explore how Keycloak can serve as a foundational enabler for secure and scalable open banking ecosystems.
+    The talk will focus on four key areas:<ul>
+    <li>How Keycloak can power consent management and dynamic client registration
+    <li>Use of Keycloak with Open Banking Directory and how OpenID Federation can be effective
+    <li>Securing AISP/PISP flows using PAR, MTLS and JWT
+    <li>Multi-party trust and centralized participant management using realms
+    </ul>
+
   speaker: pjo
 - title: "Enjoy Writing Tests with the new Keycloak Test Framework"
   speaker: sva
