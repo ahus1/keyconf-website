@@ -10,17 +10,18 @@
       icon: github
     - url: https://www.linkedin.com/in/takashi-norimatsu-45a59b192/
       icon: linkedin-in
-- key: dte
-  name: Dmitry Telegin
-  title: Principal Backend Engineer
-  company: Backbase UK
-  img: dte.jpg
+- key: nko
+  name: Niko Köbler
+  title: Keycloak-Expert
+  img: nko.jpg
   bio: |
-    Dmitry Telegin is a certified enterprise architect, currently working at Backbase as their resident Keycloak and IAM expert. He is also an independent Keycloak contributor, consultant and OAuth SIG member. Apart from that, Dmitry is actively working with the IETF OAuth Working Group to ensure Keycloak's standard compliance and timely adoption of the new specifications.
+    Niko Köbler works as an independent consultant and trainer, known as "Mr. KEYCLOAK" for over 10 years and works as an IAM expert for customers across industries all over Europe. He is publishing videos on his successful KEYCLOAK channel on YouTube since the beginning of 2021 and supports the community in various forums. Since 2024 he is the organizer of the KEYCLOAK DEVDAY community conference.
+    <p>
+    He is also a well-known and regular speaker at IT conferences, co-lead of JUG Darmstadt and writes articles for various tech journals and magazines.
   social:
-    - url: https://github.com/dteleguin
+    - url: https://github.com/dasniko
       icon: github
-    - url: https://www.linkedin.com/in/d-telegin/
+    - url: https://www.linkedin.com/in/dasniko/
       icon: linkedin-in
 - key: mme
   name: Marcel Meyer
