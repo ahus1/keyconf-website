@@ -6,7 +6,7 @@ eventbrite: https://www.eventbrite.de/e/keyconf25-tickets-1306640640329?utm-camp
 meetup: https://www.meetup.com/keycloak-hour-of-code/events/302619620/
 showTicketSale: true
 rsvpLivestream: false
-showLivestream: false
+showLivestream: true
 showRecording: false
 showRecap: false
 
