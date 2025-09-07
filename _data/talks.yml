@@ -5,6 +5,10 @@
     Keycloak has recently expanded the default multi-factor authentication (MFA) options with supported Recovery Codes, which you can use if you don’t have access to your OTP device (e.g. your phone) and WebAuthN. The latest release also improved the user experience dramatically for passwordless authentication using Passkeys.
     <p> 
     In my talk, I will explain how to use MFA correctly, what it is and what it is not. Afterwards, I’ll show hands-on how to configure Keycloak for proper MFA usage and how you also can use passwordless authentication using Passkeys in parallel to traditional authentication with username, password and MFA.
+  links:
+    - url: 2025/assets/files/niko-koebler-generic.pdf
+      description: Slides
+      type: file-pdf
 #  links:
 #    - url: /assets/files/Takashi_Norimatsu-KeyConf24_Vienna.pdf
 #      description: Slides
@@ -51,6 +55,10 @@
     When an AI agent/tool implementing an MCP client accesses a remote external service implementing an MCP server, end user authentication and authorization is sometimes required. According to the MCP specification, OAuth 2.1 needs to be used for that, which implies that there is the possibility of using Keycloak for end user authentication and authorization because Keycloak supported OAuth 2.1.
     <p>
     Firstly, Takashi talks about MCP briefly and describes end user authentication and authorization of MCP in more detail. After that, the speaker shows the possible system configuration that includes Keycloak as a part of the MCP server.
+  links:
+    - url: 2025/assets/files/takashi-norimatsu-keycloak-meets-ai.pdf
+      description: Slides
+      type: file-pdf
 - title: "Observability in Keycloak: Where Does It Hurt?"
   speaker: mba
   abstract: |
@@ -58,6 +66,10 @@
     Logs, metrics, and traces form the three pillars of observability, all of which are supported in Keycloak. They are backed by troubleshooting and sizing guides, as well as ready-to-use Grafana dashboards that help operators gain deeper insights.
     In this talk, we'll give a practical overview of Keycloak's observability features, including recent improvements and integrations. We'll walk through a live demo showing how you can correlate metrics with traces to diagnose latency spikes and uncover the root cause of SLO violations.
     Whether you're operating Keycloak at scale or just getting started, this session will provide the tools and knowledge to monitor, troubleshoot, and optimize your deployment.
+  links:
+    - url: 2025/assets/files/martin-bartos-observability-in-keycloak.pdf
+      description: Slides
+      type: file-pdf
 - title: "Introducing oidc-spa: A keycloak-js alternative that works with any OIDC provider"
   speaker: jga
   abstract: |
@@ -82,6 +94,10 @@
     In this talk, we'll go beyond the basics to explore common security pitfalls in Keycloak deployments that we've encountered during our journey. More importantly, we'll introduce our open source tool, kcwarden, which we developed to automate security auditing of Keycloak configurations. This tool not only detects standard security issues but can be customized to identify organization-specific concerns such as problematic role assignments or policy violations, enabling continuous monitoring of your Keycloak environment.
     <p>
     Join us to discover how kcwarden can enhance your existing Keycloak deployment's security posture and learn practical strategies for implementing automated configuration checks into your operational workflows."
+  links:
+    - url: 2025/assets/files/max-maass-tim-walter-protectors-of-the-realm-kcwarden.pdf
+      description: Slides
+      type: file-pdf
 - title: "Protectors of the Realm: Breaking and Fixing Keycloak Configurations"
   speaker:
     - mma
@@ -100,11 +116,15 @@
     As a foundational step, we aim to enable Keycloak to seamlessly support both explicit and automatic client registration under OpenID Federation, acting as both an OP and an RP within the identity federation using OpenID Connect and OAuth 2.0. We'll show how to enable and configure OpenID Federation on a per-realm basis through the admin console using mandatory and optional realm settings. Our presentation will delve into the REST API and code implementation, with a particular focus on the explicit registration process. We'll also engage in a discussion about outstanding issues, open technical challenges, and future considerations, including the implementation of other OpenID Federation components.
     <p>
     A key use case for this development is the EOSC Beyond project, where Keycloak-powered identity and access management services will participate in the European Open Science Cloud identity federation, leveraging the OpenID Federation specification. This will greatly simplify integration and enhance scalability across the EOSC ecosystem by enabling secure, interoperable access to resources. To bring it all to life, we'll offer a practical demonstration showcasing OpenID Federation in the project context.
+  links:
+    - url: 2025/assets/files/konstantinos-georgilakis-openid-federation.pdf
+      description: Slides
+      type: file-pdf
 - title: "IAM Doomsday Prepper: Surviving the Apocalypse with Keycloak"
   abstract: |
     In the ever-evolving landscape of Identity and Access Management (IAM), it's crucial for organizations to stay prepared and adaptable. While Keycloak has become a popular open-source IAM solution, many projects still rely on UI-based configurations or JSON imports, leaving them vulnerable to human error, scalability issues, and time-consuming maintenance.
     <p>
-    This talk will introduce attendees to the concept of configuration as code in Keycloak, focusing on the Keycloak Java Admin Client as a powerful tool for future-proofing IAM systems. By embracing configuration as code, organizations can increase security, reduce errors, and streamline the management of their IAM infrastructure.
+    This talk will introduce attendees to the concept of configuration as code in Keycloak, focusing on the Keycloak Jafva Admin Client as a powerful tool for future-proofing IAM systems. By embracing configuration as code, organizations can increase security, reduce errors, and streamline the management of their IAM infrastructure.
     <p>
     Key Takeaways:<ul>
       <li> Understand the limitations of UI-based configurations and JSON imports in Keycloak, and why they can be a recipe for disaster.
@@ -123,18 +143,30 @@
     In this session, we'll introduce you to the brand new Keycloak Test Framework, designed to make testing a breeze for contributors and extension developers.<p>
     Why change from Arquillian? What are the new framework's key features? How does it all work, and where do I start?
     All of these questions and more will be answered in this session. By the end, you'll have a clear understanding of how to leverage the Keycloak Test Framework to write more effective tests, save time, and improve the overall quality and maintainability.
+  links:
+    - url: 2025/assets/files/simon-vacek-enjoy-writing-tests-with-the-new-keycloak-test-framework.pdf
+      description: Slides
+      type: file-pdf
 - title: "Token Exchange - Keycloak's Secret Weapon for Platforms"
   speaker: sto
   abstract: |
     As platform developers, we're constantly challenged to build systems that are secure, scalable, and ready for anything. But how do you maintain robust security without sacrificing flexibility? Enter OAuth 2.0 Token Exchange in Keycloak - a powerful tool that's transforming the way we manage identity and access across complex architectures.
     In this session, we'll explore how to use Keycloak's token exchange capabilities to tackle the toughest problems in platform development: securing microservice communications, handling dynamic authorization across distributed systems, and enabling seamless Single Sign-On across multiple domains. We'll dive deep into real-world use cases, share expert tips on configuring Keycloak for advanced token exchange scenarios, and reveal how you can leverage these capabilities to build platforms that are not just secure, but also agile and responsive to change.
     Whether you're building cloud-native apps, orchestrating microservices, or securing APIs, this talk will provide the practical knowledge you need to harness the full power of OAuth 2.0 Token Exchange with Keycloak. Don't miss your chance to redefine your platform's identity strategy and keep your systems ahead of the curve!
+  links:
+    - url: 2025/assets/files/sven-torben-janus-token-exchange.pdf
+      description: Slides
+      type: file-pdf
 - title: "Graph-Driven Audits for Keycloak: A Deep Dive with Cartography"
   speaker: jch
   abstract: |
     Managing identities and access control is critical but how well do you really know your Keycloak setup? In this talk, we'll explore how to audit and visualize Keycloak using Cartography, a graph-based security tool developed by the CNCF community.
     You'll learn how to extract identity and access data from Keycloak, model it as a graph, and uncover hidden risks, misconfigurations, and opportunities to strengthen your security posture.
     Through practical examples and live demos, we'll deep dive into how graph analysis can reveal relationships and patterns that traditional audits often miss. Whether you're managing a small Keycloak instance or a complex multi-realm environment, this session will give you new tools and insights to secure your identity infrastructure more effectively.
+  links:
+    - url: 2025/assets/files/jeremy-chapeau-graph-driven-audits-for-keycloak.pdf
+      description: Slides
+      type: file-pdf
 - title: "Keyless, identity-based signing of Software Artifacts w/ sigstore and Keycloak"
   speaker: skr
   abstract: |
