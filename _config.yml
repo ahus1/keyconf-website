@@ -4,10 +4,10 @@ url: https://keyconf.dev
 baseurl: "" # the subpath of your site, e.g. /blog
 eventbrite: https://www.eventbrite.de/e/keyconf25-tickets-1306640640329?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl
 meetup: https://www.meetup.com/keycloak-hour-of-code/events/302619620/
-showTicketSale: true
+showTicketSale: false
 rsvpLivestream: false
-showLivestream: true
-showRecording: false
+showLivestream: false
+showRecording: true
 showRecap: false
 
 # some default values for Front Matter
