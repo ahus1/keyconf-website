@@ -9,11 +9,7 @@
     - url: 2025/assets/files/niko-koebler-generic.pdf
       description: Slides
       type: file-pdf
-#  links:
-#    - url: /assets/files/Takashi_Norimatsu-KeyConf24_Vienna.pdf
-#      description: Slides
-#      type: file-pdf
-#  video: aJ8Eo8Uysnk?si=vLs8O8ZXrCtuYSJX
+  video: veymMLObJgQ?si=k1Gvt7VbQrVocA-3&list=PL7Azddo9KxKl_d405huHjgEnRU4M2Zjxz
 - title: "AI Meets Identity: Managing Keycloak with Natural Language via MCP"
   speaker:
    - mme
@@ -37,6 +33,11 @@
     and an outlook on how AI-powered identity management opens up smarter, more secure, and more intuitive workflows.
     </li>
     </ul>
+  video: DNu2UnrsiCI?si=0uPsX2Zx6alDp-MC&list=PL7Azddo9KxKl_d405huHjgEnRU4M2Zjxz
+  links:
+    - url: 2025/assets/files/marcel-meyer-vishiwang-dave-IKAS.pdf
+      description: Slides
+      type: file-pdf
 - title: "Panel discussion: Meet the maintainers"
   speaker:
     - ssc
@@ -45,6 +46,7 @@
     - asc
   abstract: |
     The maintainers on the panel will answer the live questions from the audience.
+  video: C4Wl3PbZjIw?si=k2K8rNQmiESosSWs&list=PL7Azddo9KxKl_d405huHjgEnRU4M2Zjxz
 - title: "Keycloak meets AI: the possibility of integrating Keycloak with AI"
   speaker: tno
   abstract: |
@@ -59,6 +61,7 @@
     - url: 2025/assets/files/takashi-norimatsu-keycloak-meets-ai.pdf
       description: Slides
       type: file-pdf
+  video: kLzmT3-X9hI?si=A_1cI2i2mt7zpH6T&list=PL7Azddo9KxKl_d405huHjgEnRU4M2Zjxz
 - title: "Observability in Keycloak: Where Does It Hurt?"
   speaker: mba
   abstract: |
@@ -70,12 +73,14 @@
     - url: 2025/assets/files/martin-bartos-observability-in-keycloak.pdf
       description: Slides
       type: file-pdf
+  video: fN8SIrgCcck?si=MJzKgRTTEC8zfB31&list=PL7Azddo9KxKl_d405huHjgEnRU4M2Zjxz
 - title: "Introducing oidc-spa: A keycloak-js alternative that works with any OIDC provider"
   speaker: jga
   abstract: |
     Integrating Keycloak into modern web applications can be challenging, especially for developers used to the polished SDKs and smooth DX of SaaS platforms like Auth0 or Clerk.
     <a href="https://oidc-spa.dev">oidc-spa</a> is an open-source attempt to close that gap, offering a streamlined developer experience inspired by those platforms, while preserving the flexibility of open standards.
     Beyond improving DX, `oidc-spa` promotes portability: apps built with it aren’t tied to Keycloak. They can run against Microsoft Entra ID, Auth0, or any other OIDC provider that supports the Authorization Code Flow with PKCE, which includes nearly all of them. This is critical in environments where identity infrastructure varies across deployments.
+  video: Z8zIjZx6DK4?si=mThUncWlhRAs701v&list=PL7Azddo9KxKl_d405huHjgEnRU4M2Zjxz
 - title: "The Event Sorcerer with the Keycloak: The Battle against Dynamic Configuration"
   speaker: mki
   abstract: |
@@ -84,6 +89,7 @@
     Discover how to extend static configurations with sets of dynamic event driven configuration, making your IAM projects resilient against change and highly adaptable. Learn the secrets of coding, versioning, and replaying configurations, ensuring your Keycloak setup is robust, future-proof and, most of all, dynamic.
     <p>
     Join Maik Kingma for a session that blends technical mastery with the lore of IAM, equipping you with the knowledge to wield dynamic configuration like a true sorcerer. By the end, your Keycloak projects will be fortified, ready to face any IAM challenge ahead."
+  video: JBmBSJW-iNo?si=scIWRhaSIDcCq_Ps&list=PL7Azddo9KxKl_d405huHjgEnRU4M2Zjxz
 - title: "Protectors of the Realm: Breaking and Fixing Keycloak Configurations"
   speaker:
     - mma
@@ -98,6 +104,7 @@
     - url: 2025/assets/files/max-maass-tim-walter-protectors-of-the-realm-kcwarden.pdf
       description: Slides
       type: file-pdf
+  video: kdVdToR3phw?si=uTfABa5mx5no5dxh&list=PL7Azddo9KxKl_d405huHjgEnRU4M2Zjxz
 - title: "Protectors of the Realm: Breaking and Fixing Keycloak Configurations"
   speaker:
     - mma
@@ -120,6 +127,7 @@
     - url: 2025/assets/files/konstantinos-georgilakis-openid-federation.pdf
       description: Slides
       type: file-pdf
+  video: Hsaz9doeUc0?si=NrV7Q6WSigDnhLpb&list=PL7Azddo9KxKl_d405huHjgEnRU4M2Zjxz
 - title: "IAM Doomsday Prepper: Surviving the Apocalypse with Keycloak"
   abstract: |
     In the ever-evolving landscape of Identity and Access Management (IAM), it's crucial for organizations to stay prepared and adaptable. While Keycloak has become a popular open-source IAM solution, many projects still rely on UI-based configurations or JSON imports, leaving them vulnerable to human error, scalability issues, and time-consuming maintenance.
@@ -136,6 +144,7 @@
     By the end of this talk, attendees will be armed with the knowledge and tools needed to transform their Keycloak projects from ticking time bombs to robust, resilient, and easily maintainable IAM solutions, ensuring they're prepared for any challenges that lie ahead.
 
   speaker: mki
+  video: JBmBSJW-iNo?si=scIWRhaSIDcCq_Ps&list=PL7Azddo9KxKl_d405huHjgEnRU4M2Zjxz
 - title: "Enjoy Writing Tests with the new Keycloak Test Framework"
   speaker: sva
   abstract: |
@@ -147,6 +156,7 @@
     - url: 2025/assets/files/simon-vacek-enjoy-writing-tests-with-the-new-keycloak-test-framework.pdf
       description: Slides
       type: file-pdf
+  video: ZPoBjExXgeQ?si=WXcE3g4aE29BiOsW&list=PL7Azddo9KxKl_d405huHjgEnRU4M2Zjxz
 - title: "Token Exchange - Keycloak's Secret Weapon for Platforms"
   speaker: sto
   abstract: |
@@ -157,6 +167,7 @@
     - url: 2025/assets/files/sven-torben-janus-token-exchange.pdf
       description: Slides
       type: file-pdf
+  video: GINYNGshlns?si=tg7Jte7rsbhunwkM&list=PL7Azddo9KxKl_d405huHjgEnRU4M2Zjxz
 - title: "Graph-Driven Audits for Keycloak: A Deep Dive with Cartography"
   speaker: jch
   abstract: |
@@ -167,9 +178,20 @@
     - url: 2025/assets/files/jeremy-chapeau-graph-driven-audits-for-keycloak.pdf
       description: Slides
       type: file-pdf
+  video: fGkVra628OU?si=ZvYCcghQx3H_Attn&list=PL7Azddo9KxKl_d405huHjgEnRU4M2Zjxz
 - title: "Keyless, identity-based signing of Software Artifacts w/ sigstore and Keycloak"
   speaker: skr
   abstract: |
     There is almost no debate that digital signing is an important best practice for securing the software supply chain, e.g container images, git commits and any software artifact that is involved in the SDLC. But managing keys is cumbersome, associating keys with actual human or workload identities is cumbersome, rotating and revoking keys is just annoying. Sigstore - an open-source project under the Open Source Security Foundation (OpenSSF) provides a robust solution to these problems. And it works nicely with keycloak as an OIDC provider.
     In this talk, we explore the history of digital signing, the challenges and demo a viable solution based on Open Source technology.
-
+  video: IbxiYpu30lU?si=TTffqhqdNyyTi9zt&list=PL7Azddo9KxKl_d405huHjgEnRU4M2Zjxz
+- title: "Welcome and Opening Remarks from adorsys"
+  speaker: npi
+  video: BWBt_MBDMcE?si=V_7WcZgi52Sijjxo&list=PL7Azddo9KxKl_d405huHjgEnRU4M2Zjxz
+- title: "Keycloak OAuth Special Interest Group (SIG) Message"
+  speaker: tda
+  video: w2u4RJEMXMc?si=bSbkcivT7TKq1sik&list=PL7Azddo9KxKl_d405huHjgEnRU4M2Zjxz
+  links:
+    - url: 2025/assets/files/thomas-darimont-oauth-sig-community-message.pdf
+      description: Slides
+      type: file-pdf

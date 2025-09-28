@@ -1,3 +1,13 @@
+- key: npi
+  img: npi.jpg
+  name: Nathalia Pinesi
+  title: Head of Demand Generation
+  company: adorsys
+  social:
+    - url: https://www.linkedin.com/in/nathaliapinesi/
+      icon: linkedin-in
+  bio: |
+    Nathalia Pinesi, a key member of the KeyConf25 organizing team. In her role as Head of Demand Generation at adorsys, she aligns initiatives with sales and marketing teams to create new opportunities and drive growth for the company. With her strategic expertise and dynamic presence, Nathalia will lead the event, ensuring an engaging and successful experience for all attendees.
 - key: tno
   img: tno.jpg
   name: Takashi Norimatsu
@@ -144,18 +154,6 @@
       icon: linkedin-in
     - url: https://github.com/cgeorgilakis
       icon: github
-- key: pjo
-  img: pjo.jpg
-  name: Pritish Joshi
-  company: Banfico
-  title: Technical Architect
-  social:
-    - url: https://github.com/pritish-nitb
-      icon: github
-    - url: https://www.linkedin.com/in/pritish-joshi-10984259
-      icon: linkedin-in
-  bio: |
-    Pritish Joshi is a Technical Architect at Banfico, where he supports financial institutions in achieving Open Banking compliance and drives innovation through consulting and implementation services. As an Open Banking expert, Pritish has worked with leading global financial institutions, including JPMorgan Chase, Citi, and SBI. He actively participates in various Open Banking working groups and has contributed to implementations in the UK, Europe, KSA, Brazil, and beyond. Pritish is a strong advocate of open standards, with deep expertise in identity and security. With over a decade of hands-on experience, he excels as a solution architect.
 - key: sva
   img: sva.jpg
   name: Simon Vacek
