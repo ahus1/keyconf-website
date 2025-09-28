@@ -81,6 +81,10 @@
     <a href="https://oidc-spa.dev">oidc-spa</a> is an open-source attempt to close that gap, offering a streamlined developer experience inspired by those platforms, while preserving the flexibility of open standards.
     Beyond improving DX, `oidc-spa` promotes portability: apps built with it aren’t tied to Keycloak. They can run against Microsoft Entra ID, Auth0, or any other OIDC provider that supports the Authorization Code Flow with PKCE, which includes nearly all of them. This is critical in environments where identity infrastructure varies across deployments.
   video: Z8zIjZx6DK4?si=mThUncWlhRAs701v&list=PL7Azddo9KxKl_d405huHjgEnRU4M2Zjxz
+  links:
+    - url:  https://excalidraw.com/#json=BWam98aUAte5_9OgYi_jE,whkQeGfA5pOS1q-H9wjA3g
+      description: Slides
+      type: file-pdf
 - title: "The Event Sorcerer with the Keycloak: The Battle against Dynamic Configuration"
   speaker: mki
   abstract: |
