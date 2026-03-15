@@ -34,5 +34,6 @@ exclude:
   - .idea
   - Gemfile
   - '2024'
+  - '2025'
   - Gemfile.lock
   - docker-compose.yml
