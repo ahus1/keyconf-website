@@ -1,0 +1,212 @@
+- key: npi
+  img: npi.jpg
+  name: Nathalia Pinesi
+  title: Head of Demand Generation
+  company: adorsys
+  social:
+    - url: https://www.linkedin.com/in/nathaliapinesi/
+      icon: linkedin-in
+  bio: |
+    Nathalia Pinesi, a key member of the KeyConf25 organizing team. In her role as Head of Demand Generation at adorsys, she aligns initiatives with sales and marketing teams to create new opportunities and drive growth for the company. With her strategic expertise and dynamic presence, Nathalia will lead the event, ensuring an engaging and successful experience for all attendees.
+- key: tno
+  img: tno.jpg
+  name: Takashi Norimatsu
+  title: Senior OSS Specialist
+  company: Hitachi, Ltd.
+  bio: |
+    Takashi Norimatsu, Senior OSS Specialist, Hitachi, Ltd. is a maintainer of Keycloak. He has implemented and contributed security features like Financial-grade API (FAPI) security profiles, W3C Web Authentication (WebAuthn) API support. He leads Keycloak's community "OAuth SIG" (Ex FAPI-SIG) as Tech Lead for supporting OAuth/OIDC and its related security features to Keycloak. He has experience constructing high security banking API systems with Keycloak.
+  social:
+    - url: https://github.com/tnorimat
+      icon: github
+    - url: https://www.linkedin.com/in/takashi-norimatsu-45a59b192/
+      icon: linkedin-in
+- key: nko
+  name: Niko Köbler
+  title: Keycloak-Expert
+  img: nko.jpg
+  bio: |
+    Niko Köbler works as an independent consultant and trainer, known as "Mr. KEYCLOAK" for over 10 years and works as an IAM expert for customers across industries all over Europe. He is publishing videos on his successful KEYCLOAK channel on YouTube since the beginning of 2021 and supports the community in various forums. Since 2024 he is the organizer of the KEYCLOAK DEVDAY community conference.
+    <p>
+    He is also a well-known and regular speaker at IT conferences, co-lead of JUG Darmstadt and writes articles for various tech journals and magazines.
+  social:
+    - url: https://github.com/dasniko
+      icon: github
+    - url: https://www.linkedin.com/in/dasniko/
+      icon: linkedin-in
+- key: mme
+  name: Marcel Meyer
+  title: Technology Lead and Senior Solution Architect
+  company: adorsys
+  img: mme.jpg
+  bio: |
+    Marcel Meyer is a Technology Lead and Senior Solution Architect at adorsys, with over a decade of experience in software development. He specializes in building scalable, robust architectures to meet complex business needs and is also a dedicated trainer, mentoring the next generation of developers.
+    Passionate about technology and leadership, he continuously explores emerging trends to drive forward-thinking solutions.
+  social:
+    - url: https://www.linkedin.com/in/marcel-meyer-37ba44262/
+      icon: linkedin-in
+- key: asc
+  name: Alexander Schwartz
+  title: Principal Software Engineer
+  company: IBM
+  img: asc.jpg
+  bio: |
+    Alexander Schwartz is a Principal Software Engineer at IBM working full time as a Keycloak maintainer and technical team lead. At work and in his spare time he codes for Open Source projects. In previous jobs he worked as a software architect and IT consultant. At conferences and user groups he talks about JavaScript front ends, Java back ends, Kubernetes
+  social:
+    - url: https://github.com/ahus1
+      icon: github
+    - url: https://www.linkedin.com/in/ahus1/
+      icon: linkedin-in
+- key: ssc
+  name: Sebastian Schuster
+  title: SRE Team Lead
+  company: Bosch Digital
+  img: ssc.jpg
+  bio: |
+    Sebastian Schuster works at Bosch Digital where he leads an SRE team operating Keycloak as an internal SaaS offering. He also supports and consults other Bosch business unit integrating their application landscape with Keycloak. Since 2023, he is a Keycloak maintainer and coordinates contributions provided by his Bosch colleagues. His main interest is in non-functional properties of software to make Keycloak run efficiently and reliably.
+  social:
+    - url: https://github.com/sschu
+      icon: github
+    - url: https://www.linkedin.com/in/sebastian-schuster-a8292a6/
+      icon: linkedin-in
+- key: tda
+  name: Thomas Darimont
+  title: Digital Identity Consultant and Managing Director
+  company: Identity Tailor
+  img: tda.jpg
+  bio: |
+    Thomas Darimont serves as a Digital Identity Consultant and Managing Director at Identity Tailor GmbH in Saarbrücken, Germany. Thomas is also part of the Conformance Testing team at the OpenID Foundation and an official Maintainer of the Keycloak OSS project. In his spare time, he enjoys organizing community meetups and working on open-source projects in the Keycloak ecosystem and beyond. He also contributes to internet standards in various Working Groups. Thomas has been a consistent contributor for over ten years and has been an official maintainer in the Keycloak project since 2021.
+  social:
+    - url: https://github.com/thomasdarimont
+      icon: github
+    - url: https://www.linkedin.com/in/thomasdarimont/
+      icon: linkedin-in
+- key: mba
+  name: Martin Bartoš
+  company: IBM
+  title: Senior Software Engineer
+  img: mba.jpg
+  bio: |
+    Martin Bartoš is a Senior Software Engineer at IBM focusing on cloud-native aspects of Keycloak. He is passionate about security and engaging the community to get Keycloak to the next level. He seeks to integrate new technologies and procedures to ensure their future relevance and innovation.
+  social:
+    - url: https://www.linkedin.com/in/mabartos98
+      icon: linkedin-in
+    - url: https://github.com/mabartos
+      icon: github
+- key: jga
+  name: Joseph Garrone
+  company: Insee
+  title: Lead Developer
+  img: jga.jpg
+  bio: |
+    Joseph Garrone is a Lead developer of Onyxia, an open-source software for running self-hosted data science environments on Kubernetes. He also created Keycloakify, a widely adopted framework for customizing Keycloak UIs, and maintains several open-source libraries used by thousands of developers. His work focuses on making complex infrastructure approachable and designing tools that developers genuinely enjoy using.
+  social:
+    - url: https://www.linkedin.com/in/joseph-garrone-0b583490/
+      icon: linkedin-in
+    - url: https://github.com/garronej
+      icon: github
+- key: mki
+  name: Maik Kingma
+  company: the/experts
+  title: Senior Software Craftsman
+  img: mki.jpg
+  bio: |
+    Maik Kingma is a devoted Software Craftsman, specializing primarily in Java development and Identity & Access Management (IAM) with Keycloak. He is currently living in the Netherlands, working as a principal consultant for the/experts. In addition to his consulting work, Maik is also an engaging speaker and technical coach at numerous conferences and meetups like Javaland, J-Spring, Devoxx, Keycloak Dev-Day and others.
+  social:
+    - url: https://www.linkedin.com/in/maik-kingma
+      icon: linkedin-in
+    - url: https://github.com/MaikKingma
+      icon: github
+    - url: https://bsky.app/profile/maikkingma.bsky.social
+      icon: bluesky
+- key: mma
+  name: Max Maaß
+  company: iteratec
+  title: Senior Software Craftsman
+  img: mma.jpg
+  bio: |
+    Max Maaß works at the security team at iteratec. He spends his time with architecture reviews, threat modeling and pentesting for software development projects, and has contributed to the OWASP secureCodeBox. Previously, he conducted research into security and privacy issues at the Secure Mobile Networking Lab at TU Darmstadt.
+  social:
+    - url: https://infosec.exchange/@hacksilon
+      icon: mastodon
+    - url: https://github.com/malexmave
+      icon: github
+- key: twa
+  name: Tim Walter
+  company: iteratec
+  title: IT Security Architect
+  img: twa.jpg
+  bio: |
+    Tim Walter worked as a full-stack developer and software architect before becoming a security architect at iteratec. He supports teams in developing secure software by performing threat modeling and conducting security reviews of architecture concepts. He also integrates and automates security scans.
+  social:
+    - url: https://infosec.exchange/@twwd
+      icon: mastodon
+    - url: https://github.com/twwd
+      icon: github
+- key: kge
+  name: Konstantinos Georgilakis
+  company: GRNET (Greek Research & Technology Network)
+  title:
+  img: kge.jpg
+  bio: |
+    Konstantinos Georgilakis holds a degree in Computer Engineering from NTUA. He has worked as a Software Java Developer since April 2013 on Greek and EC-funded projects. His experience focuses on Java/Spring. He works in GRNET since June 2018. As a member of the GRNET Authentication and Authorisation Infrastructure team, he has made significant contributions to Keycloak, facilitating seamless access to research resources for diverse stakeholders within the European Open Science Cloud (EOSC).
+  social:
+    - url: https://www.linkedin.com/in/konstantinos-georgilakis-8a4356124/
+      icon: linkedin-in
+    - url: https://github.com/cgeorgilakis
+      icon: github
+- key: sva
+  img: sva.jpg
+  name: Simon Vacek
+  company: IBM
+  title: Associate Software Quality Engineer
+  social:
+    - url: https://github.com/vaceksimon
+      icon: github
+  bio: |
+    Simon Vacek is an Associate Software Quality Engineer at IBM, where he works on the Keycloak project. He first joined the team as an intern two years ago and became a full-time employee at the beginning of this year.
+    Simon is an active contributor to the new Test Framework Work Group, focusing on developing new testing capabilities and migrating tests from the legacy Arquillian suite. His involvement with Keycloak began during his undergraduate studies, where he implemented a proof of concept for the Federated Credential Management API as part of his Bachelor's thesis.
+    Currently, Simon is halfway through his Master's degree, continuing to deepen his expertise in software engineering and identity management technologies.
+- key: sto
+  img: sto.jpg
+  name: Sven-Torben Janus
+  company: Conciso
+  title: Principal Software Architect and Partner
+  social:
+    - url: https://github.com/sventorben/
+      icon: github
+    - url: https://www.linkedin.com/in/sventorben/
+      icon: linkedin-in
+  bio: |
+    Sven-Torben Janus is a Principal Software Architect and Partner at Conciso GmbH with over 20 years of experience in software development and IT consulting. He began his career at the Fraunhofer Institute, specializing in business process management and distributed systems. He holds a degree in Computer Science from TU Dortmund.
+    At Conciso, Sven-Torben focuses on agile, domain-driven software architectures, with expertise in socio-technical systems and Identity and Access Management (IAM) using Keycloak. He is a strong advocate for collaborative tech practices and shares strategic, hands-on insights through talks and community engagement.
+- key: jch
+  img: jch.jpg
+  name: Jérémy Chapeau
+  # company: ??
+  title: Cybersecurity Expert
+  social:
+    - url: https://github.com/jychp
+      icon: github
+    - url: https://www.linkedin.com/in/jchapeau/
+      icon: linkedin-in
+  bio: |
+    Jérémy Chapeau is a cybersecurity engineer with a strong focus on offensive security, incident response, and infrastructure resilience. Most recently, he led security and reliability at Resilience, where he managed global infrastructure projects, certifications, and led the implementation of end-user SSO with Keycloak. Previously, he headed Red Team operations at the French Ministry of Armies and built SOC capabilities in both public and private sectors. Jeremy is also an active contributor to open source, maintaining the CNCF-incubated project Cartography.
+- key: skr
+  img: skr.jpg
+  name: Stephan Kraft
+  company: Red Hat
+  title: Community Advocate - OpenShift & Application Services
+  social:
+    - url: https://www.linkedin.com/in/stephan-kraft-6839758
+      icon: linkedin-in
+  bio: |
+    Stephan Kraft, has joined Red Hat 2019 as a Business Development Professional in Austria. He started his professional career as a Software Developer and later moved into Technical Sales, Solution Sales and Management. He was working for several companies in and around IT, particularly IBM and SWIFT. After a personal time-out, he has spent 3 years at universities as a program director of a Master and MBA program around Digital Transformation. This has lead him smoothly to Red Hat where he enjoys engaging with customers and partners around technical and cultural transformations.
+- key: vda
+  img: vda.jpg
+  name: Vishwang Dave
+  company: adorsys
+  social:
+    - url: https://www.linkedin.com/in/vishwang-dave-0801/
+      icon: linkedin-in
+  bio: |
+    Dave is a results-driven Data Scientist with extensive hands-on experience in Natural Language Processing (NLP) and Semantic technologies. He has a proven track record of developing high-quality NLP-based AI projects with innovative approaches, leveraging GenAI and Semantic web techniques. His passions include using data-driven insights to solve complex problems, and cooking a different cuisine every week.

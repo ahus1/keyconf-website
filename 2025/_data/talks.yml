@@ -1,0 +1,201 @@
+- title: "(to be announced soon)"
+- title: "MFA, passwordless authentication and the lost phone"
+  speaker: nko
+  abstract: |
+    Keycloak has recently expanded the default multi-factor authentication (MFA) options with supported Recovery Codes, which you can use if you don’t have access to your OTP device (e.g. your phone) and WebAuthN. The latest release also improved the user experience dramatically for passwordless authentication using Passkeys.
+    <p> 
+    In my talk, I will explain how to use MFA correctly, what it is and what it is not. Afterwards, I’ll show hands-on how to configure Keycloak for proper MFA usage and how you also can use passwordless authentication using Passkeys in parallel to traditional authentication with username, password and MFA.
+  links:
+    - url: 2025/assets/files/niko-koebler-generic.pdf
+      description: Slides
+      type: file-pdf
+  video: veymMLObJgQ?si=k1Gvt7VbQrVocA-3&list=PL7Azddo9KxKl_d405huHjgEnRU4M2Zjxz
+- title: "AI Meets Identity: Managing Keycloak with Natural Language via MCP"
+  speaker:
+   - mme
+   - vda
+  abstract: |
+    Imagine talking to your IAM system—and it actually understands you. In this talk, I’ll introduce the Keycloak MCP Server & Client, a modular control plane that allows you to manage realms, users, groups, clients, roles, and security policies in Keycloak using a semantic interface—including natural language input.We’ll walk through how the system works with a custom MCP Client as well as Claude (Anthropic) as an AI client, subscribing to Keycloak’s event system, querying security rules, and performing complex tasks like:
+    “Create user XXXX—if this doesn’t violate our security policies.”                       
+    <p>
+    The session includes:
+    <ul>
+    <li>
+    a brief intro to the MCP concept,
+    </li>
+    <li>
+    introduction of the Keycloak MCP Server and Client,
+    </li>
+    <li>
+    a live showcase of real-world use cases,
+    </li>
+    <li>
+    and an outlook on how AI-powered identity management opens up smarter, more secure, and more intuitive workflows.
+    </li>
+    </ul>
+  video: DNu2UnrsiCI?si=0uPsX2Zx6alDp-MC&list=PL7Azddo9KxKl_d405huHjgEnRU4M2Zjxz
+  links:
+    - url: 2025/assets/files/marcel-meyer-vishiwang-dave-IKAS.pdf
+      description: Slides
+      type: file-pdf
+- title: "Panel discussion: Meet the maintainers"
+  speaker:
+    - ssc
+    - tda
+    - tno
+    - asc
+  abstract: |
+    The maintainers on the panel will answer the live questions from the audience.
+  video: C4Wl3PbZjIw?si=k2K8rNQmiESosSWs&list=PL7Azddo9KxKl_d405huHjgEnRU4M2Zjxz
+- title: "Keycloak meets AI: the possibility of integrating Keycloak with AI"
+  speaker: tno
+  abstract: |
+    In this talk, Takashi investigates the possibility of integrating Keycloak with AI agents.
+    <p>
+    In the field of AI agents, Model Context Protocol (MCP) becomes a hot topic, which makes it easy for an AI agent/tool to connect internal/external services.
+    <p>
+    When an AI agent/tool implementing an MCP client accesses a remote external service implementing an MCP server, end user authentication and authorization is sometimes required. According to the MCP specification, OAuth 2.1 needs to be used for that, which implies that there is the possibility of using Keycloak for end user authentication and authorization because Keycloak supported OAuth 2.1.
+    <p>
+    Firstly, Takashi talks about MCP briefly and describes end user authentication and authorization of MCP in more detail. After that, the speaker shows the possible system configuration that includes Keycloak as a part of the MCP server.
+  links:
+    - url: 2025/assets/files/takashi-norimatsu-keycloak-meets-ai.pdf
+      description: Slides
+      type: file-pdf
+  video: kLzmT3-X9hI?si=A_1cI2i2mt7zpH6T&list=PL7Azddo9KxKl_d405huHjgEnRU4M2Zjxz
+- title: "Observability in Keycloak: Where Does It Hurt?"
+  speaker: mba
+  abstract: |
+    Keycloak plays a critical role in securing applications and platforms, making its reliability and performance vital in production environments. To ensure smooth operation and fast incident resolution, you need to understand how Keycloak behaves - before things go wrong.
+    Logs, metrics, and traces form the three pillars of observability, all of which are supported in Keycloak. They are backed by troubleshooting and sizing guides, as well as ready-to-use Grafana dashboards that help operators gain deeper insights.
+    In this talk, we'll give a practical overview of Keycloak's observability features, including recent improvements and integrations. We'll walk through a live demo showing how you can correlate metrics with traces to diagnose latency spikes and uncover the root cause of SLO violations.
+    Whether you're operating Keycloak at scale or just getting started, this session will provide the tools and knowledge to monitor, troubleshoot, and optimize your deployment.
+  links:
+    - url: 2025/assets/files/martin-bartos-observability-in-keycloak.pdf
+      description: Slides
+      type: file-pdf
+  video: fN8SIrgCcck?si=MJzKgRTTEC8zfB31&list=PL7Azddo9KxKl_d405huHjgEnRU4M2Zjxz
+- title: "Introducing oidc-spa: A keycloak-js alternative that works with any OIDC provider"
+  speaker: jga
+  abstract: |
+    Integrating Keycloak into modern web applications can be challenging, especially for developers used to the polished SDKs and smooth DX of SaaS platforms like Auth0 or Clerk.
+    <a href="https://oidc-spa.dev">oidc-spa</a> is an open-source attempt to close that gap, offering a streamlined developer experience inspired by those platforms, while preserving the flexibility of open standards.
+    Beyond improving DX, `oidc-spa` promotes portability: apps built with it aren’t tied to Keycloak. They can run against Microsoft Entra ID, Auth0, or any other OIDC provider that supports the Authorization Code Flow with PKCE, which includes nearly all of them. This is critical in environments where identity infrastructure varies across deployments.
+  video: Z8zIjZx6DK4?si=mThUncWlhRAs701v&list=PL7Azddo9KxKl_d405huHjgEnRU4M2Zjxz
+  links:
+    - url:  https://excalidraw.com/#json=BWam98aUAte5_9OgYi_jE,whkQeGfA5pOS1q-H9wjA3g
+      description: Slides
+      type: file-pdf
+- title: "The Event Sorcerer with the Keycloak: The Battle against Dynamic Configuration"
+  speaker: mki
+  abstract: |
+    In the evolving realm of Identity and Access Management (IAM), only the most skilled (event) sorcerers can harness the true power of "the Keycloak".
+    <p>
+    Discover how to extend static configurations with sets of dynamic event driven configuration, making your IAM projects resilient against change and highly adaptable. Learn the secrets of coding, versioning, and replaying configurations, ensuring your Keycloak setup is robust, future-proof and, most of all, dynamic.
+    <p>
+    Join Maik Kingma for a session that blends technical mastery with the lore of IAM, equipping you with the knowledge to wield dynamic configuration like a true sorcerer. By the end, your Keycloak projects will be fortified, ready to face any IAM challenge ahead."
+  video: JBmBSJW-iNo?si=scIWRhaSIDcCq_Ps&list=PL7Azddo9KxKl_d405huHjgEnRU4M2Zjxz
+- title: "Protectors of the Realm: Breaking and Fixing Keycloak Configurations"
+  speaker:
+    - mma
+    - twa
+  abstract: |
+    As Keycloak practitioners, we often focus on implementing features rather than continuously evaluating our security posture. After being responsible for the security of a Keycloak instance in a large-scale project for nearly three years, we've encountered several configuration vulnerabilities that can easily slip through even experienced teams.
+    <p>
+    In this talk, we'll go beyond the basics to explore common security pitfalls in Keycloak deployments that we've encountered during our journey. More importantly, we'll introduce our open source tool, kcwarden, which we developed to automate security auditing of Keycloak configurations. This tool not only detects standard security issues but can be customized to identify organization-specific concerns such as problematic role assignments or policy violations, enabling continuous monitoring of your Keycloak environment.
+    <p>
+    Join us to discover how kcwarden can enhance your existing Keycloak deployment's security posture and learn practical strategies for implementing automated configuration checks into your operational workflows."
+  links:
+    - url: 2025/assets/files/max-maass-tim-walter-protectors-of-the-realm-kcwarden.pdf
+      description: Slides
+      type: file-pdf
+  video: kdVdToR3phw?si=uTfABa5mx5no5dxh&list=PL7Azddo9KxKl_d405huHjgEnRU4M2Zjxz
+- title: "Protectors of the Realm: Breaking and Fixing Keycloak Configurations"
+  speaker:
+    - mma
+    - twa
+  abstract: |
+    As Keycloak practitioners, we often focus on implementing features rather than continuously evaluating our security posture. After being responsible for the security of a Keycloak instance in a large-scale project for nearly three years, we've encountered several configuration vulnerabilities that can easily slip through even experienced teams.
+    <p>
+    In this talk, we'll go beyond the basics to explore common security pitfalls in Keycloak deployments that we've encountered during our journey. More importantly, we'll introduce our open source tool, kcwarden, which we developed to automate security auditing of Keycloak configurations. This tool not only detects standard security issues but can be customized to identify organization-specific concerns such as problematic role assignments or policy violations, enabling continuous monitoring of your Keycloak environment.
+    <p>
+    Join us to discover how kcwarden can enhance your existing Keycloak deployment's security posture and learn practical strategies for implementing automated configuration checks into your operational workflows."
+- title: "Keycloak & OpenID Federation: Empowering Dynamic Trust in Federated Environments"
+  speaker: kge
+  abstract: |
+    This session will explore our journey to integrate OpenID Federation support into Keycloak to enable participation in an identity federation of entities using OpenID Connect and OAuth 2.0. OpenID Federation offers a robust framework for establishing dynamic trust between OpenID Providers (OPs) and Relying Parties (RPs), significantly simplifying the management of large-scale identity federations. By leveraging this specification, Keycloak will enable the dynamic establishment of trust between OPs and RPs, facilitate secure interactions authenticated via Trust Anchors, and crucially, eliminate the need for cumbersome manual or bilateral trust agreements. We'll demonstrate our progress in implementing OpenID Federation support for Keycloak and outline our ongoing plan to integrate this essential functionality into Keycloak's core through collaborative efforts and pull requests with the Keycloak team and the Keycloak OAuth SIG group.
+    <p>
+    As a foundational step, we aim to enable Keycloak to seamlessly support both explicit and automatic client registration under OpenID Federation, acting as both an OP and an RP within the identity federation using OpenID Connect and OAuth 2.0. We'll show how to enable and configure OpenID Federation on a per-realm basis through the admin console using mandatory and optional realm settings. Our presentation will delve into the REST API and code implementation, with a particular focus on the explicit registration process. We'll also engage in a discussion about outstanding issues, open technical challenges, and future considerations, including the implementation of other OpenID Federation components.
+    <p>
+    A key use case for this development is the EOSC Beyond project, where Keycloak-powered identity and access management services will participate in the European Open Science Cloud identity federation, leveraging the OpenID Federation specification. This will greatly simplify integration and enhance scalability across the EOSC ecosystem by enabling secure, interoperable access to resources. To bring it all to life, we'll offer a practical demonstration showcasing OpenID Federation in the project context.
+  links:
+    - url: 2025/assets/files/konstantinos-georgilakis-openid-federation.pdf
+      description: Slides
+      type: file-pdf
+  video: Hsaz9doeUc0?si=NrV7Q6WSigDnhLpb&list=PL7Azddo9KxKl_d405huHjgEnRU4M2Zjxz
+- title: "IAM Doomsday Prepper: Surviving the Apocalypse with Keycloak"
+  abstract: |
+    In the ever-evolving landscape of Identity and Access Management (IAM), it's crucial for organizations to stay prepared and adaptable. While Keycloak has become a popular open-source IAM solution, many projects still rely on UI-based configurations or JSON imports, leaving them vulnerable to human error, scalability issues, and time-consuming maintenance.
+    <p>
+    This talk will introduce attendees to the concept of configuration as code in Keycloak, focusing on the Keycloak Jafva Admin Client as a powerful tool for future-proofing IAM systems. By embracing configuration as code, organizations can increase security, reduce errors, and streamline the management of their IAM infrastructure.
+    <p>
+    Key Takeaways:<ul>
+      <li> Understand the limitations of UI-based configurations and JSON imports in Keycloak, and why they can be a recipe for disaster.
+      <li> Learn how the principles of configuration as code can be applied to Keycloak using the Java Admin Client for enhanced IAM management.
+      <li> Discover best practices for implementing configuration as code in Keycloak, including version control, collaboration, and automated testing.
+      <li> Gain insights into real-world examples of successful configuration as code implementations in Keycloak, and the benefits they've brought to organizations.
+    </ul>
+    <p>
+    By the end of this talk, attendees will be armed with the knowledge and tools needed to transform their Keycloak projects from ticking time bombs to robust, resilient, and easily maintainable IAM solutions, ensuring they're prepared for any challenges that lie ahead.
+
+  speaker: mki
+  video: JBmBSJW-iNo?si=scIWRhaSIDcCq_Ps&list=PL7Azddo9KxKl_d405huHjgEnRU4M2Zjxz
+- title: "Enjoy Writing Tests with the new Keycloak Test Framework"
+  speaker: sva
+  abstract: |
+    Dreading adding new features because of the Arquillian testsuite?
+    In this session, we'll introduce you to the brand new Keycloak Test Framework, designed to make testing a breeze for contributors and extension developers.<p>
+    Why change from Arquillian? What are the new framework's key features? How does it all work, and where do I start?
+    All of these questions and more will be answered in this session. By the end, you'll have a clear understanding of how to leverage the Keycloak Test Framework to write more effective tests, save time, and improve the overall quality and maintainability.
+  links:
+    - url: 2025/assets/files/simon-vacek-enjoy-writing-tests-with-the-new-keycloak-test-framework.pdf
+      description: Slides
+      type: file-pdf
+  video: ZPoBjExXgeQ?si=WXcE3g4aE29BiOsW&list=PL7Azddo9KxKl_d405huHjgEnRU4M2Zjxz
+- title: "Token Exchange - Keycloak's Secret Weapon for Platforms"
+  speaker: sto
+  abstract: |
+    As platform developers, we're constantly challenged to build systems that are secure, scalable, and ready for anything. But how do you maintain robust security without sacrificing flexibility? Enter OAuth 2.0 Token Exchange in Keycloak - a powerful tool that's transforming the way we manage identity and access across complex architectures.
+    In this session, we'll explore how to use Keycloak's token exchange capabilities to tackle the toughest problems in platform development: securing microservice communications, handling dynamic authorization across distributed systems, and enabling seamless Single Sign-On across multiple domains. We'll dive deep into real-world use cases, share expert tips on configuring Keycloak for advanced token exchange scenarios, and reveal how you can leverage these capabilities to build platforms that are not just secure, but also agile and responsive to change.
+    Whether you're building cloud-native apps, orchestrating microservices, or securing APIs, this talk will provide the practical knowledge you need to harness the full power of OAuth 2.0 Token Exchange with Keycloak. Don't miss your chance to redefine your platform's identity strategy and keep your systems ahead of the curve!
+  links:
+    - url: 2025/assets/files/sven-torben-janus-token-exchange.pdf
+      description: Slides
+      type: file-pdf
+  video: GINYNGshlns?si=tg7Jte7rsbhunwkM&list=PL7Azddo9KxKl_d405huHjgEnRU4M2Zjxz
+- title: "Graph-Driven Audits for Keycloak: A Deep Dive with Cartography"
+  speaker: jch
+  abstract: |
+    Managing identities and access control is critical but how well do you really know your Keycloak setup? In this talk, we'll explore how to audit and visualize Keycloak using Cartography, a graph-based security tool developed by the CNCF community.
+    You'll learn how to extract identity and access data from Keycloak, model it as a graph, and uncover hidden risks, misconfigurations, and opportunities to strengthen your security posture.
+    Through practical examples and live demos, we'll deep dive into how graph analysis can reveal relationships and patterns that traditional audits often miss. Whether you're managing a small Keycloak instance or a complex multi-realm environment, this session will give you new tools and insights to secure your identity infrastructure more effectively.
+  links:
+    - url: 2025/assets/files/jeremy-chapeau-graph-driven-audits-for-keycloak.pdf
+      description: Slides
+      type: file-pdf
+  video: fGkVra628OU?si=ZvYCcghQx3H_Attn&list=PL7Azddo9KxKl_d405huHjgEnRU4M2Zjxz
+- title: "Keyless, identity-based signing of Software Artifacts w/ sigstore and Keycloak"
+  speaker: skr
+  abstract: |
+    There is almost no debate that digital signing is an important best practice for securing the software supply chain, e.g container images, git commits and any software artifact that is involved in the SDLC. But managing keys is cumbersome, associating keys with actual human or workload identities is cumbersome, rotating and revoking keys is just annoying. Sigstore - an open-source project under the Open Source Security Foundation (OpenSSF) provides a robust solution to these problems. And it works nicely with keycloak as an OIDC provider.
+    In this talk, we explore the history of digital signing, the challenges and demo a viable solution based on Open Source technology.
+  video: IbxiYpu30lU?si=TTffqhqdNyyTi9zt&list=PL7Azddo9KxKl_d405huHjgEnRU4M2Zjxz
+- title: "Welcome and Opening Remarks from adorsys"
+  speaker: npi
+  video: BWBt_MBDMcE?si=V_7WcZgi52Sijjxo&list=PL7Azddo9KxKl_d405huHjgEnRU4M2Zjxz
+- title: "Keycloak OAuth Special Interest Group (SIG) Message"
+  speaker: tda
+  video: w2u4RJEMXMc?si=bSbkcivT7TKq1sik&list=PL7Azddo9KxKl_d405huHjgEnRU4M2Zjxz
+  links:
+    - url: 2025/assets/files/thomas-darimont-oauth-sig-community-message.pdf
+      description: Slides
+      type: file-pdf
