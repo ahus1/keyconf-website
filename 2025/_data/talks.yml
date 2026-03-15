@@ -6,7 +6,7 @@
     <p> 
     In my talk, I will explain how to use MFA correctly, what it is and what it is not. Afterwards, I’ll show hands-on how to configure Keycloak for proper MFA usage and how you also can use passwordless authentication using Passkeys in parallel to traditional authentication with username, password and MFA.
   links:
-    - url: /assets/files/niko-koebler-generic.pdf
+    - url: assets/files/niko-koebler-generic.pdf
       description: Slides
       type: file-pdf
   video: veymMLObJgQ?si=k1Gvt7VbQrVocA-3&list=PL7Azddo9KxKl_d405huHjgEnRU4M2Zjxz
@@ -35,7 +35,7 @@
     </ul>
   video: DNu2UnrsiCI?si=0uPsX2Zx6alDp-MC&list=PL7Azddo9KxKl_d405huHjgEnRU4M2Zjxz
   links:
-    - url: /assets/files/marcel-meyer-vishiwang-dave-IKAS.pdf
+    - url: assets/files/marcel-meyer-vishiwang-dave-IKAS.pdf
       description: Slides
       type: file-pdf
 - title: "Panel discussion: Meet the maintainers"
@@ -58,7 +58,7 @@
     <p>
     Firstly, Takashi talks about MCP briefly and describes end user authentication and authorization of MCP in more detail. After that, the speaker shows the possible system configuration that includes Keycloak as a part of the MCP server.
   links:
-    - url: /assets/files/takashi-norimatsu-keycloak-meets-ai.pdf
+    - url: assets/files/takashi-norimatsu-keycloak-meets-ai.pdf
       description: Slides
       type: file-pdf
   video: kLzmT3-X9hI?si=A_1cI2i2mt7zpH6T&list=PL7Azddo9KxKl_d405huHjgEnRU4M2Zjxz
@@ -70,7 +70,7 @@
     In this talk, we'll give a practical overview of Keycloak's observability features, including recent improvements and integrations. We'll walk through a live demo showing how you can correlate metrics with traces to diagnose latency spikes and uncover the root cause of SLO violations.
     Whether you're operating Keycloak at scale or just getting started, this session will provide the tools and knowledge to monitor, troubleshoot, and optimize your deployment.
   links:
-    - url: /assets/files/martin-bartos-observability-in-keycloak.pdf
+    - url: assets/files/martin-bartos-observability-in-keycloak.pdf
       description: Slides
       type: file-pdf
   video: fN8SIrgCcck?si=MJzKgRTTEC8zfB31&list=PL7Azddo9KxKl_d405huHjgEnRU4M2Zjxz
@@ -105,7 +105,7 @@
     <p>
     Join us to discover how kcwarden can enhance your existing Keycloak deployment's security posture and learn practical strategies for implementing automated configuration checks into your operational workflows."
   links:
-    - url: /assets/files/max-maass-tim-walter-protectors-of-the-realm-kcwarden.pdf
+    - url: assets/files/max-maass-tim-walter-protectors-of-the-realm-kcwarden.pdf
       description: Slides
       type: file-pdf
   video: kdVdToR3phw?si=uTfABa5mx5no5dxh&list=PL7Azddo9KxKl_d405huHjgEnRU4M2Zjxz
@@ -128,7 +128,7 @@
     <p>
     A key use case for this development is the EOSC Beyond project, where Keycloak-powered identity and access management services will participate in the European Open Science Cloud identity federation, leveraging the OpenID Federation specification. This will greatly simplify integration and enhance scalability across the EOSC ecosystem by enabling secure, interoperable access to resources. To bring it all to life, we'll offer a practical demonstration showcasing OpenID Federation in the project context.
   links:
-    - url: /assets/files/konstantinos-georgilakis-openid-federation.pdf
+    - url: assets/files/konstantinos-georgilakis-openid-federation.pdf
       description: Slides
       type: file-pdf
   video: Hsaz9doeUc0?si=NrV7Q6WSigDnhLpb&list=PL7Azddo9KxKl_d405huHjgEnRU4M2Zjxz
@@ -157,7 +157,7 @@
     Why change from Arquillian? What are the new framework's key features? How does it all work, and where do I start?
     All of these questions and more will be answered in this session. By the end, you'll have a clear understanding of how to leverage the Keycloak Test Framework to write more effective tests, save time, and improve the overall quality and maintainability.
   links:
-    - url: /assets/files/simon-vacek-enjoy-writing-tests-with-the-new-keycloak-test-framework.pdf
+    - url: assets/files/simon-vacek-enjoy-writing-tests-with-the-new-keycloak-test-framework.pdf
       description: Slides
       type: file-pdf
   video: ZPoBjExXgeQ?si=WXcE3g4aE29BiOsW&list=PL7Azddo9KxKl_d405huHjgEnRU4M2Zjxz
@@ -168,7 +168,7 @@
     In this session, we'll explore how to use Keycloak's token exchange capabilities to tackle the toughest problems in platform development: securing microservice communications, handling dynamic authorization across distributed systems, and enabling seamless Single Sign-On across multiple domains. We'll dive deep into real-world use cases, share expert tips on configuring Keycloak for advanced token exchange scenarios, and reveal how you can leverage these capabilities to build platforms that are not just secure, but also agile and responsive to change.
     Whether you're building cloud-native apps, orchestrating microservices, or securing APIs, this talk will provide the practical knowledge you need to harness the full power of OAuth 2.0 Token Exchange with Keycloak. Don't miss your chance to redefine your platform's identity strategy and keep your systems ahead of the curve!
   links:
-    - url: /assets/files/sven-torben-janus-token-exchange.pdf
+    - url: assets/files/sven-torben-janus-token-exchange.pdf
       description: Slides
       type: file-pdf
   video: GINYNGshlns?si=tg7Jte7rsbhunwkM&list=PL7Azddo9KxKl_d405huHjgEnRU4M2Zjxz
@@ -179,7 +179,7 @@
     You'll learn how to extract identity and access data from Keycloak, model it as a graph, and uncover hidden risks, misconfigurations, and opportunities to strengthen your security posture.
     Through practical examples and live demos, we'll deep dive into how graph analysis can reveal relationships and patterns that traditional audits often miss. Whether you're managing a small Keycloak instance or a complex multi-realm environment, this session will give you new tools and insights to secure your identity infrastructure more effectively.
   links:
-    - url: /assets/files/jeremy-chapeau-graph-driven-audits-for-keycloak.pdf
+    - url: assets/files/jeremy-chapeau-graph-driven-audits-for-keycloak.pdf
       description: Slides
       type: file-pdf
   video: fGkVra628OU?si=ZvYCcghQx3H_Attn&list=PL7Azddo9KxKl_d405huHjgEnRU4M2Zjxz
@@ -196,6 +196,6 @@
   speaker: tda
   video: w2u4RJEMXMc?si=bSbkcivT7TKq1sik&list=PL7Azddo9KxKl_d405huHjgEnRU4M2Zjxz
   links:
-    - url: /assets/files/thomas-darimont-oauth-sig-community-message.pdf
+    - url: assets/files/thomas-darimont-oauth-sig-community-message.pdf
       description: Slides
       type: file-pdf
