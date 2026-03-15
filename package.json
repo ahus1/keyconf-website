@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "serve": "serve _site -p 5000 --cors"
+  },
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}

@@ -10,9 +10,11 @@ included:
   - icon: user-tie
     text: Talks from industry-leading speakers
   - icon: utensils
-    text: FREE drinks, refreshments and lunch
-  - icon: wifi
-    text: Live stream and recorded talks
+    text: FREE drinks, refreshments and lunch throughout the day
+  - icon: people-group
+    text: The “Wicked Keycloak Challenges and How to Resolve Them” session, sharing practical insights and solutions
+  - icon: martini-glass-citrus
+    text: Drinks and time to connect with friends and the community after the event wraps up
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -31,13 +33,13 @@ included:
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="{{site.title}}">
 	<meta property="og:description" content="{{site.description}}">
-	<meta property="og:image" content="{{site.url}}/assets/images/keyconf-social-media.jpg">
+	<meta property="og:image" content="{{site.url}}/assets/images/keyconf-social-media.png">
 
 	<!-- Twitter -->
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title" content="{{site.title}}">
 	<meta name="twitter:description" content="{{site.description}}">
-	<meta name="twitter:image" content="{{site.url}}/assets/images/keyconf-social-media.jpg">
+	<meta name="twitter:image" content="{{site.url}}/assets/images/keyconf-social-media.png">
 
 	<!-- Google Fonts -->
 	<link href="{{ site.baseurl }}/assets/fonts/fonts.css" rel="stylesheet">
@@ -64,9 +66,13 @@ included:
 		<div class="hero-block-mask"></div>
 		<div class="container">
 			<div class="hero-text-block">
-				<h1 class="hero-heading mb-2">KeyConf25</h1>
-				<div class="hero-meta mb-3"><i class="far fa-calendar-alt me-2"></i>28 Aug 2025<i class="fas fa-map-marker-alt mx-2"></i>Amsterdam, Netherlands <i class="fas fa-clock mx-2"></i>9am - 6pm</div>
+				<h1 class="hero-heading mb-2">KeyConf26</h1>
+				<div class="hero-meta mb-3"><i class="far fa-calendar-alt me-2"></i>08 Oct 2026<i class="fas fa-map-marker-alt mx-2"></i>Prague, Czech Republic<i class="fas fa-clock mx-2"></i>9am - 6pm</div>
 				<div class="hero-intro mb-4">Our annual conference dedicated to the Keycloak user community returns, with even more content and networking opportunities than last year. It’s the perfect place to interact, learn, share, and exchange insights and real-world use cases network with fellow experts, users, and contributors.</div>
+
+				{% if site.showCallforsessions %}
+				<div class="hero-cta"><a class="btn btn-primary btn-lg" href="https://forms.office.com/pages/responsepage.aspx?id=hFQsXiLlnUeRylFdbgziKBgok6UO9mxHnShifZvG4ehUQUhMTlJZODZYMThENlVJVjhEU0lEWVRRWi4u&route=shorturl" target="_blank">Call for Sessions</a></div>
+				{% endif %}
 
 				{% if site.showTicketSale %}
 				<div class="hero-cta"><a class="btn btn-primary btn-lg" href="{{site.eventbrite}}" target="_blank">Get Tickets</a></div>
@@ -82,27 +88,21 @@ included:
 	<div class="stats-block theme-bg-primary text-white py-4 text-center">
 		<div class="container">
 			<div class="row">
-				<div class="col-6 col-md-3">
+				<div class="col-6 col-md-4">
 					<div class="item">
-						<div class="number">150+</div>
+						<div class="number">100+</div>
 						<div class="unit">Attendees</div>
 					</div><!--//item-->
 				</div><!--//col-->
-				<div class="col-6 col-md-3">
+				<div class="col-6 col-md-4">
 					<div class="item">
 						<div class="number">2</div>
 						<div class="unit">Rooms</div>
 					</div><!--//item-->
 				</div><!--//col-->
-				<div class="col-6 col-md-3">
+				<div class="col-6 col-md-4">
 					<div class="item">
-						<div class="number">1</div>
-						<div class="unit">Panel</div>
-					</div>
-				</div>
-				<div class="col-6 col-md-3">
-					<div class="item">
-						<div class="number">13</div>
+						<div class="number">14</div>
 						<div class="unit">Talks</div>
 					</div>
 				</div>
