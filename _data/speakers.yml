@@ -1,3 +1,11 @@
+- key: hsc
+  name: Hannah Short
+  title: Team Lead for Identity and Access Management
+  company: CERN
+  img: dummy.png
+  social:
+    - url: https://www.linkedin.com/in/hannahshort08/
+      icon: linkedin-in
 - key: npi
   img: npi.jpg
   name: Nathalia Pinesi
@@ -31,12 +39,4 @@
     - url: https://github.com/ahus1
       icon: github
     - url: https://www.linkedin.com/in/ahus1/
-      icon: linkedin-in
-- key: hsc
-  name: Hannah Short
-  title: Team Lead for Identity and Access Management
-  company: CERN
-  img: dummy.png
-  social:
-    - url: https://www.linkedin.com/in/hannahshort08/
       icon: linkedin-in
