@@ -13,3 +13,10 @@
 # 5
 - title: "Closing Remarks from adorsys"
   speaker: npi
+# 6
+- title: "Wicked Keycloak challenges and how to resolve them"
+  speaker: asc
+  abstract: |
+    Keycloak has evolved over the years, and is challenging to balance simplicity, functional completeness and security by default. 
+    Join this interactive group exercise and work with users, maintainers and contributors to identify where different goals conflict in Keycloak today.
+    As a group, we generate solution ideas on how Keycloak can improve and prioritize them, so they can make their way in the Keycloak product roadmap.
