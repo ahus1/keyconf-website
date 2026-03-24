@@ -3,7 +3,8 @@ description: Our annual conference dedicated to the Keycloak users' community to
 url: https://keyconf.dev
 baseurl: "" # the subpath of your site, e.g. /blog
 callforsessions: https://forms.office.com/pages/responsepage.aspx?id=hFQsXiLlnUeRylFdbgziKBgok6UO9mxHnShifZvG4ehUQUhMTlJZODZYMThENlVJVjhEU0lEWVRRWi4u&route=shorturl
-showTicketSale: false
+showTicketSale: true
+eventbrite: https://www.eventbrite.de/e/keyconf26-tickets-1985517594574?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl
 rsvpLivestream: false
 showLivestream: false
 showRecording: false
