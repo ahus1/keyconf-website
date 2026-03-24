@@ -8,8 +8,10 @@
 # 3
 - title: "SIG Community Message"
 # 4
-- title: "Keynote"
+- title: "What role can Keycloak play for International Science?"
   speaker: hsc
+  abstract:
+    "We will present a concise history of CERN's experience with Keycloak and how we have arrived at our current state: a highly performant and reliable SSO running on Kubernetes, serving over 14,000 clients and approximately 140,000 login events per day. We will share our solutions to some of the operational security challenges faced in recent years, and how CERN’s Keycloak falls into the bigger picture of authentication and authorisation for international research."
 # 5
 - title: "Closing Remarks from adorsys"
   speaker: npi

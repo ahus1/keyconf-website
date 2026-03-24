@@ -2,10 +2,12 @@
   name: Hannah Short
   title: Team Lead for Identity and Access Management
   company: CERN
-  img: dummy.png
+  img: hsc.jpg
   social:
     - url: https://www.linkedin.com/in/hannahshort08/
       icon: linkedin-in
+  bio: |
+    Hannah Short is a British Irish physicist turned computer engineer who leads the Identity and Access Management team at CERN. As well as ensuring that CERN’s authentication and authorisation systems meet the complex needs of the laboratory, one of her fields of interest is the wider role that these systems can play in accelerating collaboration across research domains. Hannah has participated in multiple European Commission funded projects to this end.
 - key: npi
   img: npi.jpg
   name: Nathalia Pinesi
