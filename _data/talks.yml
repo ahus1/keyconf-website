@@ -17,7 +17,9 @@
   speaker: npi
 # 6
 - title: "Wicked Keycloak challenges and how to resolve them"
-  speaker: asc
+  speaker:
+    - asc
+    - sro
   abstract: |
     Keycloak has evolved over the years, and is challenging to balance simplicity, functional completeness and security by default. 
     Join this interactive group exercise and work with users, maintainers and contributors to identify where different goals conflict in Keycloak today.
