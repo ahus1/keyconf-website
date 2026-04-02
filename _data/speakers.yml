@@ -54,3 +54,15 @@
       icon: github
     - url: https://www.linkedin.com/in/seb7/
       icon: linkedin-in
+- key: hib
+  name: Hugo Ibanez
+  title: Full Stack Software Engineering
+  company: adorsys
+  img: hib.jpg
+  bio: |
+    Sebastian is a Lead Systems Engineer at the Federal Statistical Office in Wiesbaden, specializing in identity and authorization. With nearly 20 years in software development, he's built deep expertise in agile, end-to-end product teams — and a strong commitment to open source. He co-founded Keycloak DevDay and helps organize the Java User Group Darmstadt.
+  social:
+    - url: https://github.com/hugoib
+      icon: github
+    - url: https://www.linkedin.com/in/hugoibanez/
+      icon: linkedin-in

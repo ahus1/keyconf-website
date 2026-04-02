@@ -24,3 +24,9 @@
     Keycloak has evolved over the years, and is challenging to balance simplicity, functional completeness and security by default. 
     Join this interactive group exercise and work with users, maintainers and contributors to identify where different goals conflict in Keycloak today.
     As a group, we generate solution ideas on how Keycloak can improve and prioritize them, so they can make their way in the Keycloak product roadmap.
+# 7
+- title: "Setting up a EUDIW Issuer with Keycloak"
+  speaker:
+    - hib
+  abstract: |
+    Given the upcoming EIDAS regulation, Keycloak poses itself as a strong solution to issue fully compliant verifiable credentials. On this workshop, you will be guided on what needs to be done to have a reliable Keycloak issuer. An overview of the issuance spec will be given and all the background for you to understand the state of the art on this matter.
