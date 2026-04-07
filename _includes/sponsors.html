@@ -3,14 +3,14 @@
         <h3 class="section-heading text-center mb-5">A big 'Thank You' to our Organizers &amp; Sponsors:</h3>
         <div class="row logos justify-content-center align-items-center">
             {% for sponsor in site.data.sponsors %}
-            <div class="logo-item col-6 col-md-4 col-lg-2 px-4">
+            <div class="logo-item col-6 col-md-4 col-lg-3 px-5 mb-5">
                 <a href="{{sponsor.url}}" target="_blank">
-                    <img src="{{ site.baseurl }}/assets/images/logos/{{sponsor.logo}}" alt="{{sponsor.name}}">
+                    <img src="{{ site.baseurl }}/assets/images/logos/{{sponsor.logo}}" width="100%" alt="{{sponsor.name}}">
                 </a>
             </div>
             {% endfor %}
         </div><!--//row-->
-        <div class="row mt-5 justify-content-center align-items-center">
+        <div class="row justify-content-center align-items-center">
             <div class="col-12 text-center">Get in Touch: <a href="mailto:marketing@adorsys.com?subject=KeycloakCon%202026">marketing@adorsys.com</a></div>
         </div>
     </div><!--//container-->
