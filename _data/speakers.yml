@@ -21,10 +21,10 @@
 - key: tno
   img: tno.jpg
   name: Takashi Norimatsu
-  title: Senior OSS Specialist
+  title: Chief OSS Specialist
   company: Hitachi, Ltd.
   bio: |
-    Takashi Norimatsu, Senior OSS Specialist, Hitachi, Ltd. is a maintainer of Keycloak. He has implemented and contributed security features like Financial-grade API (FAPI) security profiles, W3C Web Authentication (WebAuthn) API support. He leads Keycloak's community "OAuth SIG" (Ex FAPI-SIG) as Tech Lead for supporting OAuth/OIDC and its related security features to Keycloak. He has experience constructing high security banking API systems with Keycloak.
+    Takashi Norimatsu, Chief OSS Specialist, Hitachi, Ltd. is a maintainer of Keycloak. He has implemented and contributed security features like Financial-grade API (FAPI) security profiles, W3C Web Authentication (WebAuthn) API, Model Context Protocol (MCP) support. He leads Keycloak's community "OAuth SIG" (Ex FAPI-SIG) as Tech Lead for supporting OAuth/OIDC and its related security features to Keycloak. He has experience constructing high security banking API systems with Keycloak.
   social:
     - url: https://github.com/tnorimat
       icon: github
