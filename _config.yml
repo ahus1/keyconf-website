@@ -8,7 +8,7 @@ eventbrite: https://www.eventbrite.de/e/keyconf26-tickets-1985517594574?utm-camp
 rsvpLivestream: false
 showLivestream: false
 showRecording: false
-showCallforsessions: true
+showCallforsessions: false
 showRecap: false
 
 # some default values for Front Matter
