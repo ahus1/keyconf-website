@@ -30,3 +30,134 @@
     - hib
   abstract: |
     Given the upcoming EIDAS regulation, Keycloak poses itself as a strong solution to issue fully compliant verifiable credentials. On this workshop, you will be guided on what needs to be done to have a reliable Keycloak issuer. An overview of the issuance spec will be given and all the background for you to understand the state of the art on this matter.
+# 8
+- title: An Introduction to the OpenID Shared Signals Framework
+  speaker:
+    - tda
+  abstract: |
+    As security threats become more sophisticated, 
+    the need for efficient, real-time communication 
+    between identity providers and relying parties is 
+    essential. The Shared Signals Framework (SSF) 
+    and related specifications such as CAEP and 
+    RISC address this challenge by providing a 
+    standardised way for systems to exchange 
+    security related signals, such as session 
+    revocations, credential breaches, and other 
+    identity-related incidents, in a secure and 
+    scalable manner. This talk introduces the 
+    Shared Signals Framework and explains how it 
+    enhances security and operational efficiency in 
+    modern identity ecosystems. We'll explore how 
+    SSF can be supported in Keycloak to enable 
+    real-time event-driven communication between 
+    providers and relying parties. Attendees will 
+    learn how Keycloak can help to detect and 
+    mitigate threats, and improve overall system 
+    security with SSF.
+# 9
+- title: No excuses for Client Secrets - use your Cloud Identity for Client Authentication
+  speaker:
+    - asc2
+  abstract: |
+    With the support of RFC 7521/7523 (Assertion-based Client Authentication) and its SPIFFE
+    profile into Keycloak, it is possible to leverage
+    the identity cloud providers give each instance
+    as a means of client authentication. Whilst Kubernetes and SPIFFE integration is popular
+    and actively discussed, it is also possible to
+    leverage this for non-Kubernetes workloads
+    that run in cloud environments.
+    In this talk we will discuss the underlying
+    principles of workload identity and the instance
+    identity each cloud provider offers to running
+    workloads, and dive into the possibilities it
+    offers for Keycloak
+# 10
+- title: "Keycloak for Cross-Domain Access: Secure Identity Propagation between Apps and Agents"
+  speaker:
+    gig
+  abstract: |
+    Applications and AI agents increasingly need to 
+    interact across independent trust domains
+    while maintaining the security and integrity of
+    the original user identity. This session explores
+    how Keycloak solves this principal propagation
+    challenge using Token Exchange (RFC 8693) and
+    the JWT Authorization Grant (RFC 7523), guided
+    by two emerging specifications: OAuth 2.0
+    Identity and Authorization Chaining Across
+    Domains and the Identity Assertion
+    Authorization Grant.
+    We will examine how Keycloak handles cross-domain context propagation, validating external
+    assertions and issuing target-scoped access
+    tokens. Attendees will leave with practical
+    patterns for building secure, asynchronous
+    integration chains that strictly preserve user
+    context end-to-end, without relying on static
+    API keys or over-privileged service accounts.
+# 11
+- title: Token Hygiene – Why Your Keycloak Access Tokens Need a Diet
+  speaker:
+    - nko
+  abstract: |
+    Keycloak's default token configuration is 
+    generous: roles, claims, metadata – everything 
+    lands in the Access Token right away. That's 
+    convenient and gets you started fast. But over 
+    time, tokens grow silently. They carry 
+    information that recipients don't need, 
+    shouldn't see, or that simply doesn't belong 
+    there. What starts as a comfort feature 
+    becomes a liability – bloated HTTP headers, 
+    tokens that leak internal structure to third 
+    parties, and a configuration that's hard to 
+    reconcile with GDPR's data minimization 
+    principle.
+    Token hygiene means treating token contents 
+    as a conscious design decision, not as a default 
+    you never revisit. In this session, I'll walk 
+    through Keycloak's client scope and mapper 
+    configuration to show which claims actually 
+    belong in which token – and which don't. We'll 
+    look at practical strategies for keeping Access 
+    Tokens lean, including Token Exchange as a tool 
+    to issue purpose-built, audience-specific tokens 
+    for downstream services instead of forwarding 
+    one overloaded token everywhere.
+    You'll leave with a clear understanding of how 
+    to configure Keycloak for minimal, GDPR-friendly tokens – where each recipient gets 
+    exactly what it needs, and nothing more.
+# 12
+- title: "Beyond the Redirect: Modernizing Keycloak for the TypeScript Era"
+  speaker:
+    - ewi
+  abstract: |
+    For years, Keycloak has been the "Enterprise 
+    Identity Provider", secure but often 
+    disconnected from the modern frontend 
+    developer's workflow. While new libraries 
+    promise "easy auth" by running inside your app, 
+    they often sacrifice the battle-hardened 
+    security of a standalone IAM.
+    I will demonstrate how we are bridging this gap. 
+    This talk dives into the new OAuth 2.1 Native 
+    App Flow and Headless UI patterns that allow 
+    developers to build pixel-perfect, framework-agnostic authentication without ever touching a 
+    raw password or a clunky redirect.
+# 13
+- title: "Platform SSO with Keycloak - secure and easy authentication for macOS users"
+  speaker:
+    - fme
+  abstract: |
+    Apple has a framework called Platform SSO 
+    where users of enrolled macOS devices have
+    SSO with their IdP's simply by logging in to their
+    machines.
+    Until December 2025, only Microsoft and Okta
+    supported it. The University of Oslo developed
+    the first non-commercial implementation of
+    Platform SSO, based on Keycloak.
+    In this presentation, we show how Platform SSO
+    and Keycloak has changed the life of macOS
+    users and how your institution can benefit from
+    it.

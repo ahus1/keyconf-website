@@ -5,13 +5,10 @@ This is the website hosted on https://keyconf.dev
 
 ## Building the site locally
 
-Run when using Docker compose:
-
 ```
-docker-compose up
+gem install bundler
+bundle install
 ```
-
-Run plain docker with:
 
 ```
 bundle exec jekyll serve --livereload

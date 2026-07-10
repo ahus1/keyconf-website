@@ -66,3 +66,280 @@
       icon: github
     - url: https://www.linkedin.com/in/hugoibanez/
       icon: linkedin-in
+- key: tda
+  img: tda.jpg
+  name: Thomas Darimont
+  company: Identity Tailor GmbH
+  title: Digital Identity Consultant and Managing Director
+  bio: |
+    Thomas 
+    Darimont is a 
+    Digital Identity 
+    Consultant and 
+    Managing 
+    Director at 
+    Identity Tailor 
+    GmbH. As a 
+    long-time 
+    contributor to 
+    the Keycloak 
+    project for 
+    almost a decade, 
+    Thomas became 
+    the first external 
+    maintainer 
+    outside RedHat 
+    in 2022. He is 
+    also a member 
+    of the OpenID 
+    Foundation's 
+    Certification 
+    team, where he 
+    helps to 
+    maintain the 
+    OpenID 
+    Conformance 
+    Test Suite. In 
+    addition to 
+    consulting, 
+    Thomas actively 
+    contributes to 
+    open-source 
+    projects within 
+    the Keycloak 
+    ecosystem. With 
+    a background as 
+    a software 
+    architect and IT 
+    consultant, he 
+    speaks 
+    frequently at 
+    conferences on 
+    Java, 
+    WebAssembly, 
+    Web Security, 
+    and 
+    performance.
+  social:
+    - url: "https://github.com/thomasdarimont"
+      icon: github
+    - url: "https://linkedin.com/in/thomasdarimont"
+      icon: linkedin-in
+- key: asc2
+  img: asc2.jpg
+  name: Arndt Schwenkschuster
+  company: Defakto Security, SPIFFE maintainer
+  title: Software Engineer
+  bio: |
+    Arndt Schwenkschuster is a Software 
+    Engineer
+    focused on
+    Workload
+    Identity. He's a
+    SPIFFE
+    maintainer and
+    member of the
+    SPIFFE
+    Steering
+    Committee. He
+    also contributes
+    actively in the
+    IETF OAuth
+    and WIMSE
+    working groups
+    and has
+    authored
+    multiple
+    adopted
+    documents.
+  social:
+    - url: https://www.linkedin.com/in/arndtschw/
+      icon: linkedin-in
+- key: gig
+  name: Giuseppe Graziano
+  img: ggr.jpg
+  company: IBM
+  title: Senior Software Enginer
+  bio: |
+    Giuseppe 
+    Graziano
+    is a Senior 
+    Software 
+    Engineer at IBM 
+    and part of the 
+    Keycloak core 
+    protocols team. 
+    My work 
+    focuses on 
+    turning 
+    protocols and 
+    specifications 
+    into native 
+    Keycloak 
+    features. This 
+    includes 
+    established 
+    standards like 
+    OAuth 2.0, 
+    OIDC, and 
+    Token 
+    Exchange, as
+    well as 
+    upcoming ones 
+    such as 
+    OID4VCI and 
+    Identity 
+    Assertion JWT 
+    Authorization 
+    Grant.
+  social:
+    - url: https://github.com/graziang
+      icon: github
+    - url: https://www.linkedin.com/in/ggraziano1/
+      icon: linkedin-in
+- key: nko
+  img: nko.jpg
+  name: Niko Köbler
+  company: n-k.de
+  bio: |
+    Niko Köbler is 
+    a freelancer, 
+    known as "Mr. 
+    KEYCLOAK" 
+    for over 10 
+    years, and 
+    works as an 
+    IAM expert for 
+    clients across 
+    various 
+    industries 
+    throughout 
+    Europe. He is 
+    deeply involved 
+    in the 
+    community – as 
+    co-lead of JUG 
+    Darmstadt, 
+    through his 
+    successful 
+    YouTube 
+    channel (since 
+    2021) and 
+    various forums, 
+    and as organizer 
+    of the 
+    KEYCLOAK 
+    DEVDAY 
+    community 
+    conference 
+    (https://keycloak-day.dev, since 
+    2024). He is 
+    also a sought-after speaker at 
+    IT conferences 
+    and writes 
+    articles for 
+    various tech 
+    publications and 
+    magazines.
+  social:
+    - url: https://www.linkedin.com/in/dasniko/
+      icon: linkedin-in
+    - url: https://github.com/dasniko
+      icon: github
+- key: ewi
+  img: ewi.jpg
+  name: Erik Jan de Wit
+  company: IBM
+  bio: |
+    Erik Jan de 
+    Wit
+    is a long-time 
+    Keycloak 
+    contributor and 
+    one of the 
+    project’s most 
+    active 
+    committers, 
+    with deep 
+    involvement in 
+    Keycloak’s 
+    JavaScript and 
+    TypeScript 
+    modernization. 
+    Based in Zürich 
+    and working at 
+    IBM, he has 
+    helped shape the 
+    React-based 
+    Admin and 
+    Account 
+    consoles, the 
+    shared UI 
+    component 
+    library, and the 
+    type-safe Admin 
+    Client SDK. In 
+    this talk, Erik 
+    shares how 
+    Keycloak is 
+    evolving beyond 
+    traditional 
+    redirects and 
+    toward API-driven, headless 
+    authentication 
+    patterns that 
+    give frontend 
+    developers 
+    modern DX 
+    without 
+    sacrificing 
+    enterprise-grade 
+    security.
+  social:
+    - url: https://www.linkedin.com/in/erik-jan-de-wit-aba255/
+      icon: linkedin-in
+    - url: https://github.com/edewit
+      icon: github
+- key: fme
+  img: fme.jpg
+  name: Francis Augusto Medeiros-Logeay
+  bio: |
+    Francis 
+    Augusto 
+    Medeiros-Logeay
+    leads the 
+    Authentication 
+    Workgroup at 
+    the University 
+    of Oslo, 
+    Norway. Before 
+    working with 
+    authentication 
+    and Keycloak, 
+    Francis worked 
+    with MDM 
+    (Mobile Device 
+    Management) 
+    both at the 
+    University of 
+    Oslo and other 
+    government 
+    agencies.
+    Fun facts: 
+    before working 
+    with IT, I was a 
+    lawyer who, 
+    after moving to 
+    Norway from 
+    his warm Brazil, 
+    started from 
+    scratch into IT 
+    and never 
+    looked back. 
+    And his main 
+    hobby besides 
+    IT is sourdough 
+    baking
+  social:
+    - url: https://francisaugusto.com/
+      icon: github
