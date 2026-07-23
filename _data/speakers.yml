@@ -24,11 +24,23 @@
   title: Chief OSS Specialist
   company: Hitachi, Ltd.
   bio: |
-    Takashi Norimatsu, Chief OSS Specialist, Hitachi, Ltd. is a maintainer of Keycloak. He has implemented and contributed security features like Financial-grade API (FAPI) security profiles, W3C Web Authentication (WebAuthn) API, Model Context Protocol (MCP) support. He leads Keycloak's community "OAuth SIG" (Ex FAPI-SIG) as Tech Lead for supporting OAuth/OIDC and its related security features to Keycloak. He has experience constructing high security banking API systems with Keycloak.
+    Takashi Norimatsu, Chief OSS Specialist, Hitachi, Ltd., Hitachi, Ltd. is a maintainer of Keycloak. He has implemented and contributed security features like Financial-grade API (FAPI) security profiles, W3C Web Authentication (WebAuthn) API support. He leads Keycloak's community "OAuth SIG" (Ex FAPI-SIG) as Tech Lead for supporting OAuth/OIDC and its related security features to Keycloak. He has experience constructing high security banking API systems with Keycloak.
   social:
     - url: https://github.com/tnorimat
       icon: github
     - url: https://www.linkedin.com/in/takashi-norimatsu-45a59b192/
+      icon: linkedin-in
+- key: ara
+  img: ara.jpg
+  name: Atul Ram
+  title: Senior Software Development Engineer
+  company: Hitachi Vantara
+  bio: |
+    Atul Ram is a Senior Software Development Engineer at Hitachi Vantara with over 8 years of experience building cloud-native platforms across frontend, backend, and infrastructure. He has led enterprise identity and access management implementations using Keycloak, OAuth 2.0, OAuth2-Proxy, and Istio. More recently, he has been working on agentic AI systems and the Model Context Protocol (MCP), focusing on authentication, authorization, and secure enterprise AI integrations.
+  social:
+    - url: https://github.com/atulram
+      icon: github
+    - url: https://www.linkedin.com/in/atulram
       icon: linkedin-in
 - key: asc
   name: Alexander Schwartz
@@ -159,7 +171,7 @@
   name: Giuseppe Graziano
   img: ggr.jpg
   company: IBM
-  title: Senior Software Enginer
+  title: Senior Software Engineer
   bio: |
     Giuseppe 
     Graziano

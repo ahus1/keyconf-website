@@ -161,3 +161,13 @@
     and Keycloak has changed the life of macOS
     users and how your institution can benefit from
     it.
+# 14
+- title: "Keycloak becomes familiar with AI: the advancement of integrating Keycloak with AI"
+  speaker:
+    - tno
+    - ara
+  abstract: |
+    In KeyConf 25, we investigated the possibility of integrating Keycloak with AI agents. After that, keycloak has become more familiar with AI. In KeyConf 26, we talk about the subsequent progress in the integration of Keycloak and AI.
+    Firstly, we describe new features of Keycloak like Client ID Metadata Document (CIMD) needed to comply with the latest version of Model Context Protocol (MCP), the de-facto standard for making it easy for an AI agent/tool to connect internal/external services.
+    Next, we explore the possibility of adapting Keycloak in MCP Enterprise-Managed Authorization (EMA), an extension specification enabling enterprises to centrally manage and control access to MCP servers using an Identity Provider (IdP). EMA's core part is Identity Assertion JWT Authorization Grant (ID-JAG) and Keycloak start supporting ID-JAG as experimental feature. We also talk about this support and how we can use Keycloak with ID-JAG in EMA.
+    Finally, we demonstrate how Keycloak works as an authorization server integrating with major AI tools. This demonstration showcases how Keycloak can be integrated into an enterprise AI platform using the latest MCP capabilities. We demonstrate how CIMD simplify client onboarding and how Keycloak acts as the authorization server for securing MCP interactions. Using an enterprise AI platform, we walk through the authentication flow between AI agents, MCP clients, and enterprise services, highlighting how modern identity standards enable secure and scalable AI integrations.
