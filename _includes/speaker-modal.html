@@ -19,7 +19,11 @@
                             <ul class="social-list list-inline mb-0">
                                 {% for social in spk.social %}
                                 <li class="list-inline-item">
-                                    <a  href="{{social.url}}" target="_blank"><i class="fab fa-{{social.icon}} fa-fw"></i></a>
+                                    {% if social.icon == 'globe' %}
+                                        <a  href="{{social.url}}" target="_blank"><i class="fas fa-{{social.icon}} fa-fw"></i></a>
+                                    {% else %}
+                                        <a  href="{{social.url}}" target="_blank"><i class="fab fa-{{social.icon}} fa-fw"></i></a>
+                                    {% endif %}
                                 </li>
                                 {% endfor %}
                             </ul><!--//social-list-->

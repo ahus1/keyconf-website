@@ -355,3 +355,21 @@
   social:
     - url: https://francisaugusto.com/
       icon: github
+- key: ico
+  img: ico.jpg
+  name: Israfil Coskun
+  bio: |
+    Israfil Coskun is Head of Growth at Keymate, which builds enterprise identity and access management on top of Keycloak. He has nearly twenty years of experience in B2B product management and go-to-market roles, managing cloud and security portfolios that covered passwordless authentication and privileged access management (PAM). He works between the market and the engineering team. Outside work, he is usually experimenting with something new to see whether it makes life better, or spending time on the PlayStation.
+  social:
+    - url: https://www.linkedin.com/in/israfilcoskun/
+      icon: linkedin-in
+- key: mde
+  img: mde.jpg
+  name: Mridul Deka
+  bio: |
+    Mridul Deka is a Software Architect at Johnson Controls, based in Bangalore, with over 12 years of experience architecting enterprise-grade micro services. Lead the development of shared platform services including Identity & Access Management and tenant management used by 10+ product teams across the organisation. Designed enterprise IAM system (Java, Spring Boot, Keycloak, OAuth2, OIDC, SAML) – refactored from stateful to stateless SSO with JIT provisioning. Built centralised RBAC authorisation framework using OPA/OPAL and Kafka, adopted by multiple product teams.
+  social:
+    - url: https://www.linkedin.com/in/mriduldeka09
+      icon: linkedin-in
+    - url: https://mridul09.hashnode.dev/
+      icon: globe

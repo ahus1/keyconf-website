@@ -171,3 +171,15 @@
     Firstly, we describe new features of Keycloak like Client ID Metadata Document (CIMD) needed to comply with the latest version of Model Context Protocol (MCP), the de-facto standard for making it easy for an AI agent/tool to connect internal/external services.
     Next, we explore the possibility of adapting Keycloak in MCP Enterprise-Managed Authorization (EMA), an extension specification enabling enterprises to centrally manage and control access to MCP servers using an Identity Provider (IdP). EMA's core part is Identity Assertion JWT Authorization Grant (ID-JAG) and Keycloak start supporting ID-JAG as experimental feature. We also talk about this support and how we can use Keycloak with ID-JAG in EMA.
     Finally, we demonstrate how Keycloak works as an authorization server integrating with major AI tools. This demonstration showcases how Keycloak can be integrated into an enterprise AI platform using the latest MCP capabilities. We demonstrate how CIMD simplify client onboarding and how Keycloak acts as the authorization server for securing MCP interactions. Using an enterprise AI platform, we walk through the authentication flow between AI agents, MCP clients, and enterprise services, highlighting how modern identity standards enable secure and scalable AI integrations.
+# 15
+- title: "20+ Million Identities: What Keycloak Gave Us and What We Had to Build"
+  speaker:
+    - ico
+  abstract: |
+    Two identity systems run side by side in production. A legacy IAM platform is not being switched off; a Keycloak-based platform is taking over its applications one at a time, serving individual users and the organizations acting on their behalf. Both must permit and deny the same things. An experience report in four parts: what Keycloak gave us out of the box, where we extended it, where we had to build our own, and what went back upstream. We close with what we would ask Keycloak for next.
+# 16
+- title: "Building stateless SSO using Keycloak in multi tenant model"
+  speaker:
+    - mde
+  abstract: |
+    Our org has transitioned from stateful to stateless SSO (Single Sign on) service where user details and password storage is not required. All modern SaaS applications require identity and access management where customer or user should be authenticated prior to accessing the application. Handling user information and passwords within org infrastructure presents issues related to PII (Personally Identifiable Information) and GDPR adherence. Therefore, we establish JIT (Just-In-Time) users within our system that are generated temporarily upon user login and removed once the user logs out using keycloak. This article covers our real world use case
