@@ -373,3 +373,11 @@
       icon: linkedin-in
     - url: https://mridul09.hashnode.dev/
       icon: globe
+- key: pjo
+  img: pjo.jpg
+  name: Pritish Josh
+  bio: |
+    Pritish Joshi is a Technical Architect at Banfico, where he helps financial institutions achieve Open Banking compliance and drives innovation through consulting and implementation work. He has worked as an Open Banking expert with major global financial institutions and travel domain clients, including TD bank, ABN Amro, JPMorgan Chase, Citi bank, and SBI, and has contributed to implementations across the UK, Europe, Canada, Saudi Arabia, and Brazil. He is a strong advocate for open standards, with deep expertise in identity and security, and over a decade of hands-on experience as a software developer and solution architect.
+  social:
+    - url: https://www.linkedin.com/in/pritish-joshi-10984259/
+      icon: linkedin-in
