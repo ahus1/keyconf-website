@@ -189,3 +189,18 @@
     - pjo
   abstract: |
     Keycloak didn't start out as infrastructure. It started as a project inside the JBoss ecosystem, built to replace a fragmented identity stack. This talk traces its evolution from a 2014 side project founded by Bill Burke and Stian Thorgersen into one of the most widely adopted open-source identity platforms in use today. We'll walk through the pivotal moments that shaped it: the 2016 merge that absorbed PicketLink and unified Red Hat's identity strategy, the multi-year rewrite from a WildFly-based server to a lean, Kubernetes-native runtime on Quarkus, and the 2023 donation to the CNCF that moved governance beyond a single vendor. We'll close by looking at where Keycloak is headed next, including early support for verifiable credentials and hardened multi-site, high-availability deployments, and draw out the lessons this history offers for anyone building or contributing to open-source infrastructure: when to consolidate rather than fork, how to rewrite a production system without a big-bang rewrite, and why open governance compounds trust and adoption over time.
+# 18
+- title: From One Customer Request to a Managed Keycloak Offering
+  speaker:
+    - amn
+  abstract: |
+    How we tackled a customer request from demand to execution
+    One customer asks you to run Keycloak for them. Saying yes is not a hosting decision — it is a decision about what you are promising, what must work at 3 a.m. on a Sunday, and what that capability costs when nobody is paying you overtime for it.
+    We walk the path we actually walked: defining the service, fixing the three decisions you cannot reverse, building the six domains a managed offering needs, and then costing all of it. The centrepiece is the arithmetic — almost every cost is fixed, so cost per tenant is a curve, and build vs. buy stops being an opinion.
+    <p>
+    What you take away: <ul>
+    <li> A seven-stage path with a gate question at each step.
+    <li> A domain map of what the service must cover.
+    <li> A cost model: fixed/variable split, per-tenant curve, break-even.
+    <li> The self-host comparison — including when self-hosting wins.
+    </ul>

@@ -381,3 +381,11 @@
   social:
     - url: https://www.linkedin.com/in/pritish-joshi-10984259/
       icon: linkedin-in
+- key: amn
+  img: amn.jpg
+  name: Andreas Müller-Niggemann
+  bio: |
+    Andreas Müller-Niggemann, Director Cloud Technologies, adorsys, leads the Cloud Technology Value-Stream at adorsys, where he is responsible for the design, delivery and operation of cloud platforms. He has built PaaS and SaaS platforms in a product management role, owning roadmap, developer experience and adoption — most notably Exasol as a SaaS product and Enopax as a PaaS. Before that he worked in software development and DevOps, and has founded several consulting companies over the course of his career. Outside of work, Andreas is an endurance athlete — marathon, cycling and swimrun.
+  social:
+    - url: https://www.linkedin.com/in/andreas-mueller-niggemann/
+      icon: linkedin-in
