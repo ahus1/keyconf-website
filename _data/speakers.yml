@@ -381,3 +381,19 @@
   social:
     - url: https://www.linkedin.com/in/andreas-mueller-niggemann/
       icon: linkedin-in
+- key: psi
+  img: psi.jpg
+  name: Parshotam Singh
+  bio: |
+    Software Engineer with 15+ years of experience in delivering robust ERP solutions
+    and enterprise-grade applications. Possesses strong hands-on expertise in security
+    implementation, including Identity and Access Management (IAM) and identity
+    brokering, ensuring secure and scalable systems. Skilled in designing and building
+    cloud-native applications with a focus on performance, reliability, and scalability.
+    Proven track record of leading teams, driving architecture decisions, and delivering
+    high-quality solutions aligned with business goals. Passionate about clean code,
+    system design, and continuously adopting modern technologies to solve complex
+    problems.
+  social:
+    - url: https://www.linkedin.com/in/parhsotam-singh-ba7a87138/
+      icon: linkedin-in

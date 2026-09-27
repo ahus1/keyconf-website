@@ -177,6 +177,7 @@
 - title: "Building stateless SSO using Keycloak in multi tenant model"
   speaker:
     - mde
+    - psi
   abstract: |
     Our org has transitioned from stateful to stateless SSO (Single Sign on) service where user details and password storage is not required. All modern SaaS applications require identity and access management where customer or user should be authenticated prior to accessing the application. Handling user information and passwords within org infrastructure presents issues related to PII (Personally Identifiable Information) and GDPR adherence. Therefore, we establish JIT (Just-In-Time) users within our system that are generated temporarily upon user login and removed once the user logs out using keycloak. This article covers our real world use case.
 # 17
