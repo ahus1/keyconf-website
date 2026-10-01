@@ -7,6 +7,7 @@
   speaker: npi
 # 3
 - title: "SIG Community Message"
+  speaker: tda
 # 4
 - title: "What role can Keycloak play for International Science?"
   speaker: hsc
@@ -172,7 +173,11 @@
     Next, we explore the possibility of adapting Keycloak in MCP Enterprise-Managed Authorization (EMA), an extension specification enabling enterprises to centrally manage and control access to MCP servers using an Identity Provider (IdP). EMA's core part is Identity Assertion JWT Authorization Grant (ID-JAG) and Keycloak start supporting ID-JAG as experimental feature. We also talk about this support and how we can use Keycloak with ID-JAG in EMA.
     Finally, we demonstrate how Keycloak works as an authorization server integrating with major AI tools. This demonstration showcases how Keycloak can be integrated into an enterprise AI platform using the latest MCP capabilities. We demonstrate how CIMD simplify client onboarding and how Keycloak acts as the authorization server for securing MCP interactions. Using an enterprise AI platform, we walk through the authentication flow between AI agents, MCP clients, and enterprise services, highlighting how modern identity standards enable secure and scalable AI integrations.
 # 15
-- title: "XXX"
+- title: "Dynamic Keycloak configuration with Google CEL"
+  speaker:
+    - dte
+  abstract: |
+    Common Expression Language (CEL) is an expression language that’s fast, portable, and safe to execute in performance-critical applications. It really shines when simple declarative configuration is not enough, by adding dynamic aspect to it. In Keycloak, there are many components that could benefit from CEL - mappers, conditions and policies, just to name a few. In this talk, Dmitry will explore the possibilities of CEL adoption by Keycloak, and will share his experience in integrating CEL with his implementation of Transaction Tokens.
 # 16
 - title: "Building stateless SSO using Keycloak in multi tenant model"
   speaker:

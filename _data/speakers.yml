@@ -397,3 +397,25 @@
   social:
     - url: https://www.linkedin.com/in/parhsotam-singh-ba7a87138/
       icon: linkedin-in
+- key: dte
+  name: Dmitry Telegin
+  title: Principal Backend Engineer
+  company: Backbase UK
+  img: dte.jpg
+  social:
+    - url: https://github.com/dteleguin
+      icon: github
+    - url: https://www.linkedin.com/in/d-telegin/
+      icon: linkedin-in
+  bio: |
+    Dmitry Telegin is a certified enterprise architect, currently working at Backbase as their resident Keycloak and IAM expert. He is also an independent Keycloak contributor, consultant and OAuth SIG member. Apart from that, Dmitry is actively working with the IETF OAuth Working Group to ensure Keycloak's standard compliance and timely adoption of the new specifications.
+- key: gpa
+  name: GR Patil
+  company: Phase Two
+  title: Co-founder & CEO
+  img: dummy.png
+  bio: |
+    GR Patil is the co-founder and CEO of Phase Two, a Keycloak hosting and support company, where he is the principal author of many popular Keycloak extensions. He has been working with Keycloak for 8 years, and has been building software startups for 28 years. Prior to Phase Two, he was a staff engineer at Twitter and a co-founder at BrightRoll.
+  social:
+    - url: https://github.com/xgp
+      icon: github

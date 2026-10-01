@@ -1,6 +1,9 @@
 <section id="about-section" class="about-section section theme-bg-light">
     <div class="container">
         <h3 class="section-heading text-center mb-3">About KeyConf</h3>
+        {% if site.soldOut %}
+        <div class="text-center mb-3"><span class="badge border border-danger text-danger fs-5">Sold Out!</span></div>
+        {% endif %}
         <div class="section-intro single-col-max mx-auto mb-4">
             We’re bringing KeyConf back for the third year, continuing our mission to bring the <a href="https://www.keycloak.org">Keycloak</a> community together for a day of learning, collaboration, and innovation. Building on the success of previous editions, our 2026 conference will feature an even more dynamic format designed to foster deeper insights, meaningful discussions, and stronger connections across the Keycloak and security ecosystem.
         </div>
