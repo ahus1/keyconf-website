@@ -315,6 +315,7 @@
 - key: fme
   img: fme.jpg
   name: Francis Augusto Medeiros-Logeay
+  company: University of Oslo
   bio: |
     Francis 
     Augusto 
@@ -358,6 +359,7 @@
 - key: mde
   img: mde.jpg
   name: Mridul Deka
+  company: Johnson Controls
   bio: |
     Mridul Deka is a Software Architect at Johnson Controls, based in Bangalore, with over 12 years of experience architecting enterprise-grade micro services. Lead the development of shared platform services including Identity & Access Management and tenant management used by 10+ product teams across the organisation. Designed enterprise IAM system (Java, Spring Boot, Keycloak, OAuth2, OIDC, SAML) – refactored from stateful to stateless SSO with JIT provisioning. Built centralised RBAC authorisation framework using OPA/OPAL and Kafka, adopted by multiple product teams.
   social:
@@ -368,6 +370,7 @@
 - key: pjo
   img: pjo.jpg
   name: Pritish Josh
+  company: Banfico
   bio: |
     Pritish Joshi is a Technical Architect at Banfico, where he helps financial institutions achieve Open Banking compliance and drives innovation through consulting and implementation work. He has worked as an Open Banking expert with major global financial institutions and travel domain clients, including TD bank, ABN Amro, JPMorgan Chase, Citi bank, and SBI, and has contributed to implementations across the UK, Europe, Canada, Saudi Arabia, and Brazil. He is a strong advocate for open standards, with deep expertise in identity and security, and over a decade of hands-on experience as a software developer and solution architect.
   social:
@@ -376,6 +379,7 @@
 - key: amn
   img: amn.jpg
   name: Andreas Müller-Niggemann
+  company: adorsys
   bio: |
     Andreas Müller-Niggemann, Director Cloud Technologies, adorsys, leads the Cloud Technology Value-Stream at adorsys, where he is responsible for the design, delivery and operation of cloud platforms. He has built PaaS and SaaS platforms in a product management role, owning roadmap, developer experience and adoption — most notably Exasol as a SaaS product and Enopax as a PaaS. Before that he worked in software development and DevOps, and has founded several consulting companies over the course of his career. Outside of work, Andreas is an endurance athlete — marathon, cycling and swimrun.
   social:
@@ -383,6 +387,7 @@
       icon: linkedin-in
 - key: psi
   img: psi.jpg
+  company: Johnson Controls
   name: Parshotam Singh
   bio: |
     Software Engineer with 15+ years of experience in delivering robust ERP solutions
