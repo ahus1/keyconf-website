@@ -415,7 +415,18 @@
   title: Co-founder & CEO
   img: dummy.png
   bio: |
-    GR Patil is the co-founder and CEO of Phase Two, a Keycloak hosting and support company, where he is the principal author of many popular Keycloak extensions. He has been working with Keycloak for 8 years, and has been building software startups for 28 years. Prior to Phase Two, he was a staff engineer at Twitter and a co-founder at BrightRoll.
+    GR Patil is a co-founder and CEO of Phase Two, where he is the principal author of most of its Keycloak extensions. He has been working with Keycloak for 10 years and building software startups for 30 years.
+    Most recently, he was a staff engineer at Twitter and a co-founder at BrightRoll.
   social:
     - url: https://github.com/xgp
+      icon: github
+- key: rtu
+  name: Razvan Tufisi
+  company: Phase Two
+  title: Senior Staff Engineer
+  img: rtu.jpg
+  bio: |
+    Razvan Tufisi is a Senior Staff Engineer at Phase Two with nearly 10 years in Keycloak and identity infrastructure. He's the author of open-source extensions including Keycloak Redis Cache, the OAuth2 Scripted Identity Provider, and Keycloak Atomic Authentication Flows, and helps customers turn complex identity requirements into production-ready Keycloak deployments.
+  social:
+    - url: https://github.com/rtufisi
       icon: github

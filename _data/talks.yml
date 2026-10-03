@@ -206,3 +206,10 @@
     <li> A cost model: fixed/variable split, per-tenant curve, break-even.
     <li> The self-host comparison — including when self-hosting wins.
     </ul>
+# 19
+- title: Keycloak Skills and MCP server
+  speaker:
+    - gpa
+    - rtu
+  abstract: |
+    Keycloak is enormously easy to misconfigure in ways that produce no error at all: mix ALTERNATIVE and REQUIRED at one level and the alternatives are silently erased, partialImport accepts auth flows with a 200 and creates none of them. We'll show how we distilled years of that scar tissue into open-source Agent Skills and an MCP server of 158 admin tools that our support team runs daily across hundreds of customer clusters — including what makes it safe: every call authorized as the human, destructive operations refused by design, and adversarial benchmarks that catch plausible-but-wrong flows.
