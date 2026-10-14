@@ -8,6 +8,10 @@
 # 3
 - title: "SIG Community Message"
   speaker: tda
+  links:
+    - url: 2026/assets/files/thomas-darimont-oauth-sig-message-tdarimont.pdf
+      description: Slides
+      type: file-pdf
 # 4
 - title: "What role can Keycloak play for International Science?"
   speaker: hsc
@@ -21,6 +25,10 @@
   speaker:
     - asc
     - sro
+  links:
+    - url: https://github.com/keycloak/keycloak/discussions/53984
+      description: Discussion
+      type: globe
   abstract: |
     Keycloak has evolved over the years, and is challenging to balance simplicity, functional completeness and security by default. 
     Join this interactive group exercise and work with users, maintainers and contributors to identify where different goals conflict in Keycloak today.
@@ -35,6 +43,10 @@
 - title: An Introduction to the OpenID Shared Signals Framework
   speaker:
     - tda
+  links:
+    - url: 2026/assets/files/thomas-darimont-intro-to-openid-ssf-tdarimont.pdf
+      description: Slides
+      type: file-pdf
   abstract: |
     As security threats become more sophisticated, 
     the need for efficient, real-time communication 
@@ -60,6 +72,10 @@
 - title: No excuses for Client Secrets - use your Cloud Identity for Client Authentication
   speaker:
     - asc2
+  links:
+    - url: 2026/assets/files/arndt-schwenkschuster-no-excuses-for-client-secrets.pdf
+      description: Slides
+      type: file-pdf
   abstract: |
     With the support of RFC 7521/7523 (Assertion-based Client Authentication) and its SPIFFE
     profile into Keycloak, it is possible to leverage
@@ -100,6 +116,10 @@
 - title: Token Hygiene – Why Your Keycloak Access Tokens Need a Diet
   speaker:
     - nko
+  links:
+    - url: 2026/assets/files/niko-koebler-token-hygiene.pdf
+      description: Slides
+      type: file-pdf
   abstract: |
     Keycloak's default token configuration is 
     generous: roles, claims, metadata – everything 
@@ -172,6 +192,10 @@
     Firstly, we describe new features of Keycloak like Client ID Metadata Document (CIMD) needed to comply with the latest version of Model Context Protocol (MCP), the de-facto standard for making it easy for an AI agent/tool to connect internal/external services.
     Next, we explore the possibility of adapting Keycloak in MCP Enterprise-Managed Authorization (EMA), an extension specification enabling enterprises to centrally manage and control access to MCP servers using an Identity Provider (IdP). EMA's core part is Identity Assertion JWT Authorization Grant (ID-JAG) and Keycloak start supporting ID-JAG as experimental feature. We also talk about this support and how we can use Keycloak with ID-JAG in EMA.
     Finally, we demonstrate how Keycloak works as an authorization server integrating with major AI tools. This demonstration showcases how Keycloak can be integrated into an enterprise AI platform using the latest MCP capabilities. We demonstrate how CIMD simplify client onboarding and how Keycloak acts as the authorization server for securing MCP interactions. Using an enterprise AI platform, we walk through the authentication flow between AI agents, MCP clients, and enterprise services, highlighting how modern identity standards enable secure and scalable AI integrations.
+  links:
+    - url: 2026/assets/files/takashi-norimatsu-integrating-keycloak-with-ai.pdf
+      description: Slides
+      type: file-pdf
 # 15
 - title: "Dynamic Keycloak configuration with Google CEL"
   speaker:
