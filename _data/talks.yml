@@ -15,6 +15,10 @@
 # 4
 - title: "What role can Keycloak play for International Science?"
   speaker: hsc
+  links:
+    - url: 2026/assets/files/hannah-short-what-could-keycloak-be-for-international-research.pdf
+      description: Slides
+      type: file-pdf
   abstract:
     "We will present a concise history of CERN's experience with Keycloak and how we have arrived at our current state: a highly performant and reliable SSO running on Kubernetes, serving over 14,000 clients and approximately 140,000 login events per day. We will share our solutions to some of the operational security challenges faced in recent years, and how CERN’s Keycloak falls into the bigger picture of authentication and authorisation for international research."
 # 5
@@ -27,7 +31,7 @@
     - sro
   links:
     - url: https://github.com/keycloak/keycloak/discussions/53984
-      description: Discussion
+      description: Recorded Discussion
       type: globe
   abstract: |
     Keycloak has evolved over the years, and is challenging to balance simplicity, functional completeness and security by default. 
@@ -37,6 +41,10 @@
 - title: "Setting up a EUDIW Issuer with Keycloak"
   speaker:
     - hib
+  links:
+    - url: 2026/assets/files/hugo-ibanez-setting-up-a-eudiw-issuer-with-keycloak.pdf
+      description: Slides
+      type: file-pdf
   abstract: |
     Given the upcoming EIDAS regulation, Keycloak poses itself as a strong solution to issue fully compliant verifiable credentials. On this workshop, you will be guided on what needs to be done to have a reliable Keycloak issuer. An overview of the issuance spec will be given and all the background for you to understand the state of the art on this matter.
 # 8
@@ -93,6 +101,10 @@
 - title: "Keycloak for Cross-Domain Access: Secure Identity Propagation between Apps and Agents"
   speaker:
     gig
+  links:
+    - url: 2026/assets/files/giuseppe-graziano-keycloak-for-cross-domain-access.pdf
+      description: Slides
+      type: file-pdf
   abstract: |
     Applications and AI agents increasingly need to 
     interact across independent trust domains
@@ -152,6 +164,10 @@
 - title: "Beyond the Redirect: Modernizing Keycloak for the TypeScript Era"
   speaker:
     - ewi
+  links:
+    - url: 2026/assets/files/erik-jan-de-wit-modernizing-keycloak-for-the-typescript-era.pdf
+      description: Slides
+      type: file-pdf
   abstract: |
     For years, Keycloak has been the "Enterprise 
     Identity Provider", secure but often 
@@ -213,6 +229,10 @@
 - title: "The Keycloak Story: From a JBoss Side Project to the CNCF's Identity Standard"
   speaker:
     - pjo
+  links:
+    - url: 2026/assets/files/joshi-pritish-the-keycloak-story.pdf
+      description: Slides
+      type: file-pdf
   abstract: |
     Keycloak didn't start out as infrastructure. It started as a project inside the JBoss ecosystem, built to replace a fragmented identity stack. This talk traces its evolution from a 2014 side project founded by Bill Burke and Stian Thorgersen into one of the most widely adopted open-source identity platforms in use today. We'll walk through the pivotal moments that shaped it: the 2016 merge that absorbed PicketLink and unified Red Hat's identity strategy, the multi-year rewrite from a WildFly-based server to a lean, Kubernetes-native runtime on Quarkus, and the 2023 donation to the CNCF that moved governance beyond a single vendor. We'll close by looking at where Keycloak is headed next, including early support for verifiable credentials and hardened multi-site, high-availability deployments, and draw out the lessons this history offers for anyone building or contributing to open-source infrastructure: when to consolidate rather than fork, how to rewrite a production system without a big-bang rewrite, and why open governance compounds trust and adoption over time.
 # 18
