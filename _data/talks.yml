@@ -220,6 +220,10 @@
     Common Expression Language (CEL) is an expression language that’s fast, portable, and safe to execute in performance-critical applications. It really shines when simple declarative configuration is not enough, by adding dynamic aspect to it. In Keycloak, there are many components that could benefit from CEL - mappers, conditions and policies, just to name a few. In this talk, Dmitry will explore the possibilities of CEL adoption by Keycloak, and will share his experience in integrating CEL with his implementation of Transaction Tokens.
 # 16
 - title: "Building stateless SSO using Keycloak in multi tenant model"
+  links:
+    - url: 2026/assets/files/Mridul-Deka-Parshotam-Singh-Building-Stateless-SSO-using-Keycloak-in-multitenant-model.pdf
+      description: Slides
+      type: file-pdf
   speaker:
     - mde
     - psi
