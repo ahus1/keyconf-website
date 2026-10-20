@@ -243,6 +243,10 @@
 - title: From One Customer Request to a Managed Keycloak Offering
   speaker:
     - amn
+  links:
+    - url: 2026/assets/files/andreas-mueller-niggemann-Learnings-from-building-a-managed-Service-Offering.pdf
+      description: Slides
+      type: file-pdf
   abstract: |
     How we tackled a customer request from demand to execution
     One customer asks you to run Keycloak for them. Saying yes is not a hosting decision — it is a decision about what you are promising, what must work at 3 a.m. on a Sunday, and what that capability costs when nobody is paying you overtime for it.
